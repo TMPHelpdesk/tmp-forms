@@ -1,0 +1,56 @@
+{
+ "title": "SET 1 Rotational feedback form",
+ "description": "SET 1 Rotational feedback form",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "radiogroup",
+       "name": "question3",
+       "title": "Rotation",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Rotation 1"
+        },
+        {
+         "value": "Item 2",
+         "text": "Rotation 2"
+        }
+       ],
+       "showOtherItem": true,
+       "otherText": "Other "
+      },
+      {
+       "type": "text",
+       "name": "question1",
+       "title": "Year",
+       "inputType": "number"
+      },
+      {
+       "type": "text",
+       "name": "question4",
+       "startWithNewLine": false,
+       "title": "Hospital"
+      }
+     ],
+     "title": "Trainee info"
+    },
+    {
+     "type": "comment",
+     "name": "question2",
+     "title": "Rotational Feedback",
+     "description": "Please provide a description of the experience you have gained from your current rotation. This feedback should include a description of the rotation undertaken as well as the positive and negative aspects of the rotation)",
+     "isRequired": true,
+     "rows": 10
+    }
+   ]
+  }
+ ]
+}

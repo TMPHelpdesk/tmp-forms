@@ -1,0 +1,309 @@
+{
+ "title": "Trainee Post Evaluation",
+ "description": "Vascular Surgery",
+ "logo": "https://api.surveyjs.io/private/Surveys/files?name=5e41b04e-0384-471b-9bc8-c734483f24f4",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "Trainee Information",
+       "startWithNewLine": false,
+       "items": [
+        {
+         "name": "Trainee Name",
+         "title": "Trainee Name"
+        },
+        {
+         "name": "Post",
+         "title": "Post"
+        },
+        {
+         "name": "Evaluation Period Start",
+         "inputType": "date",
+         "title": "Evaluation Period Start"
+        },
+        {
+         "name": "Evaluation Period End",
+         "inputType": "date",
+         "title": "Evaluation Period End"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "text",
+       "name": "question14",
+       "title": "Date of Evaluation",
+       "inputType": "date"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question2",
+       "html": "<p><strong>Currently rated in reverse (low number means good score. I am reversing this in DRAFT</strong></p>\n<hr />\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n \n<p>\n    <strong>1.</strong>  Minimal or no cases. Insufficient cases to either maintain proficiency or gain a basic introduction to the\n    procedure\n</p>\n<p>\n    <strong>2.</strong> The post is adequate to maintain currency once initial proficiency has been learned OR a post that provides\n    adequate introduction to the technical aspects of the procedure but comfort/technical proficiency cannot be\n    realisticly achieved\n</p>\n<p>\n    <strong>3.</strong> A good post where case volume provides the opportunity to build technical experience for procedures already\n    learned OR a post that provides more than introduction to the technical aspects of new procedures so that a degree\n    of comfort, but not extensive experience, can be obtained\n</p>\n<p>\n    <strong>4.</strong> A very good post where procedural proficiency can reasonably be obtained without extensive prior experience of\n    the procedure OR a post where extensive experience is available for an already proficient trainee but falls short of\n    exceptional on the basis of case numbers and/or supervision\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post where\n    the case volume and quality\n    of instruction and\n    supervision would permit procedural mastery without prior experience with the specific procedure, so long\n    as basic/generic operative\n    techniques have been\n    mastered previously\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "Open Vascular Surgery Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        "Aortic",
+        "Carotid",
+        "Dialysis Access",
+        "Other Major Arterial",
+        "Other Open Surgery"
+       ]
+      }
+     ],
+     "title": "OPEN VASCULAR SURGERY",
+     "description": "Elective AAA Repair and Carotid Endarterectomy are the two vascular procedures to which ACHS Clinical Indicators are attached. Aortic and carotid open cases have been segregated in order to reflect experience gained with these procedures."
+    },
+    {
+     "type": "panel",
+     "name": "panel8",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question12",
+       "html": "<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n \n<p>\n    <strong>1.</strong>  Minimal or no cases. Insufficient cases to either maintain proficiency or gain a basic introduction to the\n    procedure\n</p>\n<p>\n    <strong>2.</strong> The post is adequate to maintain currency once initial proficiency has been learned OR a post that provides\n    adequate introduction to the technical aspects of the procedure but comfort/technical proficiency cannot be\n    realisticly achieved\n</p>\n<p>\n    <strong>3.</strong> A good post where case volume provides the opportunity to build technical experience for procedures already\n    learned OR a post that provides more than introduction to the technical aspects of new procedures so that a degree\n    of comfort, but not extensive experience, can be obtained\n</p>\n<p>\n    <strong>4.</strong> A very good post where procedural proficiency can reasonably be obtained without extensive prior experience of\n    the procedure OR a post where extensive experience is available for an already proficient trainee but falls short of\n    exceptional on the basis of case numbers and/or supervision\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post where\n    the case volume and quality\n    of instruction and\n    supervision would permit procedural mastery without prior experience with the specific procedure, so long\n    as basic/generic operative\n    techniques have been\n    mastered previously\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "Endovascular Surgery Rating",
+       "title": "Endovascular Surgery Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        "Standard Procedures",
+        "Advanced Procedures"
+       ]
+      }
+     ],
+     "title": "ENDOVASCULAR SURGERY",
+     "description": "Standard Endovascular procedures: arterial puncture, diagnostic imaging, peripheral angioplasty & stenting, standard stent-grafts. Advanced procedures: carotid/renal stenting, mesenteric interventions, branched stent-grafts."
+    },
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question1",
+       "html": "\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n <p>\n    <strong>1.</strong> Minimal or no experience obtained. Insufficient cases or access to either maintain proficiency\n    or gain a basic introduction to the vascular lab\n</p>\n<p>\n    <strong>2.</strong> The post is adequate to\n    maintain currency once initial proficiency has been learned OR a post that provides adequate introduction to most\n    aspects of non-invasive vascular diagnostics but has a major deficiency in case mix, supervision and/or hands- on\n    experiencef\n</p>\n<p>\n    <strong>3.</strong> A good post where case volume provides the opportunity to build experience in non-invasive\n    vascular diagnostics OR a post that provides more than introduction to the technical aspects of the vascular lab so\n    that a degree of comfort, but not extensive experience, can be obtained\n</p>\n<p>\n    <strong>4.</strong> A very good post where proficiency can reasonably be obtained without extensive prior experience\n    OR a post where extensive experience is available for an already proficient trainee but falls short of exceptional\n    on the basis of case numbers, supervision and/or hands-on experience\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post where the case volume and case mix, quality of instruction\n    and supervision, and hands-\n    on experience would permit\n    mastery of all aspects of\n    non-invasive vascular\n    diagnostics without prior\n    experience, so long as the\n    underlying basic principles\n    have been mastered\n    previously\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question3",
+       "title": "Ultrasound & Vascular Laboratory Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on values above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        "Ultrasound & Vascular Laboratory"
+       ]
+      }
+     ],
+     "title": "ULTRASOUND & VASCULAR LABORATORY"
+    },
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question4",
+       "html": "\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n<p>\n    <strong>1.</strong> Minimal or no outpatient clinical experience. Inadequate overall\n</p>\n<p>\n    <strong>2.</strong> The post is adequate to maintain currency once initial proficiency has been learned OR a post\n    that provides adequate introduction to most aspects of the initial management of vascular surgery conditions but has\n    a major deficiency in access to outpatient clinical experience\n</p>\n<p>\n    <strong>3.</strong> A good post where case volume provides the opportunity to build experience in the initial\n    management of vascular surgery conditions OR a post that provides more than an introduction to the initial\n    management of vascular surgery conditions so that a degree of comfort, but not extensive experience, can be obtained\n</p>\n<p>\n    <strong>4.</strong> A very good post where proficiency with the initial management of vascular surgery conditions\n    can reasonably be obtained without extensive prior experience OR a post where extensive experience is available for\n    an already proficient trainee but falls short of exceptional on the basis of case numbers, supervision and/or hands-\n    on experience\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post where the case volume and case mix, quality of instruction and supervision,\n    and hands- on experience would permit mastery of all aspects of the initial management of vascular surgery\n    conditions without prior experience, so long as the underlying basic principles have been mastered previously\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question5",
+       "title": "Outpatient Clinics & Emergencies Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        {
+         "value": "OUTPATIENT CLINICS & EMERGENCIES",
+         "text": "Outpatient Clinics & Emergencies"
+        }
+       ]
+      }
+     ],
+     "title": "OUTPATIENT CLINICS & EMERGENCIES"
+    },
+    {
+     "type": "panel",
+     "name": "panel5",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question6",
+       "html": "\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n \n<p>\n    <strong>1.</strong> Minimal or no teaching due to indifferent or unavailable tutors OR Extremely busy unit schedule\n    with no or minimal time for personal study. Inadequate post prior to fellowship examination with trainee almost\n    guaranteed to fail.\n</p>\n<p>\n    <strong>2.</strong> An adequate post. A limited amount of teaching and time for personal study is available due to\n    an overly busy unit schedule or limited availability of tutors\n</p>\n<p>\n    <strong>3.</strong> A good post where there is adequate time for personal study and opportunity for informal\n    teaching, but a formal teaching program is absent\n</p>\n<p>\n    <strong>4.</strong> A very good post where formal teaching and time for personal study are available but falls short\n    of exceptional on the basis of patchy teaching program and /or conflicting activities\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post with a formalized teaching program, motivated tutors and ample time for\n    personal study. The ideal post for lead-up the the fellowship examination\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question7",
+       "title": "Formal Teaching & Study Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        {
+         "value": "Item 1",
+         "text": "Formal Teaching & Study"
+        }
+       ]
+      }
+     ],
+     "title": "FORMAL TEACHING & STUDY"
+    },
+    {
+     "type": "panel",
+     "name": "panel6",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question8",
+       "html": "\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n <p>\n    <strong>1.</strong> Minimal or no supervision. Guidance is unavailable when sought. Patients are at risk\n</p>\n<p>\n    <strong>2.</strong> The post is adequate but supervision is patchy at times and/or guidance can be overly\n    prescriptive stifling independent decision making opportunities\n</p>\n<p>\n    <strong>3.</strong> A very good post where supervision is always available while trainee autonomy permits decision\n    making following appropriate consultation, but falls short of very good\n</p>\n<p>\n    <strong>4.</strong> A very good post where supervision is always available while trainee autonomy permits decision\n    making following appropriate consultation, but falls short of exceptional\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post with ever-present but unabtrusive supervision, formal and informal\n    performance review and a supportive environment\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question9",
+       "title": "Supervision & Guidance Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        {
+         "value": "OUTPATIENT CLINICS & EMERGENCIES",
+         "text": "Supervision & Guidance"
+        }
+       ]
+      }
+     ],
+     "title": "SUPERVISION & GUIDANCE"
+    },
+    {
+     "type": "panel",
+     "name": "panel7",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question10",
+       "html": "\n<p><strong>Use the rubric below to assist in making your rating</strong></p>\n<hr/>\n<p>\n    <strong>1.</strong> The post has multiple and significant deficiencies. Review of the post's appropriateness for\n    Vascular Surgery Training should be initiated by the Board\n</p>\n<p>\n    <strong>2.</strong> An adequate post overall but similar posts for the whole training period would leave significant\n    gaps in key areas such that proficiency in the breadth of Vascular Surgery practice would be questionable\n</p>\n<p>\n    <strong>3.</strong> A good post overall such that similar posts for most of the training period would provide\n    proficiency in the bredth of Vascular Surgery practice\n</p>\n<p>\n    <strong>4.</strong> A very good post that would be highly sought after by many trainees for its high quality broad\n    experience OR specific skill-sets that are difficults to obtain elsewhere\n</p>\n<p>\n    <strong> 5.</strong> An exceptional post that would be highly sought after by all trainees for its exceptional\n    experience in multiple areas of Vascular Surgery practice\n</p>"
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question11",
+       "title": "Overall Impression Rating",
+       "columns": [
+        {
+         "name": "Enter Rating Here based on values above",
+         "title": "Enter rating here based on rubric above",
+         "cellType": "radiogroup"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        "Overall Impression Rating"
+       ]
+      }
+     ],
+     "title": "OVERALL IMPRESSION"
+    },
+    {
+     "type": "comment",
+     "name": "question13",
+     "title": "Other Comments"
+    }
+   ]
+  }
+ ]
+}

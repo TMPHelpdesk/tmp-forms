@@ -1,0 +1,388 @@
+{
+ "title": "ASPS Mid-term Professional Performance Assessment",
+ "description": "Plastic and Reconstructive Surgery",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "PPA page 1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "boolean",
+       "name": "question3",
+       "title": "Has the trainee taken leave in excess of six weeks during this term?     ",
+       "commentText": "other procedure or part of a procedure"
+      },
+      {
+       "type": "checkbox",
+       "name": "question11",
+       "title": "Indicate WBAs completed and discussed with the trainee:",
+       "showCommentArea": true,
+       "commentText": "Are there any specific cases that trainees should complete WBAs on?",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Clinical Feedback Form"
+        },
+        {
+         "value": "Item 2",
+         "text": "Operative Feedback Form"
+        },
+        {
+         "value": "Item 3",
+         "text": "Case Based Discussion"
+        },
+        {
+         "value": "Item 4",
+         "text": "Multisource Feedback"
+        },
+        {
+         "value": "Item 5",
+         "text": "Presentation Evaluation Form"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "checkbox",
+       "name": "question18",
+       "title": "Logbook",
+       "description": "Please indicate the following",
+       "showCommentArea": true,
+       "commentText": "Please comment on procedures logged in the trainee’s logbook and/or any areas the trainee should aim to increase their exposure to or improve experience in.",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "The range of procedures logged is representative of all the procedures the trainee has been involved in"
+        },
+        {
+         "value": "Item 2",
+         "text": "The level of supervision logged appears accurate"
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "question35",
+       "title": "Research Progress (final only)",
+       "description": "What progress has the trainee made with research requirements?"
+      },
+      {
+       "type": "boolean",
+       "name": "question36",
+       "title": "Regional Education Activities",
+       "description": "The trainee has regularly participated in regional education activities."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PPA page 2",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question19",
+     "html": "<h3>Please comment on the trainee’s performance on the various curriculum competencies. Comments should be based on feedback from WBA forms and information obtained from other consultants in the department.</h3>"
+    },
+    {
+     "type": "panel",
+     "name": "panel9",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question20",
+       "html": "<h2>Medical Expertise </h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Breadth of required knowledge </li>\n  <li>Applies medical knowledge to practice</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question21",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question22",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel10",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question23",
+       "html": "<h2>Judgement– Clinical Decision Making</h2>\n\n\n<ul style=\"list-style-type:circle;\">\n  <li>Clinical assessment of patients </li>\n  <li>Anticipation of likely outcomes</li>\n<li>Development of management plans </li>\n  <li>Recommendation of surgery when indicated</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question24",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question25",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel11",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question26",
+       "html": "<h2>Technical Expertise</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Planning and preparation for surgery </li>\n  <li>Operative technique</li>\n<li>Situational awareness </li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question27",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question28",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel12",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question29",
+       "html": "<h2>Communication</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Gathering and synthesising information from patients </li>\n  <li>Explanations to patients about management plans, informed consent etc.\n</li>\n<li>Written documentation and sharing information\n</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question30",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question31",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel13",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question32",
+       "html": "<h2>Team work and Collaboration</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Working effectively with others </li>\n  <li>Managing and resolving conflict</li>\n<li>Safe handover of patient care</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question33",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question34",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PPA page 3",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question1",
+       "html": "<h2>Management and Leadership</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Setting and maintaining standards</li>\n  <li>Leading and inspiring others</li>\n<li>Using finite resources appropriately</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question4",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question5",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question6",
+       "html": "<h2>Health Advocacy</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Responding to individual patient needs</li>\n  <li>Incorporating cultural safety into practice</li>\n<li>Responding to community needs</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question7",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question10",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel5",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question12",
+       "html": "<h2>Scholarship and Teaching</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Reflecting on performance and accepts feedback</li>\n  <li>Facilitating learning of others</li>\n<li>Integrating evidence into decision making</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question13",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question14",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel6",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question15",
+       "html": "<h2>Professionalism and Ethics</h2>\n<ul style=\"list-style-type:circle;\">\n  <li>Adherence to ethical standards</li>\n  <li>Recognition of personal limitations and seeking help when needed</li>\n<li>Maintenance of personal health and well being</li>\n</ul>"
+      },
+      {
+       "type": "text",
+       "name": "question16",
+       "title": "Comments on what the trainee does well or needs to improve:"
+      },
+      {
+       "type": "boolean",
+       "name": "question17",
+       "title": "More focus required on this competency",
+       "commentText": "Commentson what the trainee does well or needs to improve:"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "PPA page 4",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "Competencies 2",
+     "elements": [
+      {
+       "type": "panel",
+       "name": "panel7",
+       "elements": [
+        {
+         "type": "comment",
+         "name": "question2",
+         "title": "Overall Comments",
+         "description": "Trainee to complete"
+        },
+        {
+         "type": "dropdown",
+         "name": "Outcome_Question",
+         "title": "Overall rating",
+         "description": "Select one as the rating of the trainee.  Comments on each competency are always helpful to document trainee performance and monitor progress. For ‘borderline’ or ‘poor’ ratings, detailed comments must be included for the relevant competencies to document what should be the subject of any subsequent remedial action plan.",
+         "choices": [
+          {
+           "value": "Satisfactory",
+           "text": "Satisfactory: Meets expectation"
+          },
+          {
+           "value": "Borderline",
+           "text": "Borderline: Trainee requires some more focus on one competency"
+          },
+          {
+           "value": "Unsatisfactory",
+           "text": "Unsatisfactory: Trainee requires significant improvement on one competency or some more focus on two or more competencies"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "type": "panel",
+       "name": "panel8",
+       "elements": [
+        {
+         "type": "boolean",
+         "name": "question8",
+         "title": "I have discussed the assessments on this form with my Supervisor of Training. "
+        },
+        {
+         "type": "boolean",
+         "name": "question37",
+         "title": "I agree that this form accurately records the discussion with my supervisor (or delegate)"
+        },
+        {
+         "type": "comment",
+         "name": "question38",
+         "title": "Comments and Actions for improvement (Trainee to complete)"
+        }
+       ],
+       "title": "Declaration by Trainee"
+      },
+      {
+       "type": "panel",
+       "name": "panel14",
+       "elements": [
+        {
+         "type": "boolean",
+         "name": "question9",
+         "title": "I verify that all consultants on the unit have contributed to this assessment"
+        },
+        {
+         "type": "checkbox",
+         "name": "question39",
+         "choices": [
+          "Item 1",
+          "Item 2",
+          "Item 3"
+         ]
+        }
+       ],
+       "title": "Supervisor Declaration"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sendResultOnPageNext": true,
+ "showTOC": true,
+ "checkErrorsMode": "onComplete",
+ "completeText": "Save",
+ "widthMode": "responsive"
+}

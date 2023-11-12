@@ -1,0 +1,1398 @@
+{
+ "title": "In Training Assessment Form",
+ "description": "Vascular Surgery",
+ "logo": "https://api.surveyjs.io/private/Surveys/files?name=d15ee1c5-2526-4b48-9cc2-37324a40d3d6",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "html",
+     "name": "instructions",
+     "html": "<p><strong>Supervisors and Trainees please refer to instructions below</strong></p>\n<br />\n<p>This form replaces the Trainee Assessment Form: Specialist Surgical Training Assessment Form (Dec 2005).</p>\n<br />\n<p>Trainees are assessed against the specified logbook and research requirements, and the nine RACS competencies for surgery. All sections of this form are to be completed.</p>\n<br />\n<p>The form is intended for use as an In-Training or Mid-Run (Formative) assessment tool as well as an End-of-Term (Summative) assessment tool. The Board requires that\nTrainees submit this completed form to the Board three times per 12 months, but the Board encourages its use by Trainees and Supervisors more frequently than this.</p>\n<br />\n<p>\nThe terminology used had been adapted to conform to the NOTSS terminology in describing cognitive and behavioural aspects of performance and aligned with performance\ndescriptors from the RACS Competency Standards. Trainees are assessed against the performance descriptors appropriate to their level in the SET program. Trainees\napplying for the Part II Examination are assessed against the SET5+ level.</p>\n<br />\n<p>\nFor most Competency Categories the following four point grading system is used:</p>\n\n<p><strong>Exceeds</strong> (Performance was of a consistently high standard and well above the trainee's current level within the SET program),</p>\n<p><strong>Achieved </strong> (Performance was of a satisfactory standard or of a satisfactory standard but could be improved in certain non-critical aspects),</p>\n<p><strong>Borderline</strong> (Competency not yet achieved and improvement is needed. It is considered trainee will achieve competency in time),</p>\n<p><strong>Not Achieved</strong> (Performance endangered or potentially endangered patient safety, and serious remedial action is required).</p>\n<p>A middle or average grade has been intentionally omitted.</p>\n<br />\n<p>For the Competency Categories both the Trainee and the Supervisor are to enter Scores. These Competencies have individual “Elements” or sub-descriptors. These are to be\nscored individually. <strong>The Trainee should enter all their scores before the Supervisor. </strong>The purpose of this is to indicate the degree of trainee insight into their training\nprogress.</p>\n<br />\n<p>\nThe Supervisor is to derive an overall score based on the Supervisor score for individual elements for each of the Competency categories specified.</p>\n<br />\n<p>Some Competencies constitute “Essential Criteria” which the Supervisor alone will score. These are indicators of minimum behaviour standards for Surgeons and Trainees.</p>\n<br />\n<p>Space for Supervisor and Trainee Comment and Overall Recommendations is provided near the end of the form. Comments must be made.</p>\n,br />\n<p>The Supervisor is to provide an overall assessment (page 12) based on the Trainee’s performance in each of the Competencies and Essential Criteria. A Not Achieved\noverall rating in any Competency or Not Achieved rating in any Essential Criteria will result in an Not Achieved overall assessment. A Borderline overall rating in two or\nmore Competencies will result in a Borderline overall assessment.</p>\n<br/>\n<p>Supervisors are strongly encouraged to consult widely in compiling this form and to maintain documentation of trainee performance (e.g. DOPS, MiniCEX and Problem Based\nDiscussions).</p>"
+    }
+   ],
+   "title": "INSTRUCTIONS"
+  },
+  {
+   "name": "page2",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "traineeInformation",
+     "elements": [
+      {
+       "type": "text",
+       "name": "traineeName",
+       "title": "Trainee Name"
+      },
+      {
+       "type": "multipletext",
+       "name": "trainingPeriod",
+       "title": "Training Period",
+       "items": [
+        {
+         "name": "From",
+         "inputType": "date",
+         "title": "From"
+        },
+        {
+         "name": "To",
+         "inputType": "date",
+         "title": "To"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "text",
+       "name": "question5",
+       "title": "Set Level"
+      },
+      {
+       "type": "radiogroup",
+       "name": "question1",
+       "title": "Assessment Type",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Mid Term"
+        },
+        {
+         "value": "Item 2",
+         "text": "End of Term"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "boolean",
+       "name": "question2",
+       "startWithNewLine": false,
+       "title": "Probationary Term"
+      },
+      {
+       "type": "text",
+       "name": "question3",
+       "title": "Days Absent",
+       "inputType": "number"
+      },
+      {
+       "type": "checkbox",
+       "name": "question4",
+       "startWithNewLine": false,
+       "title": "Absence Type",
+       "choices": [
+        "Annual Leave",
+        "Exam",
+        "Study",
+        "Sick"
+       ],
+       "showOtherItem": true,
+       "otherPlaceholder": "Please explain reason(s) for absence not listed",
+       "colCount": 5
+      }
+     ],
+     "title": "TRAINEE INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "question6",
+       "title": "Hospital Details",
+       "items": [
+        {
+         "name": "Hospital Name"
+        },
+        {
+         "name": "Name of Unit"
+        },
+        {
+         "name": "Number of Consultants"
+        },
+        {
+         "name": "Training Supervisor"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question7",
+       "title": "Name and position of members of unit consulted for this Assessment",
+       "description": "Note: All consultants on the unit are required to reach consensus fo each competency listed.\nOnly one form is to be submitted to record the assessment\n",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Name"
+        },
+        {
+         "name": "Column 2",
+         "title": "Position"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "text",
+       "rows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ]
+      }
+     ],
+     "title": "HOSPITAL INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question8",
+       "title": "Courses, Workshops or Examinations completed this term",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Course Name"
+        },
+        {
+         "name": "Column 2",
+         "title": "Dates"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "text",
+       "rows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ]
+      }
+     ],
+     "title": "COURSES, WORKSHOPS, EXAMINATIONS"
+    }
+   ],
+   "title": "INFORMATION"
+  },
+  {
+   "name": "page3",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "question9",
+       "title": "Open Surgery and Central (aortic/visceral/carotid) Endovascular Cases",
+       "description": "The expected standard is that a trainee will participate in at least 100 Major Vascular Procedures per year of SET 1-5 and at least 600 Major Vascular Procedures overall in this same period.",
+       "items": [
+        {
+         "name": "text1",
+         "placeholder": "/100",
+         "inputType": "number",
+         "title": "Number of Major Vascular Procedures this term:"
+        },
+        {
+         "name": "text2",
+         "placeholder": "/600",
+         "inputType": "number",
+         "title": "Overall Number of Major Vascular Procedures in Logbooks:"
+        },
+        {
+         "name": "text3",
+         "placeholder": "/100",
+         "inputType": "number",
+         "title": "Total Number of Major Vascular Procedures this year:"
+        },
+        {
+         "name": "text4",
+         "placeholder": "%",
+         "inputType": "number",
+         "title": "Percentage Primary Operator in Major Vascular Procedures this term (%)"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "multipletext",
+       "name": "question10",
+       "title": "Endovascular Cases",
+       "description": "The expected standard is that a trainee will have performed at least 100 Peripheral Endovascular Therapeutic (PET)\nprocedures as Primary Surgeon (this fulfils the case requirements for recognition in training by the Conjoint Committee in Peripheral Endovascular\nTherapy) and has participated in at least 150 cases by the completion of SET5",
+       "items": [
+        {
+         "name": "text1",
+         "inputType": "number",
+         "title": "Overall Number of PET Procedures Performed as Primary Surgeon this year:"
+        },
+        {
+         "name": "text2",
+         "placeholder": "/100",
+         "inputType": "number",
+         "title": "Total Number of PET Procedures Performed as Primary Surgeon in Logbooks:"
+        },
+        {
+         "name": "text3",
+         "inputType": "number",
+         "title": "Overall Number of PET Procedures this year"
+        },
+        {
+         "name": "text4",
+         "placeholder": "/150",
+         "inputType": "number",
+         "title": "Overall Number of PET Procedures in Logbooks:"
+        }
+       ],
+       "colCount": 2
+      }
+     ],
+     "title": "OPEN SURGERY & ENDOVASCULAR LOGBOOKS"
+    },
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "panel",
+       "name": "panel5",
+       "elements": [
+        {
+         "type": "html",
+         "name": "question12",
+         "html": "<p><strong>Vascular Laboratory and Ultrasound</strong></p>The expected standard is 100 hours of experience over SET 1-5 with the additional requirement that this be fulfilled prior to and as a condition for application for the Fellowship Examination. No more than 20 hours of therapeutic ultrasound (EVLA, ultrasound-guided puncture, etc.) will be accepted."
+        },
+        {
+         "type": "text",
+         "name": "question11",
+         "title": "Number of Ultrasound hours completed:",
+         "hideNumber": true,
+         "inputType": "number"
+        },
+        {
+         "type": "boolean",
+         "name": "question13",
+         "title": "Completed?",
+         "labelTrue": "Complete",
+         "labelFalse": "Incomplete"
+        },
+        {
+         "type": "html",
+         "name": "question14",
+         "visible": false,
+         "html": "<p><strong>Case Report requirements need to be completed to be eligible for application for the RACS Vascular Part 2 Examination</strong></p>"
+        }
+       ]
+      }
+     ],
+     "title": "ULTRASOUND LOGBOOK AND CASE REPORTS"
+    },
+    {
+     "type": "panel",
+     "name": "panel6",
+     "elements": [
+      {
+       "type": "panel",
+       "name": "panel7",
+       "elements": [
+        {
+         "type": "matrixdropdown",
+         "name": "question15",
+         "title": "Research Requirement",
+         "description": "A minimum requirement of 5 points are to be met prior to completion of SET5. Points are accrued as follows: Presentation at State Registrar meeting 1 point, Presentation at ANZSVS meeting or RACS ASC 2 points (Max. 4 points), Poster presentation at ANZSVS or RACS ASC 1 point (Max. 2 points), Publication in refereed medical journal 2 points (Max. 4 points), Higher Degree (MS) 2 points, Higher Degree (PhD, MD) 3 points, Publication in non-refereed journal/online article 1 point, 0.5 of a point for publication of a case study. Additionally, at least one publication or presentation must be completed during the course of vascular training.",
+         "columns": [
+          {
+           "name": "Presentation or Publication",
+           "cellType": "text",
+           "isUnique": true,
+           "width": "500px"
+          },
+          {
+           "name": "Points",
+           "cellType": "text",
+           "width": "100px",
+           "inputType": "number"
+          }
+         ],
+         "choices": [
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         "cellType": "text",
+         "rows": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+         ]
+        }
+       ]
+      },
+      {
+       "type": "boolean",
+       "name": "question16",
+       "title": "Completed",
+       "labelTrue": "Complete",
+       "labelFalse": "Incomplete"
+      },
+      {
+       "type": "html",
+       "name": "question17",
+       "html": "<p><strong>Research requirements need to be completed to be eligible for application for the RACS Vascular Part 2 Examination.</strong></p>"
+      },
+      {
+       "type": "comment",
+       "name": "question18",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question19",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "RESEARCH"
+    }
+   ],
+   "title": "LOGBOOKS AND RESEARCH"
+  },
+  {
+   "name": "page4",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question20",
+     "html": "<p><strong>General Technical Skills.</strong>The trainee's general dexterity, tissue/instrument/wire/catheter handling, familiarity with instruments and materials,\nconsistency of skill, techniques employed, and overall efficiency.</p>\n<p><strong>Primary Operator Experience.</strong>Refers not only to the trainee's experience as primary operator but also to level of direct supervision required and the\ncapacity to deal with increased levels of case complexity.</p>\n<p><strong>Scope of Procedures Performed.</strong>The supervisor observed ability to safely complete indicative operative procedures specified in the Operative\nCompetency Matrix (pages 12 & 13) according to the trainee's SET Level.</p>"
+    },
+    {
+     "type": "html",
+     "name": "question22",
+     "html": "\n\n\n<p><strong>TECHNICAL COMPETENCY STANDARD</strong></p>\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>General Technical Skills</strong></th>\n        <th><strong>Primary Operator Experience</strong></th>\n        <th><strong>Scope of Procedure Performed</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Has basic tissue/instrument/wire/catheter\n                handling skills.</p>\n            <p>Familiar with common instruments and\n                materials.</p>\n            <p>Some clumsiness and slowness expected.</p>\n        </td>\n        <td>\n            <p>Most procedures require supervision and\n                direction.</p>\n            <p>Primary operator experience 20-50%.</p>\n            <p>Trainee may become “stuck” at times and\n                may often require redirection.</p>\n        </td>\n        <td>\n            <p>See Matrix (page 12)</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p>Familiar with a broad range of techniques,\n                instrumentation and materials.</p>\n            <p> Adapts technique to the requirements of the\n                situation with prompting or after failed\n                attempts.</p>\n        </td>\n        <td>\n            <p>Minor procedures can be performed safely\n                and reliably without direct supervision.</p>\n            <p>Sequence and execution of common\n                procedures is understood.</p>\n            <p>More complex procedures may still require\n                direction.</p>\n            <p>Primary operator experience 30-50%%.\n            </p>\n        </td>\n        <td>\n            <p>See Matrix (page 12).</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong> PART II EXAM & SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Precise tissue/instrument/wire/catheter\n                handling.</p>\n            <p>Efficient technique.</p>\n            <p>Anticipates adaptations of technique for\n                special situations and enacts these\n                automatically</p>\n        </td>\n        <td>\n<p>The trainee safely and reliably executes all\n    procedures enabling indirect supervision in\n    most circumstances.</p>\n    <p> Primary operator experience 60%+</p>\n\n        </td>\n        <td>\n            <p>See Matrix (page 12).</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel8",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question23",
+       "title": "Surgical/Endovascular Skill",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "alternateRows": true,
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        "General Technique",
+        "Primary Operator Experience",
+        "Scope of Procedures Performec"
+       ],
+       "rowTitleWidth": "400"
+      },
+      {
+       "type": "matrix",
+       "name": "question50",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question21",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question24",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "1. TECHNICAL EXPERTISE COMPETENCY - SURGICAL & ENDOVASCULAR SKILLS",
+   "description": "Section 1. Technical Expertise Competency - Surgical & Endovascular Skills"
+  },
+  {
+   "name": "page6",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question25",
+     "html": "<p><strong>Basic Surgical Sciences:</strong> Generic Anatomy, Physiology and Pathology common to all surgical disciplines.</p>\n<br />\n<p><strong>Level 1 Curriculum Topics:</strong> Anatomical Approaches in Vascular Surgery, Principles of Imaging, Pathophysiology of Aneurysm Disease,\nProfessionalism and Ethics, Pre- and Peri-operative Assessment, Wound Healing, Ischaemia/Reperfusion, Endothelium and Vessel Wall,\nHaemodynamics and Biomaterials, Venous Thrombosis, Haemostasis and Thrombophilia.</p>\n<br />\n<p><strong>Level 2 Curriculum Topics:</strong> Carotid and Vertebral Artery Disease, Lower Limb Arterial Disease, Thoracic and Abdominal Aortic Disease, Lower Limb Venous Disease, Other Vascular Conditions of the Abdomen and Thorax, Upper Extremity Disorders, Clinical Infection in Vascular Surgery, Vascular\nMedicine, and Miscellaneous Vascular Disorders (Lymphoedema and AV Malformations).</p>"
+    },
+    {
+     "type": "html",
+     "name": "CLINICAL DECISION MAKING COMPETENCY STANDARD",
+     "html": "<p></p>\n<hr />\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>Basis Surgical Sciences</strong></th>\n        <th><strong>Level 1 Curriculum Topics </strong></th>\n        <th><strong>Level 2 Curriculum Topics</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Has an in-depth knowledge of the Basic\n                Surgical Sciences</p>\n        </td>\n        <td>\n            <p>Has an understanding of the specific\n                applied anatomy, pathophysiology, clinical\n                features and management principles.</p>\n            <p>Knowledge may still be patchy.</p>\n        </td>\n        <td>\n            <p>Understands relevant applied anatomy,\n                pathophysiology, clinical features, imaging\n                features and principles and management\n                options of common clinical conditions.</p>\n            <p>Includes knowledge of common procedures\n                and techniques</p>\n            <p>Gaps in detail expected.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n           <p>Has an in-depth knowledge of the Basic\n            Surgical Sciences and can readily apply this\n            to clinical situations</p>\n        </td>\n        <td>\n            <p>Knowledge to greater depth and breadth.</p>\n            <p>There should be no major gaps in\n                knowledge.</p>\n                <p>Aware of relevant data from clinical trials.</p>\n        </td>\n        <td>\n            <p>Has a broader understanding including less\n                common conditions.</p>\n                \n            <p>Knowledge of common conditions to greater\n                depth.</p>\n                <p>Aware of clinical study data.</p>\n                <p>Some gaps in detail still expected.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n           <p><strong>PART II\n            EXAM &\n            SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Has an in-depth knowledge of the Basic\n                Surgical Sciences and can readily apply this\n                to clinical situations</p>\n           \n        </td>\n        <td>\n            <p>Understands relevant clinical study data, its\n                applicability to practice, and strengths and\n                weakness</p>\n            \n        </td>\n        <td>\n            <p>No significant gaps in knowledge.</p>\n            <p>Understands relevant clinical study data, its\n                applicability to practice, and strengths and\n                weakness</p>\n            \n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel9",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question27",
+       "title": "Core Knowledge",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "General Technique",
+         "text": "Basic Surgical Sciences"
+        },
+        {
+         "value": "Primary Operator Experience",
+         "text": "Level 1 Curriculum Topics"
+        },
+        {
+         "value": "Scope of Procedures Performec",
+         "text": "Level 2 Curriculum Topics"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question51",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question28",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question29",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "2. MEDICAL EXPERTISE COMPETENCY - CORE KNOWLEDGE",
+   "description": "Section 2. Medical Expertise Competency - Core Knowledge"
+  },
+  {
+   "name": "page7",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question30",
+     "html": "<p>The trainee's ability to formulate and maintain a dynamic awareness of patents' clinical situation based on the trainees own assembled data (from\nhistory, physical examination, investigations and other sources), the understanding of what the data means, and the ability to think about what may\nhappen next as assessed by their communication with consultant staff.</p>\n<p><strong>Gathering Information</strong> The trainee's ability to succinctly and precisely elicit history and examination findings, their use of investigations, and the use of\nresources and opportunities gather information.</p>\n<p><strong>Understanding Information</strong> The trainee's interpretation of the information gathered including the ability to detect match or mismatch between gathered\ninformation.</p>\n<p><strong>Projecting and Anticipating Future State</strong> The trainee's ability to predict what may happen to a patent in the near future as a result possible actions,\ninterventions and non-action.</p>\n\n"
+    },
+    {
+     "type": "html",
+     "name": "question31",
+     "html": "\n\n\n<p><strong>TRAINEE'S INDEPENDENT ASSESSMENT OF PATIENTS COMPETENCY STANDARD</strong></p>\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>Information Gathering </strong></th>\n        <th><strong>Understanding Information </strong></th>\n        <th><strong>Projecting and Anticipating Future State</strong></th>\n\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Can organise information gathered from\nhistory and examination, and uses test\nappropriately.</p>\n            <p>May miss some critical details..</p>\n            <p>\nExamination technique may lack precision.</p>\n<p>May need guidance selecting the most\nappropriate investigations.</>\n        <td>\n            <p>Can independently arrive at a well-\nreasoned diagnosis for common problems</p>\n            <p>Can interpret test results but relies heavily\nof reports rather than the trainee's own independent interpretation of results.</p>\n            <p>\nNot necessarily sensitive to mismatching\ninformation.</p>\n<p>Decisions are sometimes wrong.</p>\n<p>\nUnderstanding limited by core knowledge\ndeficiencies</p>\n        </td>\n        <td>\n<p>Recognises common conditions that may\ndeteriorate and makes allowances for this in\nmanagement plans.     </p>\n<p>Does not necessarily recognise all possible\ncontingencies.</p>\n   </td>\n    </tr>\n\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p>Can more efficiently gather information from\na focused clinical assessment of patients\nwith common conditions..</p>\n            <p> Diagnostic choices focus on key attributes\nof patient's condition.</p>\n<p>Chooses the most appropriate diagnostic\ntests.</p>\n        </td>\n        <td>\n            <p>Efficiently processes history and\nexamination results.</p>\n<p>Can accurately interpret results of\n<p>Makes reliable independent interpretation of\ntest results.</p>\n<p>May still lack confidence in own judgement.</p>\n      \n        </td>\n        <td>\n           \n<p>Can anticipate complications or failures and\nproject likely outcomes.</p>\n<p>Can formulate management plans including\npotential risks for the majority of surgical\nconditions.</p>\n<p>May need assistance to devise alternative\nstrategies in a timely manner.</p>\n<p>Can identify when a contingency (backup),\nexit plan may be required</p>\n        </td>\n    </tr>\n\n    <tr>\n        <td>\n            <p><strong> PART II EXAM & SET 5+</strong></p>\n        </td>\n        <td>\n        <p>    Conducts an effective, efficient and focused\nhistory and examination of patients with\ncomplex conditions.</p>\n<p>Time utilization matches the needs of the\nsituation.</p>\n        </td>\n        <td>\n<p>Sees situations holistically rather than in\nterms of single components and deals with\ndeviations according to the patient's needs.</p>\n<p>Identifies what is most important in each\nclinical situation.</p>\n,p>Can recognise information mismatch and is\nsensitive to outliers/feasible alternative\ndiagnoses</p>\n\n        </td>\n        <td>\n            <p>Sensitive to complexity and uncertainty.</p>\n<p>Plans for changing patient needs or\ncircumstances.</p>\n<p>Can devise alternative strategies in a timely\nmanner.</p>\n<p>Has insight as to when to involve other\nteams or support of colleagues.</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel10",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question32",
+       "title": "Clinical Decision Making",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "Item 6",
+         "text": "Considering Management Options"
+        },
+        {
+         "value": "Item 7",
+         "text": "Selecting and Communicating Option"
+        },
+        {
+         "value": "Item 8",
+         "text": "Implementing and Reviewing Decisions"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question26",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question33",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question34",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "3A. JUDGEMENT & CLINICAL DECISION MAKING COMPETENCY  - THE TRAINEE'S INDEPENDENT ASSESSMENT OF PATIENTS",
+   "description": "Section 3a. Judgement & Clinical Decision Making Competency - The Trainee's Independent Assessment of Patients"
+  },
+  {
+   "name": "page8",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question35",
+     "html": "<p><strong>Considering Options.</strong> Generating alternative possibilities or courses of action to solve a problem. Assessing the hazards and weighing up the threats\nand benefits of potential options.</p>\n<p><strong>Selecting and Communicating Options.</strong> Choosing a solution to a problem and letting all relevant personnel know the chosen option.</p>\n<p><strong>Implementing and Reviewing Decisions.</strong> Undertaking the chosen course of action and continually reviewing its suitability in light of changes in\nthe patient clinical situation. Showing flexibility and changing plans if required to cope with changing circumstances to ensure that goals are met.</p>"
+    },
+    {
+     "type": "html",
+     "name": "question36",
+     "html": "\n<p><strong>CLINICAL DECISION MAKING COMPETENCY STANDARD\n</strong></p>\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>Considering Options </strong></th>\n        <th><strong>Selecting and Communicating Options</strong></th>\n        <th><strong>Implementing and Reviewing Decisions</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Aware of the range of management options,\n                but may be limited by deficient core\n                knowledge.</p>\n            <p>Able to identify and plan for some of the\n                most common problems and options.</p>\n            <p>May miss some critical details.</p>\n            <p>The process may not be time efficient.</p>\n        </td>\n        <td>\n            <p>Management plans are usually simple/uni-\n                dimensional and/or protocol driven.</p>\n            <p>Can prepare for an operating list.</p>\n            <p>Can obtained informed consent for common\n                elective and emergency conditions.</p>\n            <p>May have difficulty communicating complex\n                plans.</p>\n            <p>May overlook some critical details.</p>\n            <p>May not be the ideal/best plan for the\n                situation</p>\n            <p>May be indecisive at times.</p>\n        </td>\n        <td>\n            <p>Implements non-operative management of\n                common clinical problems effectively,\n                including management of common peri-\n                operative problems.</p>\n            <p>Can recognise when a plan of management\n                is failing but cannot not always devise an\n                alternative in a reasonable timeframe</p>\n            <p>May miss some critical details or subtle\n                details.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p> Can more efficiently gather decision making\n                information from a focused clinical\n                assessment of patients with common\n                conditions</p>\n            <p>Diagnostic choices focusing on key\n                attributes of patient's condition</p>\n            <p>Chooses the most appropriate diagnostic\n                tools</p>\n            <p>Can accurately interpret results of\n                diagnostic investigations</p>\n\n        <td>\n            <p>Can formulate management plans including\n                potential risks for the majority of surgical\n                conditions</p>\n            <p>Can identify when a contingency (backup),\n                exit plan may be required</p>\n            <p>Can constructively participate in M&Ms</p>\n\n        </td>\n        <td>\n            <p>Implements patient management in\n                complicated clinical situations effectively.</p>\n            <p>Can recognise complications or failures and\n                project likely outcomes</p>\n            <p>May need assistance to devise alternative\n                strategies in a timely manner.</p>\n            <p>May still not be sensitive to management\n                subtleties.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>PART II\n                    EXAM &\n                    SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Conducts an effective, efficient and focused\n                examination of patients with complex\n                conditions.</p>\n            <p>Identifies what is most important in each\n                clinical situation.</p>\n            <p>Can recognise mismatch and is sensitive to\n                outliers/feasible alternative diagnoses, and\n                recognises what does not fit.</p>\n        </td>\n        <td>\n            <p>Sees situations holistically rather than in\n                terms of single components and deals with\n                deviations according to the patient's needs.</p>\n            <p>Management plans include potential\n                options, problems and solutions.</p>\n        </td>\n        <td>\n            <p>Manages complexity and uncertainty.</p>\n            <p>Adapts appropriately to changing patient\n                needs or circumstances and sensitive to\n                early subtle changes in the clinical situation.</p>\n            <p>Can devise alternative strategies in a timely\n                manner.</p>\n            <p>Have insight as to when to involve other\n                teams or support of colleagues.</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel11",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question37",
+       "title": "Surgical/Endovascular Skill",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        "General Technique",
+        "Primary Operator Experience",
+        "Scope of Procedures Performec"
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question52",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question38",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question39",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "3B. JUDGEMENT & CLINICAL DECISION MAKING COMPETENCY - PATIENT MANAGEMENT DECISIONS",
+   "description": "Section 3b. Judgement & Clinical Decision Making Competency - Patient Management Decisions"
+  },
+  {
+   "name": "page9",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question40",
+     "html": "  <p><strong>Exchanging Information</strong> Giving and receiving knowledge and information in a timely manner to aid establishment of a shared understanding.</p>\n    <p><strong>Establishing a Shared Understanding</strong> Ensuring that the patient not only has necessary and relevant information to make decisions, but that they\n    understand it and that an acceptable shared 'big picture' of the situation is held by the patient</p>\n    <p><strong>Communicates Effectively. </strong>Information exchanged is sensitive to social, cultural and educational influences and the communication medium (verbal,\n    written, non-verbal) is appropriate to the circumstances.</p>"
+    },
+    {
+     "type": "html",
+     "name": "question41",
+     "html": "<p><strong>COMMUNICATION COMPETENCY STANDARD</strong></p>\n\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>Considering Options </strong></th>\n        <th><strong>Selecting and Communicating Options</strong></th>\n        <th><strong>Implementing and Reviewing Decisions</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Sets an appropriate `tone' for any communication\n                with patients (their families), peers and colleagues.</p>\n            <p>Elicits information from patients with a\n                combination of open and closed questions</p>\n        </td>\n        <td>\n            <p>Ensure patients are fully informed, and fully\n                understand, prior to giving consent.</p>\n        </td>\n        <td>\n            <p>Identify potential areas where communication\n                may break-down and take action to avoid\n                problems of mis-communication.</p>\n            <p>Communication difficulties at times.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p>Recognises and adapts communication to\n                potential perception of differing status\n                relationships.</p>\n                <p>Effectively interprets both verbal and non-\n                verbal forms of communication.</p>            \n        <td>\n            <p>Recognises and adapts communication to\n                potential bad news situations.</p>\n                <p>Respond appropriately to patient (family) questions.</p>\n                <p>Recognize limits of own knowledge and willing\n                to refer to other members of the health care\n                team.</p>\n        </td>\n        <td>\n            <p>Recognises and adapts communication to\n                potential perception of differing status\n                relationships.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>PART II\n                    EXAM &\n                    SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Sensitive to, and effectively manages\n                stressful situations.</p>\n                <p> Maintains emotional balance.</p>\n        </td>\n        <td>\n            <p> Identify and address un-spoken concerns when\n                appropriate</p>\n                <p>Know who to provide information to, and when</p>\n        </td>\n        <td>\n            <p>Recognises and repair communication errors\n                quickly</p>\n                <p>Ensure that all parties in a communication process\n                achieve their goals</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel12",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question42",
+       "title": "Patient Communication",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "Item 1",
+         "text": "Exchanging Information"
+        },
+        {
+         "value": "Item 2",
+         "text": "Establishing a Shared Understanding"
+        },
+        {
+         "value": "Item 3",
+         "text": "Communicates Effectively"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question53",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question43",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question44",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "4. COMMUNICATION COMPETENCY - PATIENT COMMUNICATION",
+   "description": "Section 4. Communication Competency - Patient Communication"
+  },
+  {
+   "name": "page11",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question54",
+     "html": "    <p><strong>Exchanging Information</strong> Giving and receiving knowledge and information in a timely manner to aid establishment of a shared understanding.</p>\n    <p><strong>Establishing a Shared Understanding</strong> Ensuring that the team not only has necessary and relevant information to work effectively, but that they\n        understand it and that an acceptable shared 'big picture' of the situation is held by individual team members, relative to their capabilities and role.</p>\n    <p><strong> Plays an Active Role in the Clinical Team.</strong></p>"
+    },
+    {
+     "type": "html",
+     "name": "question55",
+     "html": "<p><strong>TEAMWORK & COLLABORATION COMPETENCY STANDARD</strong></p>\n\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong> Exchanging Information</strong></th>\n        <th><strong>Establishing a Shared Understanding </strong></th>\n        <th><strong>Plays an Active Role in the Clinical Team</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Freely exchanges information</p>\n            <p>Applies a wide range of information to\n                prioritise needs and demands</p>\n            <p>Plan relevant elements of health care\n                delivery (work schedules, coordination of\n                patient information)</p>\n        </td>\n        <td>\n            <p>Identify the feelings and needs of other\n                people, and compare these with their own\n                responses</p>\n        </td>\n        <td>\n            <p>Takes appropriate steps to resolve simple\n                conflicts</p>\n            <p>Identifies and accepts that there are\n                consequences for their actions, both for\n                themselves and for others</p>\n            <p>Accurately evaluates their own contribution\n                towards the team progress towards\n                achievement of agreed goals</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p> Respects other team members and ensures\n                an open exchange of information</p>\n        <td>\n            <p>Accepts responsibility for own roles and\n                tasks and recognises roles and areas of\n                expertise of others</p>\n        </td>\n        <td>\n            p>Maintains positive relationships with all\n            members in all working teams</p>\n            <p>Works with others to reduce, avoid and\n                resolve conflict.</p>\n            <p>Develops and implements strategies for\n                improving their own contribution to\n                achieving team goals</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>PART II\n                    EXAM &\n                    SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Supports others by encouraging the sharing\n                of information and offering assistance</p>            \n        </td>\n        <td>\n            <p>Works effectively in different teams, takes\n                on a variety of roles to complete tasks of\n                varying length and complexity</p>\n                <p>Respects the expertise of others</p>\n        </td>\n        <td>\n            <p>Identifies and uses a variety of strategies to\n                manage and resolve conflict</p>\n                <p>Evaluates their own and the team's\n                performance and provides appropriate\n                feedback to others</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel14",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question56",
+       "title": "Interaction with Consultant, Registrars and Residents",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "Item 1",
+         "text": "Exchanging Information"
+        },
+        {
+         "value": "Item 2",
+         "text": "Establishing a Shared Understanding"
+        },
+        {
+         "value": "Item 3",
+         "text": "Plays an Active Role in the Clinical Team"
+        }
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question60",
+       "title": "Interaction with Nursing and Other Hospital Staff",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "Item 1",
+         "text": "Exchanging Information"
+        },
+        {
+         "value": "Item 2",
+         "text": "Establishing a Shared Understanding"
+        },
+        {
+         "value": "Item 3",
+         "text": "Plays an Active Role in the Clinical Team"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question57",
+       "title": "Overall Rating",
+       "description": "Supervisor only",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Exceeds"
+        },
+        {
+         "value": "Column 2",
+         "text": "Achieved"
+        },
+        {
+         "value": "Column 3",
+         "text": "Borderline"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not Achieved"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Overall Rating"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question58",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question59",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "5. TEAMWORK & COLLABORATION COMPETENCY",
+   "description": "Section 5. Teamwork & Collaboration Competency"
+  },
+  {
+   "name": "page10",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question45",
+     "html": "<p><strong>Setting and Maintaining Standards.</strong>  Supporting safety and quality by adhering to acceptable principles of surgery, following codes of good clinical\npractice, and following theatre protocols.</p>\n<p><strong>Manages Resources Effectively.</strong> The ability to effectively make use of the teams members and attributes, to allocate tasks appropriately, and to\ncoordinate activities in a timely fashion.</p>\n<p><strong>Supports Others.</strong> Providing cognitive and emotional help to team members. Judging different team members' abilities and tailoring one's style of\nleadership accordingly.</p>"
+    },
+    {
+     "type": "html",
+     "name": "question46",
+     "html": "<p><strong>LEADERSHIP AND TASK MANAGEMENT COMPETENCY STANDARD</strong></p>\n\n\n\n<table>\n    <tr>\n        <th><strong>LEVEL</strong></th>\n        <th><strong>Setting and Maintaining Standards</strong></th>\n        <th><strong>Manages Resources Effectively</strong></th>\n        <th><strong>Supports Others</strong></th>\n    </tr>\n    <tr>\n        <td><strong>SET 1-2</strong></td>\n        <td>\n            <p>Monitors self and others to ensure\n                standards and protocols are clearly\n                followed</p>\n        </td>\n        <td>\n            <p>Willing and able to take initiative when\n                needed</p>\n            <p>Can continue to make decisions under\n                pressure</p>\n            <p>Generally allocates tasks and coordinates\n                activities appropriately.</p>\n            <p>Sometime may delegate inappropriately.</p>\n        </td>\n        <td>\n            <p>Monitors work environment and can\n                anticipate potential difficulties</p>\n            <p>May at times be insensitive to needs of other\n                team members.</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>SET 3-4</strong></p>\n        </td>\n        <td>\n            <p>Co-ordinates surgical teams to achieve an\n                optimal surgical environment</p>\n        \n        <td>\n            <p>Effectively manages resources and people\n                to get things done (within the context of the\n                unit and institution)</p>\n            <p>Can continue to anticipate, think, and make\n                decisions under pressure</p>\n        </td>\n        <td>\n            <p>Can critically evaluate common work\n                practices and identify potential areas for\n                improvement and sources of constraint\n                (political; social; personal)</p>\n            <p>Provides constructive feedback to team\n                members</p>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <p><strong>PART II\n                    EXAM &\n                    SET 5+</strong></p>\n        </td>\n        <td>\n            <p>Supports safety and quality by adhering to\n                acceptable principles of surgery, following\n                codes of good clinical practice, and\n                following hospital and theatre protocols</p>\n        </td>\n        <td>\n            <p>Takes responsibility to identify key issues /\n                problems, conduct a SWOT analysis, and\n                develop a strategic plan to improve patient\n                care within the unit</p>\n            <p>Retains a calm demeanor when under\n                pressure and emphasises to the team that\n                he/she is under control of a high pressure\n                situation.</p>\n        </td>\n        <td>\n            <p>Provides cognitive and emotional help to\n                team members as appropriate\n                Judges different team member's abilities\n                and tailors their style of leadership\n                accordingly</p>\n            <p>Can adapt a suitably forceful manner if\n                appropriate without undermining the role of\n                other team members</p>\n        </td>\n    </tr>\n</table>"
+    },
+    {
+     "type": "panel",
+     "name": "panel13",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question47",
+       "title": "Leadership and Task Management",
+       "description": "E - Exceeds ; A - Achieved; B - Borderline; N - Not achieved\n",
+       "verticalAlign": "top",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Trainee"
+        },
+        {
+         "name": "Column 2",
+         "title": "Supervisor"
+        }
+       ],
+       "choices": [
+        "E",
+        "A",
+        "B",
+        "N"
+       ],
+       "cellType": "radiogroup",
+       "columnColCount": 4,
+       "rows": [
+        {
+         "value": "Item 1",
+         "text": "Setting and Maintaining Standards"
+        },
+        {
+         "value": "Item 2",
+         "text": "Manages Resources Effectively"
+        },
+        {
+         "value": "Item 3",
+         "text": "Supports Others"
+        }
+       ]
+      },
+      {
+       "type": "comment",
+       "name": "question48",
+       "title": "Supervisor Comments"
+      },
+      {
+       "type": "comment",
+       "name": "question49",
+       "title": "Trainee Comments"
+      }
+     ],
+     "title": "Assessment"
+    }
+   ],
+   "title": "6. LEADERSHIP AND TASK MANAGEMENT COMPETENCY STANDARD",
+   "description": "Section 6. Leadership and Task Management Competency"
+  },
+  {
+   "name": "page5",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel15",
+     "elements": [
+      {
+       "type": "boolean",
+       "name": "question62",
+       "title": "The trainee acts honestly and does not attempt to conceal errors or oversights (to the detriment of patient care).",
+       "valueTrue": "Achieved",
+       "valueFalse": "Not Acheived"
+      },
+      {
+       "type": "boolean",
+       "name": "question66",
+       "title": "The trainee's behaviour conforms to prescribed standards with respect to Medical Ethics, Bullying, Sexual Harassment, etc."
+      }
+     ],
+     "title": "Professionalism and Ethics",
+     "description": "Essential Criteria - Supervisor Only"
+    },
+    {
+     "type": "panel",
+     "name": "panel16",
+     "elements": [
+      {
+       "type": "boolean",
+       "name": "question67",
+       "title": "The trainee acts honestly and does not attempt to conceal errors or oversights (to the detriment of patient care)."
+      },
+      {
+       "type": "boolean",
+       "name": "question68",
+       "title": "The trainee's behaviour conforms to prescribed standards with respect to Medical Ethics, Bullying, Sexual Harassment, etc."
+      }
+     ],
+     "title": "Professionalism and Ethics",
+     "description": "Essential Criteria - Supervisor Only"
+    },
+    {
+     "type": "panel",
+     "name": "panel17",
+     "elements": [
+      {
+       "type": "boolean",
+       "name": "question69",
+       "title": "The trainee acts honestly and does not attempt to conceal errors or oversights (to the detriment of patient care)."
+      },
+      {
+       "type": "boolean",
+       "name": "question70",
+       "title": "The trainee's behaviour conforms to prescribed standards with respect to Medical Ethics, Bullying, Sexual Harassment, etc."
+      }
+     ],
+     "title": "Professionalism and Ethics",
+     "description": "Essential Criteria - Supervisor Only"
+    },
+    {
+     "type": "comment",
+     "name": "question61",
+     "title": "Supervisor Comments"
+    },
+    {
+     "type": "comment",
+     "name": "question71",
+     "title": "Trainee Comments"
+    }
+   ],
+   "title": "ESSENTIAL CRITERIA"
+  },
+  {
+   "name": "page12",
+   "elements": [
+    {
+     "type": "comment",
+     "name": "question63",
+     "title": "General Comments and Recommendations (Supervisor Only)",
+     "description": "ncluding Trainee Insight and Motivation, and engagement with the\nperformance review and feedback process.",
+     "rows": 30,
+     "autoGrow": true
+    }
+   ],
+   "title": "GENERAL COMMENTS"
+  },
+  {
+   "name": "page13",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question64",
+     "html": "<p><strong>\nGuidance for Supervisors completing the final assessment</strong></p>\n<p>The Supervisor is to provide an overall assessment based on the Trainee's performance in each of the Competencies and Essential Criteria. A Not Achieved overall rating in\nany Competency or Not Achieved rating in any Essential Criteria will result in an Not Achieved overall assessment.</p>\n<hr />\n<br />\n\n<p><strong>Exceeds</strong></p>\n<p>Performance is well above the expected standard for the Trainee's SET Level; trainees in this category could be considered\nfor reduced length of training. The assessment period is rated as Satisfactory.</p>\n<p><strong>Achieved</strong></p>\n<p>Performance is at the expected standard for the trainee's SET Level; there may be some areas which are better than\nexpected OR some areas which can be improved on but these are expected to improve with ongoing training and/or experience and the\nimprovements required are minor. The assessment period is rated as Satisfactory.</p>\n<p><strong>Borderline</strong></p>\n<p>Performance is just below the expected standard for the trainee's SET Level but there is an expectation that with additional\ntraining performance can be improved and that the trainee can ultimately perform at the required standard; trainees with an end of term\nassessment rated as Borderline are required to repeat a year of training. The assessment period is rated as Unsatisfactory.</p>\n<p><strong>Not Achieved</strong></p>\n<p>Performance is significantly below the standard expected for the trainee's SET Level, Not Achieved in Essential Criteria,\nand/or the trainee's capacity to improve their performance is considered unlikely; trainees with an end of term assessment rated as Not\nAchieved will be required to repeat a year of training and go onto a period of Probationary Training.</p>"
+    },
+    {
+     "type": "radiogroup",
+     "name": "question65",
+     "title": "Performance Rating (Supervisor Only)",
+     "choices": [
+      {
+       "value": "Item",
+       "text": "Exceeds"
+      },
+      {
+       "value": "Item 6",
+       "text": "Achieved"
+      },
+      {
+       "value": "Item 9",
+       "text": "Borderline"
+      },
+      {
+       "value": "Item 12",
+       "text": "Not Achieved"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel19",
+     "elements": [
+      {
+       "type": "panel",
+       "name": "panel20",
+       "elements": [
+        {
+         "type": "checkbox",
+         "name": "question75",
+         "title": "Verification",
+         "choices": [
+          {
+           "value": "Item 1",
+           "text": "I verify that all consultants of this unit have contributed to this assessment and that the assessment and logbook data has been discussed with the trainee."
+          }
+         ]
+        },
+        {
+         "type": "multipletext",
+         "name": "question74",
+         "title": "Signature",
+         "items": [
+          {
+           "name": "text1",
+           "title": "Supervisor Name"
+          },
+          {
+           "name": "text2",
+           "inputType": "date",
+           "title": "Date"
+          }
+         ],
+         "colCount": 2
+        }
+       ],
+       "title": "SIGNATURE - TRAINING SUPERVISOR"
+      },
+      {
+       "type": "panel",
+       "name": "panel21",
+       "elements": [
+        {
+         "type": "matrixdropdown",
+         "name": "question77",
+         "title": "Verification",
+         "columns": [
+          {
+           "name": "Select Yes or No."
+          }
+         ],
+         "choices": [
+          1,
+          2,
+          3,
+          4,
+          5
+         ],
+         "cellType": "boolean",
+         "rows": [
+          {
+           "value": "Row 1",
+           "text": "I have discussed this assessment with my supervisor"
+          },
+          {
+           "value": "Row 2",
+           "text": "I agree with the assessment and recommendations"
+          },
+          {
+           "value": "Row 3",
+           "text": "For mid-term assessment, I had a trainee orientation with my supervisor, including a detailed learning plan and objectives for the training year."
+          },
+          {
+           "value": "Row 4",
+           "text": "detailed learning plan and objectives for the training year."
+          }
+         ]
+        },
+        {
+         "type": "multipletext",
+         "name": "question76",
+         "title": "Signature",
+         "items": [
+          {
+           "name": "text1",
+           "title": "Trainee Name"
+          },
+          {
+           "name": "text2",
+           "inputType": "date",
+           "title": "Date"
+          }
+         ],
+         "colCount": 2
+        }
+       ],
+       "title": "SIGNATURE - TRAINEE"
+      }
+     ],
+     "title": "SIGN OFF AND CONFIRMATION"
+    },
+    {
+     "type": "panel",
+     "name": "panel18",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question72",
+       "title": "Please enter the details of all who contributed to this assessment",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Name",
+         "cellType": "text"
+        },
+        {
+         "name": "Column 2",
+         "title": "Verification",
+         "cellType": "checkbox",
+         "colCount": 0,
+         "choices": [
+          {
+           "value": 1,
+           "text": "I verify that I have contributed to this assessment and logbook data has been discussed with the trainee."
+          }
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Column 3",
+         "title": "Date",
+         "cellType": "text",
+         "inputType": "date"
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+       ]
+      }
+     ],
+     "title": "SIGNATURE - OTHER UNIT SURGEONS"
+    }
+   ],
+   "title": "OVERALL PERFORMANCE AND SUPERVISOR RECOMMENDATION"
+  },
+  {
+   "name": "page14",
+   "elements": [
+    {
+     "type": "html",
+     "name": "question73",
+     "html": "\n<p>The matrix provides an indicative but not exhaustive list of procedures that a trainee is able to perform under direct supervision to achieve the Technical Expertise competency standard.</p>\n<br />\n<hr />\n<table>\n    <tr>\n        <th>\n            <strong>LEVEL</strong>\n        </th>\n        <th>\n            <strong>LOWER LIMB</strong>\n        </th>\n        <th>\n            <strong> CAROTID</strong>\n        </th>\n        <th>\n            <strong>AORTIC</strong>\n        </th>\n        <th>\n            <strong>ENDOVASCULAR</strong>\n        </th>\n        <th>\n            <strong>VASCULAR ACCESS</strong>\n        </th>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 1</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately on\n                    operating table, preps and\n                    drapes, and can commence</li>\n                <li>Can harvest most of venous conduit for\n                    bypass grafting </li>\n                <li>Closes skin & fascia</li>\n                <li>\n                    Handles instruments correctly</li>\n                <li>Performs knot tying</li>\n                <li>\n                    Performs skin lesion excision/wound\n                    debridement/minor amputations</li>\n                <li> Performs Split Skin Graft</li>\n                <li>Performs sapheno-femoral junction\n                    dissection, ligation & GSV\n                    stripping\n                </li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately\n                    on operating table, preps\n                    and drapes, and can\n                    commence dissection</li>\n                <li>Closes skin and fascia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately on\n                    operating table, preps and\n                    drapes, and can commence\n                    dissection</li>\n                <li>Closes skin and facia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n\n        </td>\n        <td>\n            <ul>\n                <li>Performs percutaneous central\n                    venous cannulation</li>\n                <li>Performs retrograde CFA\n                    puncture & inserts\n                    sheath</li>\n                <li>Performs diagnostic\n                    angiogram</li>\n            </ul>\n\n        </td>\n        <td>\n            <ul>\n                <li>Performs Vascath insertion</li>\n                <li>Can begin exposure of artery\n                    and vein</li>\n                <li>Closes skin and fascia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 2</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs femoral artery dissection &\n                    anastomosis (e.g. Top end of\n                    FPBG)</li>\n                <li>Performs major amputations and\n                    debridements (e.g. TMA,\n                    BKA, AKA)</li>\n                <li>Performs on-table angiogram\n                </li>\n            </ul>\n        </td>\n        <td>\n            <p>(As Above)</p>\n        </td>\n        <td>\n            <ul>\n                <li>Performs laparotomy &\n                    evaluation of abdominal\n                    viscera</li>\n                <li>Closes laparotomy</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs simple iliac or\n                    femoral angioplasty</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Dissects and mobilises venous\n                    conduit</li>\n                <li>Performs brachial artery\n                    dissection &\n                    anastomosis\n                </li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 3</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs popliteal artery dissection &\n                    anastomosis</li>\n                <li>Performs femoral endarterectomy</li>\n                <li>Performs femoral thrombectomy</li>\n                <li>Performs sapheno-popliteal junction\n                    ligation</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Dissects out carotid bifurcation</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Exposes infra-renal abdominal\n                    aorta</li>\n                <li>Applies vascular control</li>\n                <li>Performs distal anastomosis for\n                    aneurysmorraphy</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs selective\n                    angiography (e.g.\n                    femoral angiogram via\n                    contralateral access)\n                </li>\n                <li>Performs part of EVAR (e.g.\n                    femoral artery exposure\n                    & cannulation, limb\n                    deployment)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs radial artery\n                    dissection &\n                    anastomosis</li>\n                <li>Performs arm or leg AV Fistula\n                    with prosthetic graft.</li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 4</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs tibial artery dissection &\n                    anastomosis\n                    </li>\n                <li>Dissects out iliac vessels via\n                    retroperitoneal approach</li>\n                <li>Dissects out axillary vessels</li>\n                <li>Performs re-do groin dissection for\n                    arterial and venous surgery</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs endarterectomy</li>\n                <li>Inserts vascular shunt</li>\n                <li>Performs patch angioplasty or\n                    carotid anastomosis</li>\n                <li>Performs simple carotid\n                    endarterectomy (lesion not\n                    high or low)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs simple infrarenal AAA\n                    repair (tube graft)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs antegrade CFA\n                    puncture</li>\n                <li>Performs US-guided arterial\n                    puncture</li>\n                <li>Performs majority of simple\n                    aortic stent-graft (e.g.\n                    exposure, cannulation,\n                    main body\n                    deployment ,contra-</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs transposition AV\n                    Fistula (e.g. Brachio-\n                    basilic transposition)\n                    </li>\n                <li>Performs re-do brachial or\n                    radial artery\n                    dissection and\n                    anastomosis</li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 5</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs femoro-distal or\n                    popliteal-pedal bypass</li>\n                <li>Perform supra-inguinal bypass</li>\n                <li>Perform re-do popliteal or distal bypass</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs complex carotid\n                    operations (e.g. CEA with\n                    high lesion, carotid-\n                    subclavian bypass)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs juxtarenal AAA repair</li>\n                <li>Performs bifurcated aortic graft</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs complex\n                    endoluminal stent-graft\n                    (e.g. iliac embolization\n                    coiling, conduit for\n                    access, conversion, AUI)</li>\n                <li>Performs simulated renal\n                    artery stent\n                    </li>\n                <li>Performs simulated carotid\n                    artery stent</li>\n                <li>Performs simulated thoracic\n                    stent graft\n                    </li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>(As above)</li>\n            </ul>\n        </td>\n    </tr>\n\n</table>\n"
+    }
+   ],
+   "title": "OPERATIVE PROCEDURES MATRIX BY SET LEVEL"
+  },
+  {
+   "name": "page15"
+  }
+ ],
+ "showProgressBar": "bottom",
+ "showTOC": true,
+ "showPreviewBeforeComplete": "showAllQuestions",
+ "widthMode": "responsive",
+ "fitToContainer": true
+}

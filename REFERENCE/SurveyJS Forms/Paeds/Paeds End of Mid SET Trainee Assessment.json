@@ -1,0 +1,1173 @@
+{
+ "title": "Paeds End of Mid SET Trainee Assessment",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel10",
+     "elements": [
+      {
+       "type": "text",
+       "name": "question43",
+       "title": "Days absent"
+      },
+      {
+       "type": "dropdown",
+       "name": "question44",
+       "title": "Absent type",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Annual leave"
+        },
+        {
+         "value": "Item 2",
+         "text": "Exam"
+        },
+        {
+         "value": "Item 3",
+         "text": "Study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Sick"
+        }
+       ],
+       "showOtherItem": true
+      },
+      {
+       "type": "text",
+       "name": "question1",
+       "title": "Please list any Consultants away on leave below"
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel11",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question6",
+       "html": "<h3>Trainee Performance Key</h3>\n<table>\n<tbody>\n<tr>\n<td>\n<p><strong>Not Satisfactory </strong></p>\n</td>\n<td>\n<p><strong>Borderline </strong></p>\n</td>\n<td>\n<p><strong>Satisfactory </strong></p>\n</td>\n<td>\n<p><strong>Well above Average </strong></p>\n</td>\n</tr>\n<tr>\n<td>\n<p>- Not satisfactory</p>\n<p>- Not meeting expectations for level of training</p>\n<p>- Regular &amp;/or significant omissions or errors</p>\n<p>- Little, slow &amp;/or inconsistent progress</p>\n<p>- Requires frequent correction or instruction</p>\n<p>- Requires intense monitoring and supervision compared to expected for level of training</p>\n</td>\n<td>\n<p>- Borderline performance</p>\n<p>- Not meeting expectations for level of training</p>\n<p>- Some minor omissions or errors</p>\n<p>- Requires above average instruction for level of training</p>\n<p>- Requires further training to improve</p>\n</td>\n<td>\n<p>- Satisfactory</p>\n<p>- Performs as expected for level of training</p>\n<p>- Requires average level of instruction or correction for level</p>\n</td>\n<td>\n<p>- Performs consistently above level of training</p>\n<p>- No omissions or errors</p>\n<p>- Requires minimal instruction or correction</p>\n</td>\n</tr>\n</tbody>\n</table>"
+      }
+     ]
+    }
+   ],
+   "title": "Trainee information"
+  },
+  {
+   "name": "page10",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel14",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question27",
+       "html": "<h3>MEDICAL EXPERTISE: ACQUISITION AND APPLICATION</h3>"
+      },
+      {
+       "type": "matrix",
+       "name": "question30",
+       "title": "Basic Science and clinical knowledge",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Has detailed knowledge of anatomy, physiology and pathology for most paediatric surgical conditions"
+        },
+        {
+         "value": "Row 2",
+         "text": "Good working knowledge of paediatric surgical conditions."
+        },
+        {
+         "value": "Row 3",
+         "text": "Acquires knowledge methodically, meticulously identifies, recognises and corrects knowledge deficits as a matter of course."
+        },
+        {
+         "value": "Row 4",
+         "text": "Demonstrates familiarity with common and subspecialty paediatric surgical texts and journals during discussions with Trainers."
+        },
+        {
+         "value": "Row 5",
+         "text": "Routinely uses knowledge together with results of clinical investigations to explain clinical manifestations of most paediatric surgical conditions encountered."
+        },
+        {
+         "value": "Row 6",
+         "text": "Demonstrated ability to augment knowledge quickly to analyse clinical findings"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question34",
+       "title": "Global Assessment of Basic Clinical Science knowledge",
+       "description": "Select the descriptor that best describes the Trainee's overall global progress in basic clinical sciences knowledge",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Clinical Science Knowledge"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Clinical Science Knowledge"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies In Clinical Science Knowledge but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Clinical Science Knowledge"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Clinical Science Knowledge"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel15",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question45",
+       "html": "<h3>MEDICAL EXPERTISE: ACQUISITION AND APPLICATION</h3>"
+      },
+      {
+       "type": "matrix",
+       "name": "question46",
+       "title": "Verbal description of clinical assessment / Case Presentations",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Takes a comprehensive and pertinent history, emphasises key elements in history that will clarify the likely diagnosis."
+        },
+        {
+         "value": "Row 2",
+         "text": "Well organised, focused, relevant, concise"
+        },
+        {
+         "value": "Row 3",
+         "text": "Highlights significant signs that include/exclude diagnoses"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question47",
+       "title": "Written record of clinical assessment",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Maintains accurate and complete medical records and summaries"
+        },
+        {
+         "value": "Row 2",
+         "text": "Legible / electronic fluent"
+        },
+        {
+         "value": "Row 3",
+         "text": "Logical and concise layout of medical record."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question48",
+       "title": "Eliciting Clinical Findings",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Thorough, focussed and relevant examination"
+        },
+        {
+         "value": "Row 2",
+         "text": "Competent when eliciting symptoms and signs in an uncooperative patient or in an uncontrolled environment."
+        },
+        {
+         "value": "Row 3",
+         "text": "Obtains clinical information in a manner cognisant of cultural and social factors, is able to judge when these factors are potentially affecting the diagnosis."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question49",
+       "title": "Demonstration of Clinical Competence in Diagnosis",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Excellent interpretation of clinical features and good differential diagnosis"
+        },
+        {
+         "value": "Row 2",
+         "text": "Has situational awareness in clinical situations and shows evidence of adapting usual diagnostic processes to novel situations."
+        },
+        {
+         "value": "Row 3",
+         "text": "Recognises all common issues of paediatric surgical significance"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question50",
+       "title": "Post-operative care",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Demonstrates anticipation of commonly expected complications."
+        },
+        {
+         "value": "Row 2",
+         "text": "Leads post-operative care for common paediatric surgery conditions"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question51",
+       "title": "Global Assessment of Medical Expertise",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Medical Expertise",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Medical Expertise"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Medical Expertise"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Medical Expertise but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Medical Expertise"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Medical Expertise"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Medical Expertise"
+  },
+  {
+   "name": "page2",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question7",
+       "title": "Clinical Judgement",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Recognises significance of clinical findings, instigates appropriate immediate management, timely communication to Consultants."
+        },
+        {
+         "value": "Row 2",
+         "text": "Recognises and responds to needs specific to each stage of childhood development"
+        },
+        {
+         "value": "Row 3",
+         "text": "Understands Paediatric specialisation of facility and staff expertise to perform safely the various acuity of procedures in different paediatric age groups"
+        },
+        {
+         "value": "Row 4",
+         "text": "Aware of limitations and self-directed in ways by which they can be addressed."
+        },
+        {
+         "value": "Row 5",
+         "text": "Appreciates urgency in clinical situations and reaction to emergencies. Can initiate first response to most paediatric surgical emergencies"
+        },
+        {
+         "value": "Row 6",
+         "text": "Identifies when to seek senior assistance to devise alternative strategies in a timely manner. Has insight as to when to involve other teams or the support of colleagues."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question8",
+       "title": "Use of investigations",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Appropriate selection and use of investigative tools"
+        },
+        {
+         "value": "Row 2",
+         "text": "Critically evaluates the advantages and disadvantages of each investigative modality as applied to patient needs"
+        },
+        {
+         "value": "Row 3",
+         "text": "Safe, efficient and cost-effective choice of investigations"
+        },
+        {
+         "value": "Row 4",
+         "text": "Sound interpretation of investigations commonly utilised in paediatric surgery."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question14",
+       "title": "Clinical Care",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Uses all information to develop a logical and safe management plan including potential risks for all common paediatric surgery conditions"
+        },
+        {
+         "value": "Row 2",
+         "text": "Recognises complications early. Manages common complications effectively and can project likely outcomes."
+        },
+        {
+         "value": "Row 3",
+         "text": "Manages patients with sensitivity to physical, social, cultural and psychological needs"
+        },
+        {
+         "value": "Row 4",
+         "text": "Identifies and can implement risk management plan"
+        },
+        {
+         "value": "Row 5",
+         "text": "Ensures appropriate use of fluids, electrolytes, medications and blood products including their adjustment according to patient progress"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question17",
+       "title": "Global Assessment of Clinical Judgement",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Clinical Judgement",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Clinical Judgment"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Clinical Judgment"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Clinical Judgement but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Clinical Judgment"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Clinical Judgment"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Judgement  Clinical Decision-making",
+   "description": "Application of knowledge, clinical information, and signs elicited to form a management plan"
+  },
+  {
+   "name": "page3",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question16",
+       "title": "TECHNICAL SKILLS",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Excellent pre-operative preparation"
+        },
+        {
+         "value": "Row 2",
+         "text": "Ensures safety and efficiency by organising equipment and team ready for on-time start operations"
+        },
+        {
+         "value": "Row 3",
+         "text": "Sound ability to acquire and demonstrate new operative skills."
+        },
+        {
+         "value": "Row 4",
+         "text": "Good hand-eye co-ordination, recognises when operative progress slows, verbally demonstrates an understanding of factors that may be causing difficulty."
+        },
+        {
+         "value": "Row 5",
+         "text": "Can perform Mid-Set procedures and has a clear understanding of the key objectives of each procedure to enable smooth progression of the sequence of each surgery"
+        },
+        {
+         "value": "Row 6",
+         "text": "Undertakes surgery appropriate to their training and expertise as well as available facilities, conditions and staffing."
+        },
+        {
+         "value": "Row 7",
+         "text": "Performs common elective procedures fluidly, anticipates need for instruments and assistance at different stages of the procedure."
+        },
+        {
+         "value": "Row 8",
+         "text": "Demonstrates ability to learn new techniques to achieve an outcome already mastered by an alternative technique."
+        },
+        {
+         "value": "Row 9",
+         "text": "Can safely and effectively carry out significant parts of more complex procedures under close supervision."
+        },
+        {
+         "value": "Row 10",
+         "text": "Identifies unexpected and anticipated intraoperative factors requiring consultant level skills."
+        },
+        {
+         "value": "Row 11",
+         "text": "Safe and constantly improving knowledge of anatomy of most paediatric surgical procedures."
+        },
+        {
+         "value": "Row 12",
+         "text": "Sound surgical judgement during all common paediatric surgical procedures."
+        },
+        {
+         "value": "Row 13",
+         "text": "Able to maintain surgical judgement and safely complete surgical procedures under pressure while supervised"
+        },
+        {
+         "value": "Row 14",
+         "text": "Can identify the need for changes in operative plan and demonstrates appropriate flexibility with such a change."
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question20",
+       "title": "Global Assessment of Technical Skills",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Technical Skills",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Technical Skills"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Technical Skills"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Technical Skills but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Technical Skills"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Technical Skills"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Technical Skills"
+  },
+  {
+   "name": "page4",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel5",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question19",
+       "title": "Teaching and Learning",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Recognises opportunities for, and develops effective skills for teaching “on the run”"
+        },
+        {
+         "value": "Row 2",
+         "text": "Well prepared presentations, able to answer straightforward questions asked by audience."
+        },
+        {
+         "value": "Row 3",
+         "text": "Clear study plan and preparation for the Pathophysiology Examination"
+        },
+        {
+         "value": "Row 4",
+         "text": "Helps junior medical officers formulate an approach to correct gaps in learning"
+        },
+        {
+         "value": "Row 5",
+         "text": "Can reflect on performance of others by observation or critical reading of literature, and incorporates this into own practice."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question21",
+       "title": "Current Activity",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Shows an interest in learning through research"
+        },
+        {
+         "value": "Row 2",
+         "text": "Recognises value of research knowledge applied to clinical practice"
+        },
+        {
+         "value": "Row 3",
+         "text": "Shows initiative and independence (above average)"
+        },
+        {
+         "value": "Row 4",
+         "text": "Good grasp of statistics and research method"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question22",
+       "title": "Publications",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "List current projects and research involvement:",
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Conscientious with audit"
+        },
+        {
+         "value": "Row 2",
+         "text": "Pursues opportunities to present at meetings"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question23",
+       "title": "Global Assessment of Scholar and Teacher",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Scholar and Teacher",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Scholar and Teacher"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Scholar and Teacher"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Scholar and Teacher but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Scholar and Teacher"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Scholar and Teacher"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Scholar and Teacher"
+  },
+  {
+   "name": "page5",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel6",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question25",
+       "title": "Communication",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Attentively listens, adapts and sets an appropriate style of communication for patients, families, peers and colleagues."
+        },
+        {
+         "value": "Row 2",
+         "text": "Sensitive to verbal and non-verbal cues received from patients and families and can empathetically deal with most concerns prior to referring these concerns to their Consultant."
+        },
+        {
+         "value": "Row 3",
+         "text": "Plans and conducts encounters with paediatric patients to minimise distress"
+        },
+        {
+         "value": "Row 4",
+         "text": "Can obtain informed consent for most complex paediatric surgery cases"
+        },
+        {
+         "value": "Row 5",
+         "text": "Transfers care effectively to other relevant clinicians and non-hospital carers. Ensures family doctor is informed of significant changes in patients status"
+        },
+        {
+         "value": "Row 6",
+         "text": "Treats referring clinicians with respect and support"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question26",
+       "title": "Collaboration and teamwork",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Always willing to help, even if personally inconvenient"
+        },
+        {
+         "value": "Row 2",
+         "text": "Active participation in team briefing and debriefing, can lead at times"
+        },
+        {
+         "value": "Row 3",
+         "text": "Develops positive relationships with all team members, readily assists other team members who are under pressure. Can intercede for others when appropriate"
+        },
+        {
+         "value": "Row 4",
+         "text": "Anticipates interpersonal problems in team and takes measures to prevent or minimise friction"
+        },
+        {
+         "value": "Row 5",
+         "text": "Accepts responsibility for briefing and debriefing the team and respects the expertise of others"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question28",
+       "title": "Global Assessment of Communication, Collaboration and Teamwork",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Communication, Collaboration and Teamwork",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies in Communication, Collaboration and Teamwork"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Communication, Collaboration and Teamwork"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Communication, Collaboration and Teamwork but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Communication, Collaboration and Teamwork"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Communication, Collaboration and Teamwork"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Medical Communication, Collaboration Teamwork"
+  },
+  {
+   "name": "page6",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel7",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question29",
+       "title": "Management and Leadership",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Willing and able to take initiative when needed, delegates appropriately and takes responsibility for actions of delegates."
+        },
+        {
+         "value": "Row 2",
+         "text": "Communicates important care issues with nursing, medical and other staff even under pressure"
+        },
+        {
+         "value": "Row 3",
+         "text": "Applies a wide range of information to prioritise provision of patient care"
+        },
+        {
+         "value": "Row 4",
+         "text": "Uses resources effectively for patient care and balances them with patient needs"
+        },
+        {
+         "value": "Row 5",
+         "text": "Willing to contribute to health services management"
+        },
+        {
+         "value": "Row 6",
+         "text": "Appropriate co-ordination and use of other personnel, can delegate tasks and supervise junior staff well."
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question31",
+       "title": "Global Assessment of Leadership",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Leadership",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies in Leadership"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Leadership"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Leadership but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Leadership"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Leadership"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Management and Leadership"
+  },
+  {
+   "name": "page7",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel8",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question32",
+       "title": "Health Advocacy",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Adapts practices and care of patients from diverse backgrounds according to their culture and beliefs."
+        },
+        {
+         "value": "Row 2",
+         "text": "Arranges referrals and second opinions when requested in the context of considering family needs and care decisions."
+        },
+        {
+         "value": "Row 3",
+         "text": "Appropriately keeps patients, families and carers informed about relevant potential adverse outcomes."
+        },
+        {
+         "value": "Row 4",
+         "text": "Minimises disruption to patients, family and carers when lists have to be adjusted or surgery needs to be rescheduled. Tries to coordinate different aspects of ambulatory care to minimise family impact"
+        },
+        {
+         "value": "Row 5",
+         "text": "Is aware of the potential impact of cultural differences on the acceptance of treatment for common and less common conditions."
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question33",
+       "title": "Global Assessment of Health Advocacy",
+       "description": "Select  the descriptor that best describes the Trainee's overall global progress in Health Advocacy",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies in Health Advocacy"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Health Advocacy"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Health Advocacy but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Health Advocacy"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Health Advocacy"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Health Advocacy"
+  },
+  {
+   "name": "page8",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel9",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question35",
+       "title": "Self-Motivation",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Punctual. Up to date with work. Well organiseda genuine interest in ad hoc and structured teaching"
+        },
+        {
+         "value": "Row 2",
+         "text": "Always completes tasks on time"
+        },
+        {
+         "value": "Row 3",
+         "text": "Ready accessibility. Reliable and dependable"
+        },
+        {
+         "value": "Row 4",
+         "text": "Efficient, anticipates well"
+        },
+        {
+         "value": "Row 5",
+         "text": "Strong advocate for the sick child. Maintains accurate data on all patients and analyses their own clinical performance and outcomes to encourage continuous improvement."
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question36",
+       "title": "Stress Response",
+       "isRequired": true,
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Copes well. Responds well to problems."
+        },
+        {
+         "value": "Row 2",
+         "text": "In command in critical situation. Does not panic"
+        },
+        {
+         "value": "Row 3",
+         "text": "Openly learns from errors. Resilient"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question37",
+       "title": "Professionalism",
+       "isRequired": true,
+       "commentText": "List current projects and research involvement:",
+       "columns": [
+        "Not Satisfactory",
+        "Borderline",
+        "Satisfactory",
+        "Well above average"
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Identifies and applies ethical principles related to paediatric surgery"
+        },
+        {
+         "value": "Row 2",
+         "text": "Recognises medicolegal implications of paediatric surgical issues"
+        },
+        {
+         "value": "Row 3",
+         "text": "Readily accountable for own decisions/actions"
+        },
+        {
+         "value": "Row 4",
+         "text": "Responds constructively to criticism. Keen to rectify deficiencies. Proactive in organising own performance management plan if needed."
+        },
+        {
+         "value": "Row 5",
+         "text": "Supports colleagues and junior staff"
+        },
+        {
+         "value": "Row 6",
+         "text": "Demonstrates insight into own performance"
+        },
+        {
+         "value": "Row 7",
+         "text": "Honest Admits Mistakes"
+        },
+        {
+         "value": "Row 8",
+         "text": "Does not repeat errors and addresses issues when advised Self-critical and insightful"
+        },
+        {
+         "value": "Row 9",
+         "text": "Demonstrates self-health advocacy guided by acknowledging impact on patient care if principles of proactive management of own health including fatigue are not followed"
+        }
+       ]
+      },
+      {
+       "type": "dropdown",
+       "name": "question38",
+       "title": "Global Assessment of Professionalism and Ethics",
+       "description": "Select the descriptor that best describes the Trainee's overall global progress in Professionalism and Ethics",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Has not yet satisfactorily achieved early Mid-SET competencies In Professionalism and Ethics"
+        },
+        {
+         "value": "Item 2",
+         "text": "Satisfactory achievement of all early Mid-SET competencies in Professionalism and Ethics"
+        },
+        {
+         "value": "Item 3",
+         "text": "Showing progression towards critical competencies in Professionalism and Ethics but needs further training and study"
+        },
+        {
+         "value": "Item 4",
+         "text": "Has achieved all Mid-SET critical competencies in Professionalism and Ethics"
+        },
+        {
+         "value": "Item 5",
+         "text": "Achieved Mid-SET critical competencies and progressing well in Senior SET in Professionalism and Ethics"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "title": "Professionalism and Ethics"
+  },
+  {
+   "name": "page9",
+   "elements": [
+    {
+     "type": "comment",
+     "name": "question39",
+     "title": "General Comments"
+    },
+    {
+     "type": "multipletext",
+     "name": "question40",
+     "title": "Please identify two positive attributes of the trainee:",
+     "items": [
+      {
+       "name": "text1",
+       "title": "1"
+      },
+      {
+       "name": "text2",
+       "title": "2"
+      }
+     ]
+    },
+    {
+     "type": "checkbox",
+     "name": "question41",
+     "title": "Please comment on any specific learning points raised in last evaluation:",
+     "showCommentArea": true,
+     "commentText": "Comment",
+     "choices": [
+      {
+       "value": "Item 1",
+       "text": "Not applicable"
+      }
+     ]
+    },
+    {
+     "type": "multipletext",
+     "name": "question42",
+     "title": "Please identify two areas in which the trainee may require improvement:",
+     "items": [
+      {
+       "name": "text1",
+       "title": "1"
+      },
+      {
+       "name": "text2",
+       "title": "2"
+      }
+     ]
+    }
+   ],
+   "title": "Overview comments"
+  }
+ ],
+ "sendResultOnPageNext": true,
+ "showTOC": true,
+ "checkErrorsMode": "onComplete",
+ "completeText": "Save"
+}

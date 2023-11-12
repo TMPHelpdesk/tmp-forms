@@ -1,0 +1,319 @@
+{
+ "title": "Direct Observation of Surgical Skill (DOPS)",
+ "description": "Vascular Surgery",
+ "logo": "https://api.surveyjs.io/private/Surveys/files?name=f50e778d-f88e-40ca-a06f-94e48b5d0c02",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page2",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question17",
+       "html": "<p>Please see below the Operative Procedures Matrix by SET Level.</p>\n<p> Refer back to this whilst completing the form on the next page</p>\n"
+      }
+     ]
+    },
+    {
+     "type": "html",
+     "name": "question2",
+     "html": "<h4>OPERATIVE PROCEDURES MATRIX BY SET LEVEL<h4>\n<p>The matrix provides an indicative but not exhaustive list of procedures that a trainee is able to perform under direct supervision to achieve the Technical Expertise competency standard.</p>\n<br />\n<hr />\n<table>\n    <tr>\n        <th>\n            <strong>LEVEL</strong>\n        </th>\n        <th>\n            <strong>LOWER LIMB</strong>\n        </th>\n        <th>\n            <strong> CAROTID</strong>\n        </th>\n        <th>\n            <strong>AORTIC</strong>\n        </th>\n        <th>\n            <strong>ENDOVASCULAR</strong>\n        </th>\n        <th>\n            <strong>VASCULAR ACCESS</strong>\n        </th>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 1</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately on\n                    operating table, preps and\n                    drapes, and can commence</li>\n                <li>Can harvest most of venous conduit for\n                    bypass grafting </li>\n                <li>Closes skin & fascia</li>\n                <li>\n                    Handles instruments correctly</li>\n                <li>Performs knot tying</li>\n                <li>\n                    Performs skin lesion excision/wound\n                    debridement/minor amputations</li>\n                <li> Performs Split Skin Graft</li>\n                <li>Performs sapheno-femoral junction\n                    dissection, ligation & GSV\n                    stripping\n                </li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately\n                    on operating table, preps\n                    and drapes, and can\n                    commence dissection</li>\n                <li>Closes skin and fascia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Positions patient appropriately on\n                    operating table, preps and\n                    drapes, and can commence\n                    dissection</li>\n                <li>Closes skin and facia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n\n        </td>\n        <td>\n            <ul>\n                <li>Performs percutaneous central\n                    venous cannulation</li>\n                <li>Performs retrograde CFA\n                    puncture & inserts\n                    sheath</li>\n                <li>Performs diagnostic\n                    angiogram</li>\n            </ul>\n\n        </td>\n        <td>\n            <ul>\n                <li>Performs Vascath insertion</li>\n                <li>Can begin exposure of artery\n                    and vein</li>\n                <li>Closes skin and fascia</li>\n                <li>Handles instruments correctly</li>\n            </ul>\n\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 2</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs femoral artery dissection &\n                    anastomosis (e.g. Top end of\n                    FPBG)</li>\n                <li>Performs major amputations and\n                    debridements (e.g. TMA,\n                    BKA, AKA)</li>\n                <li>Performs on-table angiogram\n                </li>\n            </ul>\n        </td>\n        <td>\n            <p>(As Above)</p>\n        </td>\n        <td>\n            <ul>\n                <li>Performs laparotomy &\n                    evaluation of abdominal\n                    viscera</li>\n                <li>Closes laparotomy</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs simple iliac or\n                    femoral angioplasty</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Dissects and mobilises venous\n                    conduit</li>\n                <li>Performs brachial artery\n                    dissection &\n                    anastomosis\n                </li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 3</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs popliteal artery dissection &\n                    anastomosis</li>\n                <li>Performs femoral endarterectomy</li>\n                <li>Performs femoral thrombectomy</li>\n                <li>Performs sapheno-popliteal junction\n                    ligation</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Dissects out carotid bifurcation</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Exposes infra-renal abdominal\n                    aorta</li>\n                <li>Applies vascular control</li>\n                <li>Performs distal anastomosis for\n                    aneurysmorraphy</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs selective\n                    angiography (e.g.\n                    femoral angiogram via\n                    contralateral access)\n                </li>\n                <li>Performs part of EVAR (e.g.\n                    femoral artery exposure\n                    & cannulation, limb\n                    deployment)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs radial artery\n                    dissection &\n                    anastomosis</li>\n                <li>Performs arm or leg AV Fistula\n                    with prosthetic graft.</li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 4</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs tibial artery dissection &\n                    anastomosis\n                    </li>\n                <li>Dissects out iliac vessels via\n                    retroperitoneal approach</li>\n                <li>Dissects out axillary vessels</li>\n                <li>Performs re-do groin dissection for\n                    arterial and venous surgery</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs endarterectomy</li>\n                <li>Inserts vascular shunt</li>\n                <li>Performs patch angioplasty or\n                    carotid anastomosis</li>\n                <li>Performs simple carotid\n                    endarterectomy (lesion not\n                    high or low)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs simple infrarenal AAA\n                    repair (tube graft)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs antegrade CFA\n                    puncture</li>\n                <li>Performs US-guided arterial\n                    puncture</li>\n                <li>Performs majority of simple\n                    aortic stent-graft (e.g.\n                    exposure, cannulation,\n                    main body\n                    deployment ,contra-</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs transposition AV\n                    Fistula (e.g. Brachio-\n                    basilic transposition)\n                    </li>\n                <li>Performs re-do brachial or\n                    radial artery\n                    dissection and\n                    anastomosis</li>\n            </ul>\n        </td>\n    </tr>\n    <tr>\n        <td>\n            <strong>SET 5</strong>\n        </td>\n        <td>\n            <ul>\n                <li>Performs femoro-distal or\n                    popliteal-pedal bypass</li>\n                <li>Perform supra-inguinal bypass</li>\n                <li>Perform re-do popliteal or distal bypass</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs complex carotid\n                    operations (e.g. CEA with\n                    high lesion, carotid-\n                    subclavian bypass)</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs juxtarenal AAA repair</li>\n                <li>Performs bifurcated aortic graft</li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>Performs complex\n                    endoluminal stent-graft\n                    (e.g. iliac embolization\n                    coiling, conduit for\n                    access, conversion, AUI)</li>\n                <li>Performs simulated renal\n                    artery stent\n                    </li>\n                <li>Performs simulated carotid\n                    artery stent</li>\n                <li>Performs simulated thoracic\n                    stent graft\n                    </li>\n            </ul>\n        </td>\n        <td>\n            <ul>\n                <li>(As above)</li>\n            </ul>\n        </td>\n    </tr>\n\n</table>\n"
+    }
+   ],
+   "title": "INTRODUCTION & OPERATIVE PROCEDURES"
+  },
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "question1",
+       "title": "Details",
+       "items": [
+        {
+         "name": "text1",
+         "title": "Surname"
+        },
+        {
+         "name": "text2",
+         "title": "FIrst Name"
+        },
+        {
+         "name": "text3",
+         "title": "Assessment Date"
+        },
+        {
+         "name": "text4",
+         "title": "RACS ID (??)"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "radiogroup",
+       "name": "question3",
+       "title": "Level",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "PreSET"
+        },
+        {
+         "value": "Item 2",
+         "text": "SET 1"
+        }
+       ],
+       "showOtherItem": true,
+       "colCount": 3
+      }
+     ],
+     "title": "TRAINEE INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "question4",
+     "elements": [
+      {
+       "type": "text",
+       "name": "question5",
+       "title": "Hospital"
+      },
+      {
+       "type": "checkbox",
+       "name": "question6",
+       "startWithNewLine": false,
+       "title": "Clinical Setting",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Theatre"
+        },
+        {
+         "value": "Item 2",
+         "text": "ICU"
+        },
+        {
+         "value": "Item 3",
+         "text": "Emergency Department"
+        }
+       ],
+       "showOtherItem": true,
+       "colCount": 4
+      },
+      {
+       "type": "text",
+       "name": "question7",
+       "title": "Name of Procedure"
+      },
+      {
+       "type": "radiogroup",
+       "name": "question8",
+       "startWithNewLine": false,
+       "title": "Difficulty of Procedure",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Easier than usual"
+        },
+        {
+         "value": "Item 2",
+         "text": "Average"
+        },
+        {
+         "value": "Item 3",
+         "text": "More difficult than usual"
+        }
+       ],
+       "colCount": 3
+      },
+      {
+       "type": "text",
+       "name": "question9",
+       "title": "Number of times this procedure has been performed by this trainee prior to this occassion",
+       "inputType": "number"
+      },
+      {
+       "type": "checkbox",
+       "name": "question10",
+       "title": "Assessor's position",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Consultant"
+        }
+       ],
+       "showOtherItem": true,
+       "otherText": "Other health care professional (describe)",
+       "colCount": 2
+      }
+     ],
+     "title": "PROCEDURE INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "question14",
+       "title": "Please assess and mark the following areas:",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Observations",
+         "cellType": "radiogroup",
+         "colCount": 4,
+         "showInMultipleColumns": true,
+         "choices": [
+          "Unsatisfactory",
+          "Borderline",
+          "Competent",
+          "Excellent",
+          "Not observered/ not applicable"
+         ]
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        {
+         "value": "Row 10",
+         "text": "1. Explains the procedure and complications to the patient and obtains patient’s informed consent "
+        },
+        {
+         "value": "Row 11",
+         "text": "2. Prepares for procedure according to an agreed protocol "
+        },
+        {
+         "value": "Row 12",
+         "text": "3. Demonstrates good asepsis and safe use of instruments/ sharps Demonstrates good asepsis"
+        },
+        {
+         "value": "Row 13",
+         "text": "4. Performs technical aspects competently"
+        },
+        {
+         "value": "Row 14",
+         "text": "5. Demonstrates manual dexterity required to carry out procedure"
+        },
+        {
+         "value": "Row 15",
+         "text": "6. Adapts procedure to accommodate patient and/or unexpected events"
+        },
+        {
+         "value": "Row 16",
+         "text": "7. Is aware of own limitations and seeks help when appropriate"
+        },
+        {
+         "value": "Row 17",
+         "text": "8. Completes required documentation (written or dictated) "
+        },
+        {
+         "value": "Row 18",
+         "text": "9. Analyses their own clinical performance for continuous improvement "
+        }
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "question15",
+       "title": "OVERALL SUMMARY",
+       "columns": [
+        {
+         "name": "Column 1",
+         "title": "Observations",
+         "cellType": "radiogroup",
+         "colCount": 4,
+         "showInMultipleColumns": true,
+         "choices": [
+          "Unsatisfactory",
+          "Borderline",
+          "Competent",
+          "Excellent",
+          "Not observered/ not applicable"
+         ]
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "rows": [
+        {
+         "value": "Row 19",
+         "text": "10. Overall ability to perform whole procedure "
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "comment",
+       "name": "question11",
+       "title": "Suggestions for development:",
+       "autoGrow": true
+      },
+      {
+       "type": "comment",
+       "name": "question12",
+       "title": "Other comments:",
+       "autoGrow": true
+      },
+      {
+       "type": "comment",
+       "name": "question13",
+       "title": "Agreed action:",
+       "autoGrow": true
+      },
+      {
+       "type": "multipletext",
+       "name": "question16",
+       "title": "Assessor",
+       "items": [
+        {
+         "name": "text1",
+         "title": "Name"
+        },
+        {
+         "name": "text2",
+         "title": "Signature(!!)"
+        }
+       ]
+      },
+      {
+       "type": "text",
+       "name": "question18",
+       "title": "Signature of person being assessed (!!!)"
+      }
+     ]
+    }
+   ],
+   "title": "ASSESSMENT FORM"
+  }
+ ],
+ "showProgressBar": "top",
+ "showTOC": true,
+ "autoGrowComment": true,
+ "widthMode": "responsive",
+ "fitToContainer": true
+}

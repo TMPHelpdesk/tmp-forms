@@ -1,0 +1,222 @@
+{
+ "title": "Cardio DOPS - Saphenous Vein Harvest",
+ "description": "Direct Observation of Procedural Skills (Surgical DOPS)",
+ "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "Cardio DOPS - Saphenous Vein Harvest",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question10",
+       "html": "<ol style=\"list-style-type: decimal;margin-left:26px;\">\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Incision over saphenous vein based on anatomical landmarks</span><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>&nbsp;for the thoracotomy&nbsp;</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Mobilisation of distal saphenous vein using blunt and sharp dissection and voiding damage to the nerve</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Ligation of distal vein with cannulation and distension of proximal segment</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Minimal tissue trauma, especially to skin&nbsp;</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Good haemostasis</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Ensures good tissue closure</span></li>\n    <li><span style='line-height:115%;font-family:\"Arial\",sans-serif;font-family:\"Arial\",sans-serif;font-size:10.0pt;'>Appropriate use of drains</span></li>\n</ol>"
+      }
+     ],
+     "title": "Steps to be performed"
+    },
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "question5",
+       "title": "Procedure date and time",
+       "items": [
+        {
+         "name": "date",
+         "inputType": "date",
+         "title": "Date "
+        },
+        {
+         "name": "Time",
+         "inputType": "time",
+         "title": "Start time"
+        },
+        {
+         "name": "item1",
+         "inputType": "time",
+         "title": "End time"
+        },
+        {
+         "name": "item2",
+         "title": "Duration"
+        }
+       ],
+       "colCount": 2
+      }
+     ],
+     "title": "Procedure details - Aortic Valve Replacement"
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question6",
+       "indent": 2,
+       "title": "Preoperative Planning and Preparation",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Demonstrates sound knowledge of the anatomic features and common anomalies of the sternum. Checks that appropriate instruments are available"
+        },
+        {
+         "value": "Row 3",
+         "text": "Checks that they have appropriate equipment and that it is functioning properly"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question7",
+       "indent": 2,
+       "title": "  Exposure and  Closure ",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Demonstrates knowledge of optimum skin incision/portal/access. Achieves good exposure. Closes and dresses wound appropriately"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question9",
+       "indent": 2,
+       "title": "Intra-Operative Technique",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Follows an agreed, logical sequence or protocol for the procedure. Handles tissues well and achieves good haemostasis"
+        },
+        {
+         "value": "Row 3",
+         "text": "Demonstrates good surgical technique and operates efficiently"
+        },
+        {
+         "value": "Row 4",
+         "text": "Communicates well with the rest of the team"
+        },
+        {
+         "value": "Row 5",
+         "text": "Harvests good quality conduit suitable for use as a graft. Demonstrates adequate handling of vein branches and prepares graft for use."
+        }
+       ]
+      }
+     ],
+     "title": "Competencies and Definitions"
+    },
+    {
+     "type": "dropdown",
+     "name": "Outcome_Question",
+     "title": "GLOBAL SUMMARY ",
+     "description": "Level at which completed elements of the PBAwere performed on this occasion",
+     "isRequired": true,
+     "choices": [
+      {
+       "value": "Level0 - Not observed",
+       "text": "Level0 - Not observed: Insufficient evidence observed to support a summary judgement"
+      },
+      {
+       "value": "Level1 - Unable to perform",
+       "text": "Level1 - Unable to perform: Unable to perform the procedure or part observed, under supervision"
+      },
+      {
+       "value": "Level2 - Perform with supervision",
+       "text": "Level2 - Perform with supervision: Able to perform the procedure, or part observed, under supervision"
+      },
+      {
+       "value": "Level3 - Minimal supervision",
+       "text": "Level3 - Minimal supervision: Able to perform the procedure with minimum supervision (needed occasional help)"
+      },
+      {
+       "value": "Level4 - Competent",
+       "text": "Level4 - Competent: Competent to perform the procedure unsupervised (could deal with complications that arose)"
+      }
+     ]
+    },
+    {
+     "type": "comment",
+     "name": "question2",
+     "title": "Comments by Assessor including strengths and areas for development"
+    },
+    {
+     "type": "comment",
+     "name": "question3",
+     "title": "Comments by Trainee"
+    }
+   ]
+  }
+ ],
+ "checkErrorsMode": "onComplete",
+ "completeText": "Save"
+}

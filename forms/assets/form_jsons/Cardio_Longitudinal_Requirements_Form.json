@@ -1,0 +1,215 @@
+{
+    "title": "Longitudinal Requirements form",
+    "description": "CARDIOTHORACIC SURGERY",
+    "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
+    "logoPosition": "right",
+    "completedHtml": "<h3>Thank you. The assessment form is now submitted. Please submit the Training requirement from the Training Requirement page.</h3>",
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "multipletext",
+        "name": "question1",
+        "title": "Trainee information",
+        "isRequired": true,
+        "items": [
+         {
+          "name": "text1",
+          "title": "Trainee Name"
+         },
+         {
+          "name": "text2",
+          "title": "Supervisor"
+         },
+         {
+          "name": "text3",
+          "title": "SET"
+         },
+         {
+          "name": "text4",
+          "title": "Rotation"
+         }
+        ],
+        "colCount": 2
+       },
+       {
+        "type": "multipletext",
+        "name": "question9",
+        "title": "Period of training covered by this summary",
+        "isRequired": true,
+        "items": [
+         {
+          "name": "from",
+          "inputType": "date",
+          "title": "from"
+         },
+         {
+          "name": "to",
+          "inputType": "date",
+          "title": "to"
+         },
+         {
+          "name": "Hospital"
+         }
+        ],
+        "colCount": 2
+       },
+       {
+        "type": "dropdown",
+        "name": "Location",
+        "choices": [
+         "NSW",
+         "NT",
+         "QLD",
+         "SA",
+         "TAS",
+         "Vic",
+         "WA",
+         "NZ"
+        ],
+        "showOtherItem": true,
+        "otherText": "Other"
+       },
+       {
+        "type": "panel",
+        "name": "Longitudinal Training Requirements",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "Published research component completed",
+          "isRequired": true,
+          "choices": [
+           "Yes",
+           "No"
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "Research component date",
+          "startWithNewLine": false,
+          "title": "Date",
+          "inputType": "date"
+         }
+        ],
+        "title": "Longitudinal Training Requirements"
+       },
+       {
+        "type": "panel",
+        "name": "panel1",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "ANZSCTS ASM",
+          "title": "Attended ANZSCTS ASM",
+          "isRequired": true,
+          "choices": [
+           "Yes",
+           "No"
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "ANZSCTS year",
+          "startWithNewLine": false,
+          "title": "Year",
+          "inputType": "number"
+         }
+        ]
+       },
+       {
+        "type": "panel",
+        "name": "panel2",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "ANZSCTS",
+          "title": "Presented at the ANZSCTS",
+          "isRequired": true,
+          "choices": [
+           "Yes",
+           "No"
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "question3",
+          "startWithNewLine": false,
+          "title": "Year",
+          "inputType": "number"
+         }
+        ]
+       },
+       {
+        "type": "panel",
+        "name": "panel3",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "Cardiothoracic Course",
+          "title": "Attended Cardiothoracic Course",
+          "isRequired": true,
+          "choices": [
+           "Yes",
+           "No"
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "question4",
+          "startWithNewLine": false,
+          "title": "Year",
+          "inputType": "number"
+         }
+        ]
+       },
+       {
+        "type": "panel",
+        "name": "panel4",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "Thesis",
+          "title": "Thesis completed",
+          "isRequired": true,
+          "choices": [
+           "Yes",
+           "No"
+          ],
+          "colCount": 2
+         },
+         {
+          "type": "text",
+          "name": "question5",
+          "startWithNewLine": false,
+          "title": "Year",
+          "inputType": "number"
+         }
+        ]
+       },
+       {
+        "type": "panel",
+        "name": "panel5",
+        "elements": [
+         {
+          "type": "html",
+          "name": "question2",
+          "html": "<p>Trainees should note that presentation at the ANZSCTS Meeting and authorship of 2 journal articles for publication are <strong>compulsory</strong> training components. List below a cumulative record of <strong><u>ALL</u></strong> Research Projects, Presentations or Publications undertaken during your <strong>entire</strong> period of Cardiothoracic Surgical Training.&nbsp;</p>\n</br>\n<p>For clarification on accepted research projects please refer to section 3.4 of the <a href=\"http://www.surgeons.org/media/24895847/2016-12-05_prc_2017-cardiothoracics_regulations.pdf\">Cardiothoracic Training Regulations</a>.</p>"
+         }
+        ]
+       },
+       {
+        "type": "comment",
+        "name": "Research/Presentation/Publication",
+        "rows": 5,
+        "autoGrow": true
+       }
+      ]
+     }
+    ],
+    "widthMode": "responsive"
+   }

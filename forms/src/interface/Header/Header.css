@@ -1,0 +1,19 @@
+.logo{
+float: left;
+height: 100px;
+width: auto;
+}
+
+.appTitle {
+float: right;
+color: white;
+padding: 1em;
+}
+
+.header {
+    background-color: #164579;
+    colour: white;
+    height: 100px;
+    width: 100%;
+    
+}

@@ -1,0 +1,417 @@
+{
+ "title": "Mini-CEX Assessment Form",
+ "description": "Royal Australasian College of Surgeons, Australian and New Zealand Society for Vascular Surgery",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "Trainee Information",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "traineeInformation",
+       "title": "Trainee Details",
+       "items": [
+        {
+         "name": "traineeName",
+         "title": "Trainee Name"
+        },
+        {
+         "name": "assessor",
+         "title": "Assessor"
+        },
+        {
+         "name": "setLevel",
+         "title": "SET Level"
+        },
+        {
+         "name": "racsID",
+         "title": "RACS ID"
+        },
+        {
+         "name": "Date",
+         "title": "Date"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "radiogroup",
+       "name": "assessmentType",
+       "title": "Assessment Type",
+       "choices": [
+        "Mid Term",
+        "End of Term"
+       ],
+       "choicesOrder": "desc",
+       "colCount": 2
+      },
+      {
+       "type": "boolean",
+       "name": "probationaryTerm",
+       "title": "Probationary Term"
+      }
+     ],
+     "title": "TRAINEE INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "clinicalInformation",
+     "elements": [
+      {
+       "type": "checkbox",
+       "name": "question1",
+       "title": "Clinical Setting",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Outpatient Department"
+        },
+        {
+         "value": "Item 2",
+         "text": "Private Rooms"
+        },
+        {
+         "value": "Item 3",
+         "text": "Emergency Department"
+        },
+        {
+         "value": "Item 4",
+         "text": "ICU"
+        }
+       ],
+       "showOtherItem": true,
+       "otherPlaceholder": "Please describe the clinical setting",
+       "colCount": 4
+      },
+      {
+       "type": "text",
+       "name": "hospital",
+       "title": "Hospital"
+      },
+      {
+       "type": "radiogroup",
+       "name": "typeOfCase",
+       "title": "Type of Case",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Initial Consult"
+        },
+        {
+         "value": "Item 2",
+         "text": "Review"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "comment",
+       "name": "question2",
+       "title": "Description of Case"
+      },
+      {
+       "type": "radiogroup",
+       "name": "question3",
+       "title": "Case Complexity",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Easy"
+        },
+        {
+         "value": "Item 2",
+         "text": "Average"
+        },
+        {
+         "value": "Item 3",
+         "text": "Difficult"
+        }
+       ],
+       "colCount": 3
+      }
+     ],
+     "title": "CLINICAL INFORMATION"
+    },
+    {
+     "type": "panel",
+     "name": "assessment",
+     "elements": [
+      {
+       "type": "matrixdropdown",
+       "name": "situationalAwareness",
+       "title": "SITUATIONAL AWARENESS",
+       "description": "1 - Unsatisfactory  | 2 - Borderline |  3 - Satisfactory |  4 - Exceptional ",
+       "isRequired": true,
+       "columns": [
+        {
+         "name": "Trainee",
+         "cellType": "radiogroup",
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Supervisor",
+         "cellType": "radiogroup",
+         "colCount": 0,
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "radiogroup",
+       "rows": [
+        "History Taking",
+        "Physical Examination",
+        "Use of Investigations",
+        "Interpretation of History, Physical Examination and Investigations",
+        "Projection of Future Status"
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "decisionMaking",
+       "title": "DECISION MAKING",
+       "description": "1 - Unsatisfactory  | 2 - Borderline |  3 - Satisfactory |  4 - Exceptional ",
+       "isRequired": true,
+       "columns": [
+        {
+         "name": "Trainee",
+         "cellType": "radiogroup",
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Supervisor",
+         "cellType": "radiogroup",
+         "colCount": 0,
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "radiogroup",
+       "rows": [
+        "Considers the Range of Management Options",
+        "Selects an Appropriate Management Optio",
+        "Implements and Reviews Decisions"
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "communicationWithPatient",
+       "title": "COMMUNICATION WITH PATIENT",
+       "description": "1 - Unsatisfactory  | 2 - Borderline |  3 - Satisfactory |  4 - Exceptional ",
+       "isRequired": true,
+       "columns": [
+        {
+         "name": "Trainee",
+         "cellType": "radiogroup",
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Supervisor",
+         "cellType": "radiogroup",
+         "colCount": 0,
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "radiogroup",
+       "rows": [
+        {
+         "value": "History Taking",
+         "text": "Exchanges Informatiuon with the Patient and/or Family"
+        },
+        {
+         "value": "Physical Examination",
+         "text": "Establishes a Shared Understanding"
+        },
+        {
+         "value": "Use of Investigations",
+         "text": "Communicates in an Effective Manner"
+        }
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "communicationWithSurgicalTeam",
+       "title": "COMMUNICATION WITH OTHER MEMBER OF THE SURGICAL TEAM",
+       "description": "1 - Unsatisfactory  | 2 - Borderline |  3 - Satisfactory |  4 - Exceptional ",
+       "isRequired": true,
+       "columns": [
+        {
+         "name": "Trainee",
+         "cellType": "radiogroup",
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Supervisor",
+         "cellType": "radiogroup",
+         "colCount": 0,
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "radiogroup",
+       "rows": [
+        "Exchanging Information",
+        "Establishging a Shared Understanding",
+        "Plays an Appropriate Role in the Clinical Team"
+       ]
+      },
+      {
+       "type": "matrixdropdown",
+       "name": "coreKnowledge",
+       "title": "CORE KNOWLEDGE APPLICABLE TO THIS CASE",
+       "description": "1 - Unsatisfactory  | 2 - Borderline |  3 - Satisfactory |  4 - Exceptional ",
+       "isRequired": true,
+       "columns": [
+        {
+         "name": "Trainee",
+         "cellType": "radiogroup",
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        },
+        {
+         "name": "Supervisor",
+         "cellType": "radiogroup",
+         "colCount": 0,
+         "choices": [
+          1,
+          2,
+          3,
+          4
+         ],
+         "storeOthersAsComment": true
+        }
+       ],
+       "choices": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       "cellType": "radiogroup",
+       "rows": [
+        "Applicable Clinical Science",
+        "Applicable Level 1 Knowledge",
+        "Applicable Level 2 Knowledge"
+       ]
+      }
+     ],
+     "title": "ASSESSMENT"
+    },
+    {
+     "type": "panel",
+     "name": "overallPerformanceAndSupervisorRecommendation",
+     "elements": [
+      {
+       "type": "radiogroup",
+       "name": "overallPerformance",
+       "title": "Overall Performance",
+       "description": "Supervisor Only",
+       "choices": [
+        "Exceptional",
+        "Satisfactory",
+        "Borderline",
+        "Unsatisfactory"
+       ],
+       "colCount": 4
+      },
+      {
+       "type": "comment",
+       "name": "comments",
+       "title": "Comments"
+      },
+      {
+       "type": "comment",
+       "name": "recommendations",
+       "title": "Recommendations for Development and Agreed Action",
+       "description": "Supervisor only"
+      }
+     ],
+     "title": "OVERALL PERFORMANCE AND SUPERVISOR RECOMMENDATION"
+    }
+   ]
+  }
+ ],
+ "widthMode": "responsive"
+}

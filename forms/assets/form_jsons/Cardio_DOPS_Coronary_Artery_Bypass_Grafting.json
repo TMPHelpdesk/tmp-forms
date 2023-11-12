@@ -1,0 +1,339 @@
+{
+ "title": "Cardio DOPS - Coronary Artery Bypass Grafting",
+ "description": "Direct Observation of Procedural Skills (Surgical DOPS)",
+ "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "Cardio DOPS - Coronary Artery Bypass Grafting",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "multipletext",
+       "name": "question5",
+       "title": "Procedure date and time",
+       "items": [
+        {
+         "name": "date",
+         "inputType": "date",
+         "title": "Date "
+        },
+        {
+         "name": "Time",
+         "inputType": "time",
+         "title": "Start time"
+        },
+        {
+         "name": "item1",
+         "inputType": "time",
+         "title": "End time"
+        },
+        {
+         "name": "item2",
+         "title": "Duration"
+        }
+       ],
+       "colCount": 2
+      },
+      {
+       "type": "dropdown",
+       "name": "question4",
+       "title": "Operation more difficult than usual?",
+       "showCommentArea": true,
+       "commentText": "If Yes, State reason",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Yes"
+        },
+        {
+         "value": "Item 2",
+         "text": "No"
+        }
+       ]
+      }
+     ],
+     "title": "Procedure details - Coronary Artery Bypass Grafting"
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question1",
+       "indent": 2,
+       "title": "Consent",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Demonstrates sound knowledge of indications and contraindications including alternatives to surgery. Clearly explains to patient/relatives the procedure and likely outcomes including possible complications"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question6",
+       "indent": 2,
+       "title": "Preoperative Planning",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Understands the anatomy of the coronary arterial tree and can clearly identify the areas of significant narrowing and appropriate grafting targets"
+        },
+        {
+         "value": "Row 3",
+         "text": "Can provide a logical rationale for his/her surgical approach including choice of conduit – after checking what conduits are available for use "
+        },
+        {
+         "value": "Row 4",
+         "text": "Clearly communicates to all staff any particular needs/requirements for the procedure"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question7",
+       "indent": 2,
+       "title": "Preoperative Preparation",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Ensures “time out” is performed, all necessary equipment is available, and proper positioning of the patient"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question8",
+       "indent": 2,
+       "title": "Exposure and CPB",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Achieves good exposure through knowledge of optimum skin incision/portal/access and tissue dissection"
+        },
+        {
+         "value": "Row 3",
+         "text": "CPB safely instituted by appropriate choice of cannulas and cannulation sites, with safe cannulation technique"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question9",
+       "indent": 2,
+       "title": "Intra-Operative Technique",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Procedure is performed in a logical sequence Procedure performed in a logical sequence with good surgical technique, communicating well with the rest of the team ",
+         "text": "Procedure performed in a logical sequence with good surgical technique, communicating well with the rest of the team "
+        },
+        {
+         "value": "with good surgical technique and good team communication ",
+         "text": "Demonstrates good anastomatic technique, ensures grafts are correctly positioned and of appropriate length, to avoid possible kinking/obstruction "
+        },
+        {
+         "value": "Row 3",
+         "text": "Demonstrates good  haemostatic technique, appropriate DC cardioversion if required and safe weaning from CPB including a TOE evaluation post CPB"
+        },
+        {
+         "value": "Row 4",
+         "text": "Demonstrates appropriate use of epicardial pacing wires and closes the sternotomy and wound efficiently and appropriately"
+        }
+       ]
+      },
+      {
+       "type": "matrix",
+       "name": "question11",
+       "indent": 2,
+       "title": "Post-Operative Management",
+       "isRequired": true,
+       "showCommentArea": true,
+       "commentText": "Comments (if any)",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Satisfactory standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Development required"
+        },
+        {
+         "value": "Column 3",
+         "text": "Unsatisfactory"
+        },
+        {
+         "value": "Column 4",
+         "text": "Not observed or applicable"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 2",
+         "text": "Constructs a clear operation note including post-operative instructions"
+        },
+        {
+         "value": "Row 3",
+         "text": "Gives clear and concise handover to the ICU team and explains operative and post-operative process to the relatives "
+        }
+       ]
+      }
+     ],
+     "title": "Competencies and Definitions",
+     "description": "NOTE: \nThe Trainee should explain what he/she intends to do throughout the procedure\nThe Assessor should provide verbal prompts, if required, and intervene if patient safety is at risk."
+    },
+    {
+     "type": "dropdown",
+     "name": "Outcome_Question",
+     "title": "GLOBAL SUMMARY ",
+     "description": "Level at which completed elements of the PBAwere performed on this occasion",
+     "isRequired": true,
+     "choices": [
+      {
+       "value": "Level0 - Not observed",
+       "text": "Level0 - Not observed: Insufficient evidence observed to support a summary judgement"
+      },
+      {
+       "value": "Level1 - Unable to perform",
+       "text": "Level1 - Unable to perform: Unable to perform the procedure or part observed, under supervision"
+      },
+      {
+       "value": "Level2 - Perform with supervision",
+       "text": "Level2 - Perform with supervision: Able to perform the procedure, or part observed, under supervision"
+      },
+      {
+       "value": "Level3 - Minimal supervision",
+       "text": "Level3 - Minimal supervision: Able to perform the procedure with minimum supervision (needed occasional help)"
+      },
+      {
+       "value": "Level4 - Competent",
+       "text": "Level4 - Competent: Competent to perform the procedure unsupervised (could deal with complications that arose)"
+      }
+     ]
+    },
+    {
+     "type": "comment",
+     "name": "question2",
+     "title": "Comments by Assessor including strengths and areas for development"
+    },
+    {
+     "type": "comment",
+     "name": "question3",
+     "title": "Comments by Trainee"
+    }
+   ]
+  }
+ ],
+ "checkErrorsMode": "onComplete",
+ "completeText": "Save"
+}

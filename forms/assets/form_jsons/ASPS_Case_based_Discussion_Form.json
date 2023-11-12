@@ -1,0 +1,131 @@
+{
+ "title": "ASPS Case based Discussion Form",
+ "description": "Plastic and Reconstructive Surgery",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "Case based Discussion Form",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "text",
+       "name": "question3",
+       "title": "Clinical scenario",
+       "description": "(i.e. the nature of the case) ",
+       "isRequired": true,
+       "commentText": "other procedure or part of a procedure"
+      },
+      {
+       "type": "radiogroup",
+       "name": "question11",
+       "title": "Complexity of case",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Routine"
+        },
+        {
+         "value": "Item 2",
+         "text": "Complex"
+        }
+       ],
+       "colCount": 2
+      }
+     ],
+     "title": "Procedure details"
+    },
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "comment",
+       "name": "question4",
+       "title": "Clinical assessment and diagnostic skills ",
+       "description": "presents relevant aspects history and examination, discusses key features and demonstrates understanding of how they relate to diagnosis and plan, appropriate differential diagnosis, demonstrates comprehensive knowledge of likely injuries/conditions."
+      },
+      {
+       "type": "comment",
+       "name": "question5",
+       "title": "Management plan  ",
+       "description": "formulated plan specific to patient need, aware of evidence based approaches, appropriately weighed up advantages and disadvantages of alternatives."
+      },
+      {
+       "type": "comment",
+       "name": "question1",
+       "title": "Clinical judgement and decision making ",
+       "description": "articulates rationale for decisions, demonstrates sound judgement based on thorough understanding of patient’s injury/condition and best possible outcome. Respond appropriately to ‘what if’ scenarios."
+      },
+      {
+       "type": "comment",
+       "name": "question6",
+       "title": "Ability to reflect on experience",
+       "description": "objectively reviews own performance, identifies opportunities for improvement, demonstrates insight to own limitations, responds well to potential complications, can suggest strategies to minimise issues in future cases."
+      },
+      {
+       "type": "comment",
+       "name": "question7",
+       "title": "Team work and collaboration ",
+       "description": "willingly engages others to help when needed, demonstrates collaborative multidisciplinary approach to patient care."
+      }
+     ],
+     "title": "Specific feedback",
+     "description": "Consultant comments on what was done well and provides suggestions on how the trainee may improve. Not all boxes need to be completed."
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "text",
+       "name": "question2",
+       "title": "Areas of improvement",
+       "description": "Trainee to complete"
+      },
+      {
+       "type": "boolean",
+       "name": "question8",
+       "title": "Trainee would benefit from observation and feedback on a similar case. "
+      },
+      {
+       "type": "dropdown",
+       "name": "Outcome_Question",
+       "title": "Overall rating",
+       "description": "Consultant discusses the details of the casewith the trainee, including how the trainee may have responded to alternatecircumstances. Overall, which describes the competence of the trainee for thistype of case?",
+       "isRequired": true,
+       "choices": [
+        {
+         "value": "Required frequent guidance",
+         "text": "Required frequent guidance: Trainee required frequent prompting, teaching and re-direction when discussing important aspects of the case."
+        },
+        {
+         "value": "Required occasional guidance",
+         "text": "Required occasional guidance: Trainee required occasional prompting and teaching when discussing the case."
+        },
+        {
+         "value": "Safe and competent",
+         "text": "Safe and competent: Trainee discussed the case thoroughly and responded well when questioned about rationale and potential scenarios."
+        },
+        {
+         "value": "Role model for others",
+         "text": "Role model for others: Junior colleagues would learn from discussing cases with this trainee, can provide guidance to others."
+        }
+       ]
+      },
+      {
+       "type": "boolean",
+       "name": "question9",
+       "title": "Is this Work Based Assessment (WBA) part of an Entrustable Professional Activity (EPA)?"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sendResultOnPageNext": true,
+ "completeText": "Save",
+ "widthMode": "responsive"
+}

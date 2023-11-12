@@ -1,0 +1,254 @@
+{
+ "title": "Mid-SET Critical Appraisal Task",
+ "description": "CATS",
+ "logoPosition": "right",
+ "pages": [
+  {
+   "name": "page1",
+   "elements": [
+    {
+     "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question8",
+       "html": "<p>A Critical Appraisal Task (CAT) is a training tool designed to enable trainees to address a clinical question using the best available evidence. Trainees are expected to appraise the relevant literature and, based upon this, to concisely provide a rationale for their chosen management. These tasks equip the trainee to continually adjust management approaches during their career as a paediatric surgeon, as new information becomes available. CATs are designed to approximate the framework expected during written components of the Fellowship Examination.</p>\n\n<p>&nbsp;</p>\n\n<h2>Learning outcomes</h2>\n\n<p>&nbsp;</p>\n\n<p>Critical appraisal is the process of carefully and systematically assessing the outcome of scientific research (evidence) to judge its reliability, value and relevance in a particular context. Critical appraisal is more than a review of the current literature and categorisation of level of evidence.</p>\n\n<p>This Critical Appraisal Task (CAT) is intended to develop your skill as a healthcare professional to determine the extent to which the research evidence is applicable, unbiassed and relevant to your patients.</p>\n\n<p>The learning outcomes of this CAT are to enable you to:</p>\n\n<p>- organise the presentation to inform the reader of the key concepts in a logical and well-constructed format;</p>\n\n<p>- demonstrate an ability to advance a logical argument using supporting scientific literature, including appropriately cited references;</p>\n\n<p>- appraise and summarise the scientific literature to support your response to the questions;</p>\n\n<p>- assess the relative value of different treatment options; and</p>\n\n<p>- formulate evidence-based opinions in areas of importance or controversy in paediatric surgery.</p>\n\n<p>&nbsp;</p>\n\n<p>The CAT question will be available from 11.59 PM (AEST) on Sunday 28th August 2022.</p>\n\n<p>You are required to submit your response to the CAT in .pdf format by 11:59 PM (AEDT) on Sunday 20th November 2022.</p>\n\n<p>You will receive feedback from your facilitators, and you may be asked to resubmit your initial response to the CAT.</p>\n\n<p>CATs are open to all trainees. Trainees must submit and pass six CATs during training. It is mandatory for Mid- and Senior-SET trainees to submit a CAT unless they have fulfilled the requirement. If you choose to submit before Mid-SET, you will be marked at Mid-SET level.</p>\n\n<h2><br />\nIn regards to the format, we suggest:</h2>\n\n<p>- using grades of recommendation&nbsp;</p>\n\n<p>- when quoting levels of evidence, please let us know at the beginning of the submission what standard you are using i.e. Oxford, NHRMC, so it can be marked accordingly&nbsp;</p>\n\n<p>- dot points rather than full essay style&nbsp;</p>\n\n<p>- word limit is a guide</p>\n\n<p>-- please include the number of words used</p>\n\n<p>-- not acceptable if &gt;10% over the word limit</p>\n\n<p>-- you can have a satisfactory answer using less than the word limit&nbsp;</p>\n\n<p>- tables summarising the levels of evidence for each study at the end of the submission are not necessary; we would prefer that the important studies are analysed in your paper itself&nbsp;</p>\n\n<p>- include what you will do for the patient at hand and ensure that you have justified it using the literature</p>\n"
+      }
+     ],
+     "title": "Assessment details",
+     "state": "collapsed"
+    },
+    {
+     "type": "panel",
+     "name": "panel1",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question4",
+       "html": "<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">Empyema </span></h1>\n\n<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">A four year old boy presents to the hospital with six days of cough and fevers despite oral antibiotics. On examination he is febrile to 38 degrees Celsius, tachycardic and mildly tachypnoeic, He is on 1L/min oxygen via nasal prongs and sitting up in bed. There is reduced air entry on the right side. Chest x-ray demonstrates a right pleural effusion. You are consulted after an ultrasound confirms the effusion. A COVID swab was negative. </span></h1>\n\n<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">Using the available evidence: </span></h1>\n\n<ul>\n\t<li>\n\t<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">Outline your indications for intervention</span></h1>\n\t</li>\n\t<li>\n\t<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">Justify your surgical management </span></h1>\n\t</li>\n</ul>\n\n<h1><span style=\"color: rgb(22, 22, 22); font-family: &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; white-space: pre-wrap; word-spacing: -1px;\">(1500 words)</span></h1>\n"
+      },
+      {
+       "type": "file",
+       "name": "question5",
+       "title": "Please upload your CATS answer sheet here ",
+       "showCommentArea": true,
+       "commentText": "Comments",
+       "allowMultiple": true,
+       "waitForUpload": true
+      },
+      {
+       "type": "file",
+       "name": "question3",
+       "state": "collapsed",
+       "title": "Resubmit",
+       "description": "Please upload your CATS answer resubmit here",
+       "showCommentArea": true,
+       "commentText": "Comments",
+       "allowMultiple": true,
+       "waitForUpload": true
+      }
+     ]
+    },
+    {
+     "type": "panel",
+     "name": "panel2",
+     "elements": [
+      {
+       "type": "matrix",
+       "name": "question2",
+       "state": "collapsed",
+       "title": "to be marked by Assessor 1",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Below standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Meets standard"
+        },
+        {
+         "value": "Column 3",
+         "text": "Exceeds standard"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Clarity of presentation/setting out (e.g. introduction, discussion, conclusions, recommendations)"
+        },
+        {
+         "value": "Row 2",
+         "text": "Review of literature (breadth, depth and relevance)"
+        },
+        {
+         "value": "Row 3",
+         "text": "Evaluation of hypothesis, critique and context"
+        },
+        {
+         "value": "Row 4",
+         "text": "Consideration of the relative value of different treatment options"
+        },
+        {
+         "value": "Row 5",
+         "text": "Focus and relevance to the case or question"
+        },
+        {
+         "value": "Row 6",
+         "text": "Demonstrates application of knowledge to clinical situation"
+        }
+       ],
+       "cells": {
+        "Row 1": {
+         "Column 1": "• Organisation difficult to follow\n• Limited, disorganised or illogical presentation of key concepts\n• Many spelling errors\n• Many and/or major referencing errors",
+         "Column 2": "• Generally well organised so that the reader can follow\n• Key concepts adequately developed and presented\n• Few spelling errors\n• Referencing with minor errors",
+         "Column 3": "• Well organised and sequenced\n• Clear, logical presentation of key concepts\n• Accurate spelling\n• Accurately referenced"
+        },
+        "Row 2": {
+         "Column 1": "• Few or no key references identified across breadth of topic\n• Evidence presented from references is superficial or cursory in key areas.\n• Presents irrelevant references",
+         "Column 2": "• Adequate range of relevant references identified and presented across breadth of topic\n• Evidence presented from references covers most of the key areas\n• Presents relevant references",
+         "Column 3": "• Comprehensive range of relevant references identified and presented across breadth of topic\n• Evidence presented from references covers depth required in all key areas.\n• Includes prime relevant references"
+        },
+        "Row 3": {
+         "Column 1": "• Superficial or irrelevant critical analysis of the selected literature\n• Minimal or misguided identification and analysis of areas of uncertainty",
+         "Column 2": "• Critical analysis demonstrates reasonable interpretation of selected literature.\n• Evaluates and critiques the evidence in key areas of uncertainty",
+         "Column 3": "• Critical analysis demonstrates sophisticated, accurate interpretation of the selected literature.\n• Evaluates and critiques most areas of uncertainty"
+        },
+        "Row 4": {
+         "Column 1": "• Selected treatment is unlikely to be successful\n• Rationale and justification of selected treatment are inadequate or flawed\n• Minimal evaluation of limitations or risks of treatment options",
+         "Column 2": "• Selected treatment is likely to be successful\n• Rationale and justification for selected treatment are logical and defensible\n• Adequate evaluation of limitations or risks of treatment options",
+         "Column 3": "• Selected treatment is likely to be successful, accounting for variability\n• Rationale and justification for selected treatment are logical and defensible, accounting for variability\n• In-depth evaluation of limitations or risks of treatment options"
+        },
+        "Row 5": {
+         "Column 1": "• Minimal coverage of important issues\n• Contentious and/or current issues not addressed",
+         "Column 2": "• Adequate coverage of important issues\n• Acknowledges contentious and/or current issues",
+         "Column 3": "• Comprehensive coverage of important issues\n• Investigates and addresses contentious and/or current issues"
+        },
+        "Row 6": {
+         "Column 1": "• Incorrect or minimal clinical interpretation of the case or situation\n• Inaccurate or minimal clinical application of the case or situation\n• One or more of the significant areas are misinterpreted or omitted",
+         "Column 2": "• Adequate clinical interpretation appropriate to the case or situation\n• Adequate clinical application appropriate to the case or situation\n• Most of the significant areas are addressed",
+         "Column 3": "• Accurate and comprehensive clinical interpretation appropriate to the case or situation\n• Accurate and comprehensive clinical application appropriate to the case or situation\n• All of the significant areas are addressed"
+        }
+       }
+      },
+      {
+       "type": "matrix",
+       "name": "question6",
+       "state": "collapsed",
+       "title": "to be marked by Assessor 2",
+       "columns": [
+        {
+         "value": "Column 1",
+         "text": "Below standard"
+        },
+        {
+         "value": "Column 2",
+         "text": "Meets standard"
+        },
+        {
+         "value": "Column 3",
+         "text": "Exceeds standard"
+        }
+       ],
+       "rows": [
+        {
+         "value": "Row 1",
+         "text": "Clarity of presentation/setting out (e.g. introduction, discussion, conclusions, recommendations)"
+        },
+        {
+         "value": "Row 2",
+         "text": "Review of literature (breadth, depth and relevance)"
+        },
+        {
+         "value": "Row 3",
+         "text": "Evaluation of hypothesis, critique and context"
+        },
+        {
+         "value": "Row 4",
+         "text": "Consideration of the relative value of different treatment options"
+        },
+        {
+         "value": "Row 5",
+         "text": "Focus and relevance to the case or question"
+        },
+        {
+         "value": "Row 6",
+         "text": "Demonstrates application of knowledge to clinical situation"
+        }
+       ],
+       "cells": {
+        "Row 1": {
+         "Column 1": "• Organisation difficult to follow\n• Limited, disorganised or illogical presentation of key concepts\n• Many spelling errors\n• Many and/or major referencing errors",
+         "Column 2": "• Generally well organised so that the reader can follow\n• Key concepts adequately developed and presented\n• Few spelling errors\n• Referencing with minor errors",
+         "Column 3": "• Well organised and sequenced\n• Clear, logical presentation of key concepts\n• Accurate spelling\n• Accurately referenced"
+        },
+        "Row 2": {
+         "Column 1": "• Few or no key references identified across breadth of topic\n• Evidence presented from references is superficial or cursory in key areas.\n• Presents irrelevant references",
+         "Column 2": "• Adequate range of relevant references identified and presented across breadth of topic\n• Evidence presented from references covers most of the key areas\n• Presents relevant references",
+         "Column 3": "• Comprehensive range of relevant references identified and presented across breadth of topic\n• Evidence presented from references covers depth required in all key areas.\n• Includes prime relevant references"
+        },
+        "Row 3": {
+         "Column 1": "• Superficial or irrelevant critical analysis of the selected literature\n• Minimal or misguided identification and analysis of areas of uncertainty",
+         "Column 2": "• Critical analysis demonstrates reasonable interpretation of selected literature.\n• Evaluates and critiques the evidence in key areas of uncertainty",
+         "Column 3": "• Critical analysis demonstrates sophisticated, accurate interpretation of the selected literature.\n• Evaluates and critiques most areas of uncertainty"
+        },
+        "Row 4": {
+         "Column 1": "• Selected treatment is unlikely to be successful\n• Rationale and justification of selected treatment are inadequate or flawed\n• Minimal evaluation of limitations or risks of treatment options",
+         "Column 2": "• Selected treatment is likely to be successful\n• Rationale and justification for selected treatment are logical and defensible\n• Adequate evaluation of limitations or risks of treatment options",
+         "Column 3": "• Selected treatment is likely to be successful, accounting for variability\n• Rationale and justification for selected treatment are logical and defensible, accounting for variability\n• In-depth evaluation of limitations or risks of treatment options"
+        },
+        "Row 5": {
+         "Column 1": "• Minimal coverage of important issues\n• Contentious and/or current issues not addressed",
+         "Column 2": "• Adequate coverage of important issues\n• Acknowledges contentious and/or current issues",
+         "Column 3": "• Comprehensive coverage of important issues\n• Investigates and addresses contentious and/or current issues"
+        },
+        "Row 6": {
+         "Column 1": "• Incorrect or minimal clinical interpretation of the case or situation\n• Inaccurate or minimal clinical application of the case or situation\n• One or more of the significant areas are misinterpreted or omitted",
+         "Column 2": "• Adequate clinical interpretation appropriate to the case or situation\n• Adequate clinical application appropriate to the case or situation\n• Most of the significant areas are addressed",
+         "Column 3": "• Accurate and comprehensive clinical interpretation appropriate to the case or situation\n• Accurate and comprehensive clinical application appropriate to the case or situation\n• All of the significant areas are addressed"
+        }
+       }
+      }
+     ],
+     "title": "Assessment rubric mid-SET",
+     "description": "This assessment rubric provides scoring criteria and performance standards for activity categories."
+    },
+    {
+     "type": "panel",
+     "name": "panel3",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question7",
+       "html": "<div><strong>Unsatisfactory<span style=\"white-space:pre\"> - </span></strong>The work has <strong>seven or more</strong> &lsquo;Below standard&rsquo; scores in any category</div>\n\n<div>&nbsp;</div>\n\n<div><strong>Borderline<span style=\"white-space:pre\"> </span></strong>&nbsp;-&nbsp;The work has<strong> three to six </strong>&lsquo;Below standard&rsquo; scores in any category&nbsp;<strong>and/or</strong>&nbsp;has <strong>one or more</strong> &lsquo;Below standard&rsquo; scores in the Critical analysis category</div>\n\n<div>Re-submission is permitted</div>\n\n<div>&nbsp;</div>\n\n<div><strong>Satisfactory<span style=\"white-space:pre\"> - </span></strong>The work has <strong>at least fourteen</strong> &rsquo;Meets standard&rsquo; scores, including<strong> all three</strong> in the Critical analysis category</div>\n"
+      },
+      {
+       "type": "dropdown",
+       "name": "question1",
+       "title": "Outcome",
+       "showCommentArea": true,
+       "commentText": "Feedback",
+       "choices": [
+        {
+         "value": "Item 1",
+         "text": "Unsatisfactory "
+        },
+        {
+         "value": "Item 2",
+         "text": "Borderline"
+        },
+        {
+         "value": "Item 3",
+         "text": "Satisfactory"
+        }
+       ]
+      }
+     ],
+     "title": "Assessment result"
+    }
+   ],
+   "title": "CATS 2022"
+  }
+ ]
+}
