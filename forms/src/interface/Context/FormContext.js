@@ -2,7 +2,7 @@ import { createContext, useContext, useState } from 'react'
 
 const FormContext = createContext();
 
-const ContextProvider = ({ children }) => {
+export const ContextProvider = ({ children }) => {
 
     const [specialty, setSpecialty] = useState('');
     const [selectedForm, setSelectedForm] = useState({});
@@ -23,7 +23,7 @@ const ContextProvider = ({ children }) => {
     );
 }
 
-export function useAppContext() {
+export function useFormContext() {
     return useContext(FormContext);
 }
 

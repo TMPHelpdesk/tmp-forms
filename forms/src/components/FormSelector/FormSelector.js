@@ -1,15 +1,23 @@
 import { Form } from "react-bootstrap";
 
-
-
-
-
+import { specialties, aspsForms, cardioForms, paedForms, simgForms, vascularForms } from '../../utilities/staticData.tsx';
 
 export default function FormSelector() {
 
 
+    const specialtySelection = specialties.map(specialty => {
+        return(
+            <option value={specialty.shortName}>{specialty.longName}</option>
+        );
+    });
+/*
 
-
+<option value="ASPS">ASPS - Plastic and Reconstructive Surgery Australia</option>
+                        <option value="CARDIO">Cardiothoracic Surgery</option>
+                        <option value="PAEDS">Paediatric Surgery</option>
+                        <option value="SIMG">SIMG</option> 
+                        <option value="VASC">Vascular Surgery</option>
+*/
     return (
         <>
             <hr />
@@ -23,11 +31,7 @@ export default function FormSelector() {
                     <br />
                     <Form.Select aria-label="Select Specialty from the avilable list">
                         <option>Select Specialty</option>
-                        <option value="ASPS">ASPS - Plastic and Reconstructive Surgery Australia</option>
-                        <option value="CARDIO">Cardiothoracic Surgery</option>
-                        <option value="PAEDS">Paediatric Surgery</option>
-                        <option value="SIMG">SIMG</option> 
-                        <option value="VASC">Vascular Surgery</option>
+                        {specialtySelection}
                     </Form.Select>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formSelectForm">
