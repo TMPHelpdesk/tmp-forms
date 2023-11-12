@@ -1,11 +1,41 @@
 {
  "title": "ASPS Clinical Feedback Form",
  "description": "Plastic and Reconstructive Surgery",
+ "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
  "logoPosition": "right",
+ "completedHtml": "<h3>Thank you. The assessment form is now submitted. Please submit the Training requirement from the Training Requirement page.</h3>",
  "pages": [
   {
    "name": "Clinical Feedback Form",
    "elements": [
+    {
+     "type": "multipletext",
+     "name": "question9",
+     "title": "Trainee information",
+     "items": [
+      {
+       "name": "text1",
+       "title": "Trainee Name"
+      },
+      {
+       "name": "text2",
+       "title": "Consultant"
+      },
+      {
+       "name": "text3",
+       "title": "SET"
+      },
+      {
+       "name": "text4",
+       "title": "Rotation"
+      },
+      {
+       "name": "text5",
+       "title": "Hospital"
+      }
+     ],
+     "colCount": 2
+    },
     {
      "type": "panel",
      "name": "panel1",
@@ -39,37 +69,71 @@
     },
     {
      "type": "panel",
+     "name": "panel4",
+     "elements": [
+      {
+       "type": "html",
+       "name": "question10",
+       "html": "<ul style=\"list-style-type: disc;\">\n<li>&nbsp;<strong>Required frequent guidance -&nbsp;</strong>Trainee required frequent prompting, teaching and re-direction when discussing important aspects of the case.</li>\n<li>&nbsp;<strong>Required occasional guidance. -&nbsp;</strong>Trainee required occasional prompting and teaching when discussing the case.</li>\n<li>&nbsp;<strong>Safe and competent -&nbsp;</strong>Trainee discussed the case thoroughly and responded well when questioned about rationale and potential scenarios.</li>\n<li><strong>Role model for others -&nbsp;</strong>Junior colleagues would learn from discussing cases with this trainee, can provide guidance to others.</li>\n</ul>"
+      },
+      {
+       "type": "dropdown",
+       "name": "Outcome_Question",
+       "title": "Overall rating",
+       "isRequired": true,
+       "choices": [
+        "Required frequent guidance",
+        "Required occasional guidance",
+        "Safe and competent",
+        "Role model for others"
+       ]
+      }
+     ],
+     "description": "Assessor observes the trainee during the patient assessment. Overall, which describes the competence of the trainee in this scenario?"
+    },
+    {
+     "type": "panel",
      "name": "panel3",
      "elements": [
       {
        "type": "comment",
        "name": "question4",
        "title": "History taking, physical examination and selection and /or interpretation of investigations ",
-       "description": "focussed data gathering, efficient and accurate examination, guided by information from history taking, orders appropriate investigations and/or reviews and incorporates findings into differential diagnosis"
+       "description": "Focussed data gathering, efficient and accurate examination, guided by information from history taking, orders appropriate investigations and/or reviews and incorporates findings into differential diagnosis",
+       "rows": 2,
+       "autoGrow": true
       },
       {
        "type": "comment",
        "name": "question5",
        "title": "Diagnosis and management plan",
-       "description": "makes diagnosis decisively after thoroughly considering alternatives, devises appropriate management plan"
+       "description": "Makes diagnosis decisively after thoroughly considering alternatives, devises appropriate management plan",
+       "rows": 2,
+       "autoGrow": true
       },
       {
        "type": "comment",
        "name": "question1",
        "title": "Communication and listening skills",
-       "description": "uses open questions, limits interruptions, language is tailored to needs of patient, establishes patient trust, provides explanations suitable to patient’s level of understanding, avoids confusing medical jargon, adapts to patient’s needs and preference"
+       "description": "Uses open questions, limits interruptions, language is tailored to needs of patient, establishes patient trust, provides explanations suitable to patient’s level of understanding, avoids confusing medical jargon, adapts to patient’s needs and preference",
+       "rows": 2,
+       "autoGrow": true
       },
       {
        "type": "comment",
        "name": "question6",
        "title": "Engages support staff when needed",
-       "description": "minimises barriers by engaging interpreters or other members of health care team to facilitate effective communication"
+       "description": "Minimises barriers by engaging interpreters or other members of health care team to facilitate effective communication",
+       "rows": 2,
+       "autoGrow": true
       },
       {
        "type": "comment",
        "name": "question7",
        "title": "Professionalism and time management",
-       "description": "introduces self, respectful, uses structured approach, effective use of time, adjusts consultation to circumstances, provides patient-centred care"
+       "description": "Introduces self, respectful, uses structured approach, effective use of time, adjusts consultation to circumstances, provides patient-centred care",
+       "rows": 2,
+       "autoGrow": true
       }
      ],
      "title": "Specific feedback",
@@ -80,45 +144,21 @@
      "name": "panel2",
      "elements": [
       {
-       "type": "text",
+       "type": "comment",
        "name": "question2",
        "title": "Actions for improvement ",
-       "description": "Trainee to complete"
+       "description": "Trainee to complete",
+       "rows": 2,
+       "autoGrow": true
       },
       {
-       "type": "boolean",
+       "type": "radiogroup",
        "name": "question8",
-       "title": "Trainee would benefit from observation and feedback on a similar case. "
-      },
-      {
-       "type": "dropdown",
-       "name": "Outcome_Question",
-       "title": "Overall rating",
-       "description": "Consultant discusses the details of the casewith the trainee, including how the trainee may have responded to alternatecircumstances. Overall, which describes the competence of the trainee for thistype of case?",
-       "isRequired": true,
+       "title": "Trainee would benefit from observation and feedback on a similar case. ",
        "choices": [
-        {
-         "value": "Required frequent guidance",
-         "text": "Required frequent guidance: Trainee required frequent prompting, teaching and re-direction when discussing important aspects of the case."
-        },
-        {
-         "value": "Required occasional guidance",
-         "text": "Required occasional guidance: Trainee required occasional prompting and teaching when discussing the case."
-        },
-        {
-         "value": "Safe and competent",
-         "text": "Safe and competent: Trainee discussed the case thoroughly and responded well when questioned about rationale and potential scenarios."
-        },
-        {
-         "value": "Role model for others",
-         "text": "Role model for others: Junior colleagues would learn from discussing cases with this trainee, can provide guidance to others."
-        }
+        "Yes",
+        "No"
        ]
-      },
-      {
-       "type": "boolean",
-       "name": "question9",
-       "title": "Is this Work Based Assessment (WBA) part of an Entrustable Professional Activity (EPA)?"
       }
      ]
     }

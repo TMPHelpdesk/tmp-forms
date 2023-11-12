@@ -1,9 +1,5 @@
-processFiles{
-    background-color: red;
-}
 
 .inProgress{
-    background-color: #888;
     color: #164579;
     font-style: italic;
 }
