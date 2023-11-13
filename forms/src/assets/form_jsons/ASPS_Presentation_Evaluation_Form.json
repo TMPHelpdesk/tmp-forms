@@ -1,154 +1,171 @@
 {
- "title": "ASPS Presentation Evaluation Form",
- "description": "Plastic and Reconstructive Surgery",
- "logoPosition": "right",
- "pages": [
-  {
-   "name": "Presentation Evaluation Form",
-   "elements": [
-    {
-     "type": "multipletext",
-     "name": "question1",
-     "title": "Presentation details",
-     "items": [
-      {
-       "name": "text1",
-       "inputType": "date",
-       "title": "Date"
-      },
-      {
-       "name": "text2",
-       "title": "Type of session"
-      },
-      {
-       "name": "text3",
-       "title": "Topic"
-      }
-     ]
-    },
-    {
-     "type": "panel",
-     "name": "panel1",
-     "elements": [
-      {
-       "type": "matrix",
-       "name": "question2",
-       "title": "Please rate the presentation on the following aspects",
-       "description": "The primary purpose of this form is to provide feedback to the trainee so they can continue to develop their presentation skills during the training program",
-       "columns": [
-        {
-         "value": "Column 1",
-         "text": "Strongly disagree"
-        },
-        {
-         "value": "Column 2",
-         "text": "Disagree"
-        },
-        {
-         "value": "Column 3",
-         "text": "Neutral"
-        },
-        {
-         "value": "Column 4",
-         "text": "Agree"
-        },
-        {
-         "value": "Column 5",
-         "text": "Strongly Agree"
-        }
-       ],
-       "rows": [
-        {
-         "value": "Row 1",
-         "text": "The session/presentation was delivered effectively (right pace, suitable amount of content for the time period)"
-        },
-        {
-         "value": "Row 2",
-         "text": "The session/presentation was engaging"
-        },
-        {
-         "value": "Row 3",
-         "text": "Slides, audio visual material, or equipment supported delivery or assisted demonstration of skills"
-        },
-        {
-         "value": "Row 4",
-         "text": "The content was relevant and appropriate for the learner/audience"
-        },
-        {
-         "value": "Row 5",
-         "text": "The content was presented in a logical order and was well organised"
-        },
-        {
-         "value": "Row 6",
-         "text": "Critical concepts were explained/discussed appropriately"
-        },
-        {
-         "value": "Row 7",
-         "text": "Questions were handled effectively"
-        },
-        {
-         "value": "Row 8",
-         "text": "The learner/participants were provided with additional reading or resources"
-        }
-       ]
-      },
-      {
-       "type": "multipletext",
-       "name": "question3",
-       "title": "Feedback",
-       "items": [
-        {
-         "name": "text1",
-         "title": "Specific aspects that were done well"
-        },
-        {
-         "name": "text2",
-         "title": "Specific suggestions for improvement"
-        }
-       ]
-      },
-      {
-       "type": "text",
-       "name": "question4",
-       "title": "Actions for improvement",
-       "description": "Trainee to complet"
-      },
-      {
-       "type": "dropdown",
-       "name": "question5",
-       "title": "Is this Work Based Assessment (WBA) part of an Entrustable Professional Activity (EPA)?",
-       "choices": [
-        {
-         "value": "Item 1",
-         "text": "Yes"
-        },
-        {
-         "value": "Item 2",
-         "text": "No"
-        }
-       ]
-      },
-      {
-       "type": "dropdown",
-       "name": "Outcome_Question",
-       "title": "Outcome",
-       "choices": [
-        {
-         "value": "Satisfactory",
-         "text": "Satisfactory: Meets expectation"
-        },
-        {
-         "value": "Unsatisfactory",
-         "text": "Unsatisfactory: Needs improvement"
-        }
-       ]
-      }
-     ]
-    }
-   ]
-  }
- ],
- "sendResultOnPageNext": true,
- "completeText": "Save",
- "widthMode": "responsive"
-}
+    "title": "ASPS Presentation Evaluation Form",
+    "description": "Plastic and Reconstructive Surgery",
+    "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
+    "logoPosition": "right",
+    "completedHtml": "<h3>Thank you. The assessment form is now submitted. Please submit the Training requirement from the Training Requirement page.</h3>",
+    "pages": [
+     {
+      "name": "Presentation Evaluation Form",
+      "elements": [
+       {
+        "type": "multipletext",
+        "name": "question9",
+        "title": "Trainee information",
+        "items": [
+         {
+          "name": "text1",
+          "title": "Trainee Name"
+         },
+         {
+          "name": "text2",
+          "title": "Consultant"
+         },
+         {
+          "name": "text3",
+          "title": "SET"
+         },
+         {
+          "name": "text4",
+          "title": "Rotation"
+         },
+         {
+          "name": "text5",
+          "title": "Hospital"
+         }
+        ],
+        "colCount": 2
+       },
+       {
+        "type": "multipletext",
+        "name": "question1",
+        "title": "Presentation details",
+        "items": [
+         {
+          "name": "text1",
+          "inputType": "date",
+          "title": "Date"
+         },
+         {
+          "name": "text2",
+          "title": "Type of session"
+         },
+         {
+          "name": "text3",
+          "title": "Topic"
+         }
+        ]
+       },
+       {
+        "type": "panel",
+        "name": "panel1",
+        "elements": [
+         {
+          "type": "matrix",
+          "name": "question2",
+          "title": "Please rate the presentation on the following aspects",
+          "description": "The primary purpose of this form is to provide feedback to the trainee so they can continue to develop their presentation skills during the training program",
+          "columns": [
+           {
+            "value": "Column 1",
+            "text": "Strongly disagree"
+           },
+           {
+            "value": "Column 2",
+            "text": "Disagree"
+           },
+           {
+            "value": "Column 3",
+            "text": "Neutral"
+           },
+           {
+            "value": "Column 4",
+            "text": "Agree"
+           },
+           {
+            "value": "Column 5",
+            "text": "Strongly Agree"
+           }
+          ],
+          "rows": [
+           {
+            "value": "Row 1",
+            "text": "The session/presentation was delivered effectively (right pace, suitable amount of content for the time period)"
+           },
+           {
+            "value": "Row 2",
+            "text": "The session/presentation was engaging"
+           },
+           {
+            "value": "Row 3",
+            "text": "Slides, audio visual material, or equipment supported delivery or assisted demonstration of skills"
+           },
+           {
+            "value": "Row 4",
+            "text": "The content was relevant and appropriate for the learner/audience"
+           },
+           {
+            "value": "Row 5",
+            "text": "The content was presented in a logical order and was well organised"
+           },
+           {
+            "value": "Row 6",
+            "text": "Critical concepts were explained/discussed appropriately"
+           },
+           {
+            "value": "Row 7",
+            "text": "Questions were handled effectively"
+           },
+           {
+            "value": "Row 8",
+            "text": "The learner/participants were provided with additional reading or resources"
+           }
+          ]
+         },
+         {
+          "type": "multipletext",
+          "name": "question3",
+          "title": "Feedback",
+          "items": [
+           {
+            "name": "text1",
+            "title": "Specific aspects that were done well"
+           },
+           {
+            "name": "text2",
+            "title": "Specific suggestions for improvement"
+           }
+          ]
+         },
+         {
+          "type": "dropdown",
+          "name": "Outcome_Question",
+          "title": "Presentation Rating",
+          "choices": [
+           {
+            "value": "Satisfactory",
+            "text": "Satisfactory: Meets expectation"
+           },
+           {
+            "value": "Unsatisfactory",
+            "text": "Unsatisfactory: Needs improvement"
+           }
+          ]
+         },
+         {
+          "type": "comment",
+          "name": "question4",
+          "title": "Actions for improvement",
+          "description": "Trainee to complet",
+          "rows": 2,
+          "autoGrow": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "sendResultOnPageNext": true,
+    "completeText": "Save",
+    "widthMode": "responsive"
+   }

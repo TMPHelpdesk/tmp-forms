@@ -18,7 +18,6 @@ import Cardio_Longitudinal_Requirements_Form from '../assets/form_jsons/Cardio_L
 import Cardio_SET_1_Rotational_feedback_form from '../assets/form_jsons/Cardio_SET_1_Rotational_feedback_form.json';
 import Cardio_SET_1_Self_Assessment_form from '../assets/form_jsons/Cardio_SET_1_Self_Assessment_form.json';
 import Cardio_Trainee_Evaluation_Form from '../assets/form_jsons/Cardio_Trainee_Evaluation_Form.json';
-import Paeds_CATS_marking_rubric from '../assets/form_jsons/Paeds_CATS_marking_rubric.json';
 import Paeds_Early_SET_Trainee_Assessment from '../assets/form_jsons/Paeds_Early_SET_Trainee_Assessment.json';
 import Paeds_End_of_Mid_SET_Trainee_Assessment from '../assets/form_jsons/Paeds_End_of_Mid_SET_Trainee_Assessment.json';
 import Paeds_End_of_Senior_SET_Trainee_Assessment from '../assets/form_jsons/Paeds_End_of_Senior_SET_Trainee_Assessment.json';
@@ -26,8 +25,6 @@ import Paeds_Mid_SET_Trainee_Assessment from '../assets/form_jsons/Paeds_Mid_SET
 import Paeds_MiniCEX from '../assets/form_jsons/Paeds_MiniCEX.json';
 import PAEDS_MOUSE from '../assets/form_jsons/PAEDS_MOUSE.json';
 import Paeds_Senior_SET_Trainee_Assessment from '../assets/form_jsons/Paeds_Senior_SET_Trainee_Assessment.json';
-import SIMG_Paeds_MiniCEX from '../assets/form_jsons/SIMG_Paeds_MiniCEX.json';
-import SIMG_Paeds_MOUSE from '../assets/form_jsons/SIMG_Paeds_MOUSE.json';
 import Vascular_Case_Based_Discussion from '../assets/form_jsons/Vascular_Case_Based_Discussion.json';
 import Vascular_Consultation_Observation from '../assets/form_jsons/Vascular_Consultation_Observation.json';
 import Vascular_DOPS from '../assets/form_jsons/Vascular_DOPS.json';
@@ -37,6 +34,13 @@ import Vascular_MiniCEX from '../assets/form_jsons/Vascular_Mini_CEX.json';
 import Vascular_Open_Surgery_Observation from '../assets/form_jsons/Vascular_Open_Surgery_Observation.json';
 import Vascular_Trainee_Post_Evaluation from '../assets/form_jsons/Vascular_Trainee_Post_Evaluation.json';
 import Vascular_Ultrasound_Observation from '../assets/form_jsons/Vascular_Ultrasound_Observation.json';
+
+//COMMENTED OUT - WILL ADD BACK WITH CONFIRMATION OF SIMG USAGE
+/*
+import SIMG_Paeds_MiniCEX from '../assets/form_jsons/SIMG_Paeds_MiniCEX.json';
+import SIMG_Paeds_MOUSE from '../assets/form_jsons/SIMG_Paeds_MOUSE.json';
+import Paeds_CATS_marking_rubric from '../assets/form_jsons/Paeds_CATS_marking_rubric.json';
+*/
 
 import { TMPForm, Specialty} from '../@types/forms';
 
@@ -67,7 +71,6 @@ const cardioForms: TMPForm[] = [
 ];
 
 const paedsForms: TMPForm[] = [
-    { name: 'Paeds_CATS_marking_rubric', data: Paeds_CATS_marking_rubric },
     { name: 'Paeds_Early_SET_Trainee_Assessment', data: Paeds_Early_SET_Trainee_Assessment },
     { name: 'Paeds_End_of_Mid_SET_Trainee_Assessment', data: Paeds_End_of_Mid_SET_Trainee_Assessment },
     { name: 'Paeds_End_of_Senior_SET_Trainee_Assessment', data: Paeds_End_of_Senior_SET_Trainee_Assessment },
@@ -78,12 +81,13 @@ const paedsForms: TMPForm[] = [
 
 ];
 
+/*
 const simgForms: TMPForm[] = [
     { name: 'SIMG_Paeds_MiniCEX', data: SIMG_Paeds_MiniCEX },
     { name: 'SIMG_Paeds_MOUSE', data: SIMG_Paeds_MOUSE }
 
 ];
-
+*/
 const vascularForms: TMPForm[] = [
 
     { name: 'Vascular_Case_Based_Discussion', data: Vascular_Case_Based_Discussion },
@@ -114,11 +118,14 @@ export const specialties: Specialty[] = [
         longName: "Paediatric Surgery",
         forms: paedsForms
     }
-    , {
+    , 
+    /*
+    {
         shortName: "SIMG",
         longName: "SIMG",
         forms: simgForms
     },
+    */
     {
         shortName: "VASC",
         longName: "Vascular Surgery",
