@@ -6,23 +6,27 @@ import { specialties } from '../../utilities/staticData';
 import { useFormContext, TMPForm } from '../../interface/Context/FormContext';
 import { useState } from "react";
 
+import './FormSelector.css';
+
 export default function FormSelector() {
     const { specialty, setSpecialty, selectedForm, setSelectedForm } = useFormContext();
-    const initialSelectedForm: TMPForm = { name: '', data: {} };
+    const initialSelectedForm: TMPForm = { name: 'No Form Selected', data: {} }; //used tto initialize the interface
     const initialForms: TMPForm[] = [initialSelectedForm];
-    const [forms, setForms] = useState(initialForms);
 
-    const [response, setResponse] = useState("No Response yet");
+    const [forms, setForms] = useState(initialForms); // Collection of forms for chosen specialty
+    const [response, setResponse] = useState("No Response yet"); //Trainee response added by user
 
+    //Creates options for selecting required specialty 
     const specialtySelection = specialties.map(specialtyItem => {
         return (
-            <option key={specialtyItem.shortName} value={specialtyItem.shortName}>{specialtyItem.longName}</option>
+            <option key={specialtyItem.shortName} value={specialtyItem.shortName}>{specialtyItem.longName.replace(/_/g, ' ')}</option>
         );
     });
 
+    //creates the options for selecting required form
     const formSelection = forms.map(form => {
         return (
-            <option key={form.name} value={form.name}>{form.name}</option>
+            <option key={form.name} value={form.name}>{form.name.replace(/_/g, ' ')}</option>
         );
     })
 
@@ -47,6 +51,7 @@ export default function FormSelector() {
 
     }
 
+    //error interface used to handle errors in uploaded response data - i.e. not a JSON
     interface ResponseError {
         message: string;
     }
@@ -67,6 +72,7 @@ export default function FormSelector() {
         }
     };
 
+    //Composite function that creates button and executes the creation of the required form in a new tab
     const MainComponent = () => {
         const openFormInNewTab = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
             e.preventDefault();
@@ -143,7 +149,7 @@ export default function FormSelector() {
 
         };
         return (
-            <Button variant="primary" type="submit" onClick={openFormInNewTab}>
+            <Button variant="success" type="submit" onClick={openFormInNewTab}>
                 Create Printable PDF
             </Button>
         );
@@ -154,14 +160,29 @@ export default function FormSelector() {
     */
     return (
         <div id="formSelector" className="widgetPanel blue">
-            <p><strong>FORM SELECTOR</strong></p>
+            <hr />
+            <h2 className="formHighlight">Create Printable Assessment Form</h2>
+            <div>
+                <p>This widget aims to assist the creation of PDFs of submitted forms using the new Survey JS platform</p>
+                <hr />
+                <ol>
+                    <li>Select the required form</li>
+                    <li>Enter the JSON data in the text boxes below (Get the Trainee's Response JSON from TMP)</li>
+                    <li>Click Create Printable PDF (new Tab with survey will show up)</li>
+                    <li>Print file to PDF</li>
+                </ol>
+                <p><strong>TIP: </strong> Use the print window's zoom function to get the desired print size</p>
+                <p>This setting should remain set if you are doing a bulk print - set it once at the start of your print run.</p>
+            </div>
+
             <hr />
             <Form>
+                <p className="formHighlight contentWrap"><strong>1. SELECT FORM</strong></p>
                 <Form.Group className="mb-3" controlId="formSelectSpecialty">
                     <Form.Label><strong>Select Specialty</strong></Form.Label>
                     <br />
                     <Form.Select aria-label="Select Specialty from the available list" name="selectedSpecialty" value={specialty.shortName} onChange={e => handleSpecialtyChange(e)}>
-                        <option>Select Specialty</option>
+                        <option>Select Specialty from the available list...</option>
                         {specialtySelection}
                     </Form.Select>
                 </Form.Group>
@@ -169,25 +190,28 @@ export default function FormSelector() {
                     <Form.Label><strong>Select Form</strong></Form.Label>
                     <br />
                     <Form.Select aria-label="Select Form from the available list" name="selectForm" value={selectedForm.name} onChange={e => handleFormChange(e)}>
-                        <option>Select Form</option>
+                        <option>Select Form from the available list...</option>
                         {formSelection}
                     </Form.Select>
                 </Form.Group>
-
+                <hr />
+                <p className="formHighlight contentWrap"><strong>2.ENTER TRAINEE RESPONSE</strong></p>
                 <Tabs
                     defaultActiveKey="singleForm"
                     id="processFormTabs"
                     className="mb-3"
+                    variant="pills"
                 >
                     <Tab eventKey="singleForm" title="Single Form">
-                        <p><strong>Best for multiple page forms (i.e summative assessments)</strong></p>
-                        <p><strong>Each page of the form will need to be printed separately.</strong></p>
-
+                        <p className="formHighlight contentWrap"><strong>USE THIS FOR MULTIPLE PAGE FORMS</strong></p>
+                        <p>Use this option for multiple page forms (i.e summative assessments).</p>
+                        <p>The menu on the left is clickable. Click each menu item to reveal that page for printing</p>
+                        <p>Each page of the form will need to be <strong>printed separately and then collated.</strong></p>
                         <Form.Group className="mb-3" controlId="formTraineeResponse">
                             <Form.Label><strong>Trainee Response</strong></Form.Label>
                             <br />
                             <Form.Text className="text-muted">
-                                Enter the Trainee Repsonse JSON here
+                                Enter the Trainee Response JSON here
                             </Form.Text>
                             <Form.Control
                                 as="textarea"
@@ -197,32 +221,40 @@ export default function FormSelector() {
                             />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formSurveyForm">
-                            <Form.Label><strong>Survey Form - {selectedForm.name}</strong></Form.Label>
+                            <Form.Label><strong>Survey Form - {selectedForm.name.replace(/_/g, ' ')}</strong></Form.Label>
                             <br />
-                            <Form.Text className="text-muted">
-                                Assessment Form JSON
+                            <Form.Text className="fw-light">
+                                Assessment Form JSON - READ ONLY. Select form from options above.
                             </Form.Text>
                             <Form.Control
                                 as="textarea"
                                 rows={6}
                                 value={JSON.stringify(selectedForm)}
                                 readOnly
+                                className="readOnlyForm"
                             />
                         </Form.Group>
+                        <p className="formHighlight contentWrap"><strong>3. CREATE PRINTABLE FORM</strong></p>
                         <MainComponent />
-                        <Button variant="dark" type="submit">CLEAR DATA</Button>
+                        <p className="formHighlight contentWrap"><strong>4. PRINT FORM FROM NEW TAB</strong></p>
+                        <Button variant="warning" type="submit">CLEAR DATA</Button>
 
 
                     </Tab>
                     <Tab className="inProgress" eventKey="processFormBatch" title="Process Form Batch - Coming Soon">
+                        <div className="formWarning contentWrap">
+                            <p><strong>DO NOT USE THIS FOR MULTIPLE PAGE FORMS</strong></p>
+                        </div>
+                        <p>This option is not available for multiple page forms. (i.e summative assessments).</p>
+                        <p>Each page of the form will need to be printed separately and then collated.</p>
+
                         <p><i>This functionality is nearly ready. At present you will have to process files one by one. Sad face emoji.</i></p>
                         <p>This will allow the processing of multiples <strong>of the same requirement</strong> e.g - 15 x DOPS or 5 x Case-Based-Discussion</p>
-
                     </Tab>
                     <Tab className="inProgress" eventKey="Trainee Wizard" title="Trainee Wizard - Coming Soon">
-                    <p><i>This functionality is still being built. At present you will have to process files one by one. Sad face emoji.</i></p>
-                    <p>This module will aim to take a trainee's assessment records, and process them by Trainee</p>
-                </Tab>
+                        <p><i>This functionality is still being built. At present you will have to process files one by one. Sad face emoji.</i></p>
+                        <p>This module will aim to take a trainee's assessment records, and process them by Trainee</p>
+                    </Tab>
                 </Tabs>
             </Form>
         </div>

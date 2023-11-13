@@ -1,13 +1,12 @@
-import './AppInterface.css';
 
-import ProcessSurveyJs from '../components/ProcessSurveyJs/ProcessSurveyJs';
+import FormSelector from '../components/FormSelector/FormSelector';
 import { ContextProvider } from './Context/FormContext';
 export default function AppInterface() {
 
 
   return (
     <ContextProvider>
-      <ProcessSurveyJs />
+      <FormSelector />
     </ContextProvider>
   );
 }
