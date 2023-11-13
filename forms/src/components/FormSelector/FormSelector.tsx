@@ -1,13 +1,10 @@
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import FormControl from 'react-bootstrap/FormControl';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { specialties } from '../../utilities/staticData';
 import { useFormContext, TMPForm } from '../../interface/Context/FormContext';
 import { useState } from "react";
-
-import SingleForm from "../ProcessSurveyJs/SingleForm/SingleForm";
 
 export default function FormSelector() {
     const { specialty, setSpecialty, selectedForm, setSelectedForm } = useFormContext();
@@ -36,8 +33,6 @@ export default function FormSelector() {
                 const spec = specialties[x];
                 const forms = spec.forms;
                 setSpecialty(spec);
-                //diagnostic
-                console.log(JSON.stringify(spec));
                 setForms(forms);
                 break;
             }
@@ -64,7 +59,7 @@ export default function FormSelector() {
         } catch (error) {
             if (error instanceof Error) {
                 const responseError = error as ResponseError;
-                setResponse(responseError.message);
+                setResponse(`ERROR: Please check your Trainee Response JSON. Error Message: ${responseError.message}`);
                 console.log(responseError.message);
             } else {
                 console.log('Generic error:', error);
@@ -211,6 +206,7 @@ export default function FormSelector() {
                                 as="textarea"
                                 rows={6}
                                 value={JSON.stringify(selectedForm)}
+                                readOnly
                             />
                         </Form.Group>
                         <MainComponent />
