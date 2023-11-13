@@ -128,8 +128,6 @@ export default function FormSelector() {
                   <!--We are adding the form inline so as to minimise the dependencies -->
                   <script type="text/javascript">
                   const loadedSurvey = new Survey.Model(${survey});
-    
-                  loadedSurvey.currentPageNo = 1;
                   loadedSurvey.data = ${surveyResponse};
     
                   loadedSurvey.mode = 'display';

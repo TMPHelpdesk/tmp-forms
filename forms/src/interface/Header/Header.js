@@ -1,4 +1,4 @@
-import logo from  "./icon.png";
+import logo from  "../../assets/1024x1024.png";
 import Image from "react-bootstrap/Image";
 
 import "./Header.css";

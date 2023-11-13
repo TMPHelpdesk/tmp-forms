@@ -1,131 +1,173 @@
 {
- "title": "ASPS Operative Feedback Form",
- "description": "Plastic and Reconstructive Surgery",
- "logoPosition": "right",
- "pages": [
-  {
-   "name": "Operative Feedback Form",
-   "elements": [
-    {
-     "type": "panel",
-     "name": "panel1",
-     "elements": [
-      {
-       "type": "text",
-       "name": "question3",
-       "title": "Procedure ",
-       "description": "(i.e.what was the nature of the procedure under observation?)    ",
-       "isRequired": true,
-       "commentText": "other procedure or part of a procedure"
-      },
-      {
-       "type": "radiogroup",
-       "name": "question11",
-       "title": "Complexity of case",
-       "choices": [
-        {
-         "value": "Item 1",
-         "text": "Routine"
-        },
-        {
-         "value": "Item 2",
-         "text": "Complex"
-        }
-       ],
-       "colCount": 2
-      }
-     ],
-     "title": "Procedure details"
-    },
-    {
-     "type": "panel",
-     "name": "panel3",
-     "elements": [
-      {
-       "type": "comment",
-       "name": "question4",
-       "title": "Planning and preparation",
-       "description": "communicates plan for procedure, ensures equipment is available, personally checks patient’s record and investigations, demonstrates good asepsis, observes timeout, safe patient positioning, checks appropriate drug administration"
-      },
-      {
-       "type": "comment",
-       "name": "question5",
-       "title": "Operative technique ",
-       "description": "adequate exposure, demonstrates manual dexterityto complete procedure, uses instruments safely, respects tissue, follows logical sequences of procedural steps, economy of movement"
-      },
-      {
-       "type": "comment",
-       "name": "question1",
-       "title": "Situational awareness ",
-       "description": "anticipates and responds to variations well, could deal with unexpected events"
-      },
-      {
-       "type": "comment",
-       "name": "question6",
-       "title": "Communication ",
-       "description": "clear communication with other members of surgical team, utilises assistance effectively, adapts language to suit, thorough written documentation"
-      },
-      {
-       "type": "comment",
-       "name": "question7",
-       "title": "Postoperative management ",
-       "description": "wound closure, clear postoperative instructions, deals with specimens appropriately."
-      }
-     ],
-     "title": "Specific feedback",
-     "description": "Consultant comments on what was done well and providessuggestions on how the trainee may improve. Not all boxes need to be completed."
-    },
-    {
-     "type": "panel",
-     "name": "panel2",
-     "elements": [
-      {
-       "type": "text",
-       "name": "question2",
-       "title": "Actions for improvement ",
-       "description": "Trainee to complete"
-      },
-      {
-       "type": "boolean",
-       "name": "question8",
-       "title": "Trainee would benefit from observation and feedback on a similar case. "
-      },
-      {
-       "type": "dropdown",
-       "name": "Outcome_Question",
-       "title": "Global Summary",
-       "description": "Assessor observes the trainee performing the procedure. Overall, which describes the level of competence of the trainee for this type of case?",
-       "isRequired": true,
-       "choices": [
-        {
-         "value": "Direct Guidance",
-         "text": "Direct Guidance: Unable to perform the procedure without the supervising surgeon."
-        },
-        {
-         "value": "Monitoring and supervision",
-         "text": "Monitoring and supervision: Proactive supervision, supervising surgeon constantly monitoring to intervene when required."
-        },
-        {
-         "value": "Minimal or no supervision",
-         "text": "Minimal or no supervision: Reactive supervision, supervising surgeon available at critical times as needed."
-        },
-        {
-         "value": "Safe and competent",
-         "text": "Safe and competent: No direct supervision. Supervising surgeon confident trainee will ask for guidance if required."
-        },
-        {
-         "value": "Supervise others",
-         "text": "Supervise others: Trainee can supervise others completing this procedure."
-        }
-       ]
-      }
-     ]
-    }
-   ]
-  }
- ],
- "sendResultOnPageNext": true,
- "checkErrorsMode": "onComplete",
- "completeText": "Save",
- "widthMode": "responsive"
-}
+    "title": "ASPS Operative Feedback Form",
+    "description": "Plastic and Reconstructive Surgery",
+    "logo": "https://www.surgeons.org/-/media/Project/RACS/surgeons-org/images/logos/brand/brand_elements_01.png?h=268&w=467&rev=b01ddaf4da6445379215cce34d1fb5fe&hash=E98C58C17851FFF26989CB3CF1C59429",
+    "logoPosition": "right",
+    "completedHtml": "<h3>Thank you. The assessment form is now submitted. Please submit the Training requirement from the Training Requirement page.</h3>",
+    "pages": [
+     {
+      "name": "Operative Feedback Form",
+      "elements": [
+       {
+        "type": "multipletext",
+        "name": "question9",
+        "title": "Trainee information",
+        "items": [
+         {
+          "name": "text1",
+          "title": "Trainee Name"
+         },
+         {
+          "name": "text2",
+          "title": "Consultant"
+         },
+         {
+          "name": "text3",
+          "title": "SET"
+         },
+         {
+          "name": "text4",
+          "title": "Rotation"
+         },
+         {
+          "name": "text5",
+          "title": "Hospital"
+         }
+        ],
+        "colCount": 2
+       },
+       {
+        "type": "panel",
+        "name": "panel1",
+        "elements": [
+         {
+          "type": "text",
+          "name": "question3",
+          "title": "Procedure ",
+          "description": "(i.e.what was the nature of the procedure under observation?)    ",
+          "isRequired": true,
+          "commentText": "other procedure or part of a procedure"
+         },
+         {
+          "type": "radiogroup",
+          "name": "question11",
+          "title": "Complexity of case",
+          "choices": [
+           {
+            "value": "Item 1",
+            "text": "Routine"
+           },
+           {
+            "value": "Item 2",
+            "text": "Complex"
+           }
+          ],
+          "colCount": 2
+         }
+        ],
+        "title": "Procedure details"
+       },
+       {
+        "type": "panel",
+        "name": "panel4",
+        "elements": [
+         {
+          "type": "html",
+          "name": "question10",
+          "html": "<ul style=\"list-style-type: disc;\">\n<li>&nbsp;<strong>Direct Guidance -&nbsp;</strong>Unable to perform the procedure without the supervising surgeon.</li>\n<li>&nbsp;<strong>Monitoring and supervision -&nbsp;</strong>Proactive supervision, supervising surgeon constantly monitoring to intervene when required.</li>\n<li>&nbsp;<strong>Minimal or no supervision -&nbsp;</strong>Reactive supervision, supervising surgeon available at critical times as needed.</li>\n<li>&nbsp;<strong>Safe and competent -&nbsp;</strong>No direct supervision. Supervising surgeon confident trainee will ask for guidance if required.</li>\n<li><strong>Supervise others -&nbsp;</strong>Trainee can supervise others completing this procedure.</li>\n</ul>"
+         },
+         {
+          "type": "dropdown",
+          "name": "Outcome_Question",
+          "title": "Global summary",
+          "isRequired": true,
+          "choices": [
+           "Direct Guidance",
+           "Monitoring and supervision",
+           "Minimal or no supervision",
+           "Safe and competent",
+           "Supervise others"
+          ]
+         }
+        ],
+        "description": "Assessor observes the trainee performing the procedure. \nOverall, which describes the level of competence of the trainee for this type of case?"
+       },
+       {
+        "type": "panel",
+        "name": "panel3",
+        "elements": [
+         {
+          "type": "comment",
+          "name": "question4",
+          "title": "Planning and preparation",
+          "description": "Communicates plan for procedure, ensures equipment is available, personally checks patient’s record and investigations, demonstrates good asepsis, observes timeout, safe patient positioning, checks appropriate drug administration",
+          "rows": 2,
+          "autoGrow": true
+         },
+         {
+          "type": "comment",
+          "name": "question5",
+          "title": "Operative technique ",
+          "description": "Adequate exposure, demonstrates manual dexterity to complete procedure, uses instruments safely, respects tissue, follows logical sequences of procedural steps, economy of movement",
+          "rows": 2,
+          "autoGrow": true
+         },
+         {
+          "type": "comment",
+          "name": "question1",
+          "title": "Situational awareness ",
+          "description": "Anticipates and responds to variations well, could deal with unexpected events",
+          "rows": 2,
+          "autoGrow": true
+         },
+         {
+          "type": "comment",
+          "name": "question6",
+          "title": "Communication ",
+          "description": "Clear communication with other members of surgical team, utilises assistance effectively, adapts language to suit, thorough written documentation",
+          "rows": 2,
+          "autoGrow": true
+         },
+         {
+          "type": "comment",
+          "name": "question7",
+          "title": "Postoperative management ",
+          "description": "Wound closure, clear postoperative instructions, deals with specimens appropriately.",
+          "rows": 2,
+          "autoGrow": true
+         }
+        ],
+        "title": "Specific feedback",
+        "description": "Consultant comments on what was done well and providessuggestions on how the trainee may improve. Not all boxes need to be completed."
+       },
+       {
+        "type": "panel",
+        "name": "panel2",
+        "elements": [
+         {
+          "type": "comment",
+          "name": "question2",
+          "title": "Actions for improvement ",
+          "description": "Trainee to complete",
+          "rows": 2,
+          "autoGrow": true
+         },
+         {
+          "type": "radiogroup",
+          "name": "question8",
+          "title": "Trainee would benefit from observation and feedback on a similar case. ",
+          "choices": [
+           "Yes",
+           "No"
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "sendResultOnPageNext": true,
+    "checkErrorsMode": "onComplete",
+    "completeText": "Save",
+    "widthMode": "responsive"
+   }
