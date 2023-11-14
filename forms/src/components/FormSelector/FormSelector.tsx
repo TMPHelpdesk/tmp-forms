@@ -2,19 +2,29 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+
+import React, { useState } from "react";
+import { Row, Col, Container } from "react-bootstrap";
+
 import { specialties } from '../../utilities/staticData';
 import { useFormContext, TMPForm } from '../../interface/Context/FormContext';
-import { useState } from "react";
+
+
 
 import './FormSelector.css';
+
 
 export default function FormSelector() {
     const { specialty, setSpecialty, selectedForm, setSelectedForm } = useFormContext();
     const initialSelectedForm: TMPForm = { name: 'No Form Selected', data: {} }; //used tto initialize the interface
-    const initialForms: TMPForm[] = [initialSelectedForm];
+    const initialForms: TMPForm[] = [initialSelectedForm]
+    const initialDisplayResponse: JSX.Element[] = [<p>Responses will go here</p>];
 
     const [forms, setForms] = useState(initialForms); // Collection of forms for chosen specialty
-    const [response, setResponse] = useState("No Response yet"); //Trainee response added by user
+    const [response, setResponse] = useState("No Response yet"); //Trainee response added by user - Single Form
+    const [responses, setResponses] = useState([{ "Responses": "No Responses yet" }]); //JSON oresponses
+    const [displayResponse, setDisplayResponses] = useState(initialDisplayResponse);
+
 
     //Creates options for selecting required specialty 
     const specialtySelection = specialties.map(specialtyItem => {
@@ -71,6 +81,41 @@ export default function FormSelector() {
             }
         }
     };
+
+    const handleMultipleResponseChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+        const responsesInput = e.target.value;
+        const edit1 = responsesInput.split('/n');
+
+        const jsonArray = edit1.map(string => {
+            return JSON.parse(string);
+        });
+
+        setResponses(jsonArray);
+        showResponses(responses);
+    };
+
+    const showResponses = (responses: {}[]) => {
+
+        const display: JSX.Element[] = responses.map(response => {
+            try {
+                return (
+                    <p>{JSON.stringify(response)}</p>
+                );
+            } catch (error) {
+                if (error instanceof Error) {
+                    const responseError = error as ResponseError;
+                    console.log(responseError.message);
+                } else {
+                    console.log('Generic error:', error);
+                }
+                return (
+                    <p>ERROR: Please check your Trainee Response JSONS.</p>
+                );
+            }
+        });
+        setDisplayResponses(display);
+    }
+
 
     //Composite function that creates button and executes the creation of the required form in a new tab
     const MainComponent = () => {
@@ -154,6 +199,13 @@ export default function FormSelector() {
             </Button>
         );
     };
+
+    //
+const clearData = () => {
+    const initialSpecialty = { shortName: '', longName: '', forms: initialForms};
+    setSpecialty(initialSpecialty);
+    setForms(initialForms);
+}
     /*
      
      
@@ -237,19 +289,45 @@ export default function FormSelector() {
                         <p className="formHighlight contentWrap"><strong>3. CREATE PRINTABLE FORM</strong></p>
                         <MainComponent />
                         <p className="formHighlight contentWrap"><strong>4. PRINT FORM FROM NEW TAB</strong></p>
-                        <Button variant="warning" type="submit">CLEAR DATA</Button>
+                        <Button variant="warning" onClick={() => clearData}>CLEAR DATA</Button>
 
 
                     </Tab>
-                    <Tab className="inProgress" eventKey="processFormBatch" title="Process Form Batch - Coming Soon">
+                    <Tab eventKey="processFormBatch" title="Process Form Batch - Coming Soon">
                         <div className="formWarning contentWrap">
                             <p><strong>DO NOT USE THIS FOR MULTIPLE PAGE FORMS</strong></p>
                         </div>
-                        <p>This option is not available for multiple page forms. (i.e summative assessments).</p>
-                        <p>Each page of the form will need to be printed separately and then collated.</p>
+                        <div className="inProgress" >
+                            <p>This option is not available for multiple page forms. (i.e summative assessments).</p>
+                            <p>Each page of the form will need to be printed separately and then collated.</p>
 
-                        <p><i>This functionality is nearly ready. At present you will have to process files one by one. Sad face emoji.</i></p>
-                        <p>This will allow the processing of multiples <strong>of the same requirement</strong> e.g - 15 x DOPS or 5 x Case-Based-Discussion</p>
+                            <p><i>This functionality is nearly ready. At present you will have to process files one by one. Sad face emoji.</i></p>
+                            <p>This will allow the processing of multiples <strong>of the same requirement</strong> e.g - 15 x DOPS or 5 x Case-Based-Discussion</p>
+                        </div>
+                        <Container id="responses">
+                            <Row>
+                                <Col>
+                                    <Form.Group className="mb-3" controlId="formMultipleResponses">
+                                        <Form.Label><strong>Trainee Responses - Multiple</strong></Form.Label>
+                                        <br />
+                                        <Form.Text className="text-muted">
+                                            Enter Multiple Trainee Response JSON here - first attempt from Excel
+                                        </Form.Text>
+                                        <Form.Control
+                                            as="textarea"
+                                            rows={12}
+                                            value={JSON.stringify(responses)}
+                                            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => handleMultipleResponseChange(e)}
+                                        />
+                                    </Form.Group>
+                                </Col>
+                                <Col>
+                                    {displayResponse}
+                                </Col>
+                            </Row>
+
+
+                        </Container>
                     </Tab>
                     <Tab className="inProgress" eventKey="Trainee Wizard" title="Trainee Wizard - Coming Soon">
                         <p><i>This functionality is still being built. At present you will have to process files one by one. Sad face emoji.</i></p>
