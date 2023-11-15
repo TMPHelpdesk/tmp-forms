@@ -310,7 +310,9 @@ const clearData = () => {
                                     <Form.Group className="mb-3" controlId="formMultipleResponses">
                                         <Form.Label><strong>Trainee Responses - Multiple</strong></Form.Label>
                                         <br />
-                                        <Form.Text className="text-muted">
+                                        <Form.Text 
+                                            className="text-muted" 
+                                            >
                                             Enter Multiple Trainee Response JSON here - first attempt from Excel
                                         </Form.Text>
                                         <Form.Control
@@ -318,6 +320,8 @@ const clearData = () => {
                                             rows={12}
                                             value={JSON.stringify(responses)}
                                             onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => handleMultipleResponseChange(e)}
+                                            readOnly 
+                                            disabled
                                         />
                                     </Form.Group>
                                 </Col>
