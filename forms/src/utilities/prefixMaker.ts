@@ -29,23 +29,20 @@ export const cleanPrefix = (rotationName: string, year: string, term: string) =>
     }
 }
 
-export const findParentFolder = (rotationName: string, specialty: FileSpecialty) => {
+export const findParentFolder = (rotationName: string, specialty: FileSpecialty): string => {
+    // Initialize setFolders based on specialty.parentSets
+    const setFolders = specialty.parentSets[0] === "" ? specialty.setLevels : specialty.parentSets;
 
-    let setFolders = [];
-    //
-    if(specialty.parentSets.length === 1){
-        setFolders = specialty.setLevels;
-    } else {
-        setFolders = specialty.parentSets;
+    // Iterate through each folder in setFolders
+    for (const folder of setFolders) {
+        // Check if rotationName matches the folder
+        const folderMatch = rotationName.includes(folder);
+        if (folderMatch) {
+            return folder;
+        }
     }
 
-    for(let folder in setFolders) {
-        const folderMatch = rotationName.match(folder);
-        if(folderMatch) return folder;
-        break;
-    }
-
+    // If no match is found, return "Unmatched"
     return "Unmatched";
-
-}
+};
 

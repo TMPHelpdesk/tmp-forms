@@ -4,6 +4,8 @@ import { FolderStructure, useFileContext } from '../../../contexts/FileContext';
 import { fileSpecialties } from '../../../utilities/staticData';
 
 import { cleanPrefix, findParentFolder } from '../../../utilities/prefixMaker';
+import FolderCreator from '../../../utilities/FolderCreator';
+import FileNameCreator from '../../../utilities/FileNameCreator';
 
 export default function BatchFiles() {
 
@@ -84,7 +86,7 @@ export default function BatchFiles() {
                     <Row>
                         <Col>
                             <Form.Group controlId="rotationInput" >
-                                <Form.Text>Enter raw Rotation data here</Form.Text>
+                                <Form.Text>Enter raw Rotation data here ie 'Joe Bloggs - GEN - R1-SET 1'</Form.Text>
                                 <Form.Control
                                     as="textarea"
                                     rows={10}
@@ -96,11 +98,17 @@ export default function BatchFiles() {
                             <p><strong>Folders and Prefixes</strong></p>
                             {showFolders}
                         </Col>
-                    
+                        <Col>
+                            <Button disabled variant="success">Output FileNames</Button>
+                            <Button disabled variant="primary">Output Folders</Button>
+                            <FolderCreator />
+                            <FileNameCreator />
+                        </Col>
+
                     </Row>
                 </Container>
-                <Button disabled variant="success">Output FileNames</Button>
-                <Button disabled variant="primary">Output Folders</Button>
+
+
             </Form >
         </>
     )
