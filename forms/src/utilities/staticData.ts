@@ -34,7 +34,7 @@ import Vascular_MiniCEX from '../assets/form_jsons/Vascular_Mini_CEX.json';
 import Vascular_Open_Surgery_Observation from '../assets/form_jsons/Vascular_Open_Surgery_Observation.json';
 import Vascular_Trainee_Post_Evaluation from '../assets/form_jsons/Vascular_Trainee_Post_Evaluation.json';
 import Vascular_Ultrasound_Observation from '../assets/form_jsons/Vascular_Ultrasound_Observation.json';
-
+import Paeds_Self_Reflection_and_Goal_Planning from '../assets/form_jsons/Paeds_Self_Reflection_and_Goal_Planning.json';
 //COMMENTED OUT - WILL ADD BACK WITH CONFIRMATION OF SIMG USAGE
 /*
 import SIMG_Paeds_MiniCEX from '../assets/form_jsons/SIMG_Paeds_MiniCEX.json';
@@ -42,7 +42,8 @@ import SIMG_Paeds_MOUSE from '../assets/form_jsons/SIMG_Paeds_MOUSE.json';
 import Paeds_CATS_marking_rubric from '../assets/form_jsons/Paeds_CATS_marking_rubric.json';
 */
 
-import { TMPForm, Specialty} from '../@types/forms';
+import { TMPForm, Specialty} from '../contexts/FormContext';
+import { FileSpecialty } from '../contexts/FileContext';
 
 const aspsForms: TMPForm[] = [
     { name: 'ASPS_Case_based_Discussion_Form', data: ASPS_Case_based_Discussion_Form },
@@ -77,7 +78,8 @@ const paedsForms: TMPForm[] = [
     { name: 'Paeds_Mid_SET_Trainee_Assessment', data: Paeds_Mid_SET_Trainee_Assessment },
     { name: 'Paeds_MiniCEX', data: Paeds_MiniCEX },
     { name: 'PAEDS_MOUSE', data: PAEDS_MOUSE },
-    { name: 'Paeds_Senior_SET_Trainee_Assessment', data: Paeds_Senior_SET_Trainee_Assessment }
+    { name: 'Paeds_Senior_SET_Trainee_Assessment', data: Paeds_Senior_SET_Trainee_Assessment },
+    { name: 'Paeds_Self_Reflection_and_Goal_Planning', data: Paeds_Self_Reflection_and_Goal_Planning }
 
 ];
 
@@ -102,11 +104,13 @@ const vascularForms: TMPForm[] = [
 
 ];
 
+
+
 export const specialties: Specialty[] = [
     {
         shortName: "ASPS",
         longName: "ASPS - Plastic and Reconstructive Surgery Australia",
-        forms: aspsForms
+        forms: aspsForms,
     },
     {
         shortName: "CARDIO",
@@ -129,9 +133,65 @@ export const specialties: Specialty[] = [
     {
         shortName: "VASC",
         longName: "Vascular Surgery",
-        forms: vascularForms
+        forms: vascularForms, 
     }
 ];
+
+ //CAR SET LEVEL
+ const cardioParentSets = [""];
+ const cardioSETLevels = ["SET 1", "SET 2", "SET 3", "SET 4", "SET 5", "SET 6"];
+ //PAEDS SET LEVEL
+ const paedsParentSets = ["Early SET", "Mid SET", "Senior SET"];
+ const paedsSETLevels = ["1", "2", "3", "4", "5", "6"];
+ //PLA SET Levels
+const plaParentSets = ['Early', 'Mid', 'Late'];
+const plaSetLevels = [''];
+//VASC SET LEVELS
+const vascParentSets = [""];
+ const vascSETLevels = ["SET 1", "SET 2", "SET 3", "SET 4", "SET 5"];
+
+export const fileSpecialties: FileSpecialty[] = [
+    {
+        shortName: "ASPS",
+        longName: "ASPS - Plastic and Reconstructive Surgery Australia",
+        forms: aspsForms,
+        parentSets: plaParentSets,
+        setLevels: plaSetLevels
+    },
+    {
+        shortName: "CARDIO",
+        longName: "Cardiothoracic Surgery",
+        forms: cardioForms,
+        parentSets: cardioParentSets,
+        setLevels: cardioSETLevels
+    },
+    {
+        shortName: "PAEDS",
+        longName: "Paediatric Surgery",
+        forms: paedsForms,
+        parentSets: paedsParentSets,
+        setLevels: paedsSETLevels
+    }
+    , 
+    /*
+    {
+        shortName: "SIMG",
+        longName: "SIMG",
+        forms: simgForms,
+        parentSets: [''],
+        setLevels: ['']
+    },
+    */
+    {
+        shortName: "VASC",
+        longName: "Vascular Surgery",
+        forms: vascularForms, 
+        parentSets: vascParentSets,
+        setLevels: vascSETLevels
+    }
+];
+
+
 
 
 

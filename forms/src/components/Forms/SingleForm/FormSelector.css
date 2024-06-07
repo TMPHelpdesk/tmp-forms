@@ -24,3 +24,16 @@
 .contentWrap{
     width: fit-content;
 }
+
+.formTab{
+    color:#164579;
+    background-color: white;
+    
+    text-decoration: none;
+}
+
+.formTab:hover{
+   
+    color: white;
+   
+}

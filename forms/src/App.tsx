@@ -1,14 +1,14 @@
-import React from 'react';
+
 import './App.css';
-import AppInterface from './interface/AppInterface';
-import Header from './interface/Header/Header';
-import InfoPane from './interface/InfoPane/InfoPane';
+import Header from './ui/Header/Header';
+import InfoPane from './ui/InfoPane/InfoPane';
+import LandingArea from './ui/LandingArea/LandingArea';
 
 function App() {
   return (
     <>
       <Header />
-      <AppInterface />
+      <LandingArea />
       <InfoPane />
     </>
   );
