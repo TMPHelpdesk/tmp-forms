@@ -1,17 +1,17 @@
-import { FileSpecialty } from '../contexts/FileContext';
+import { FileNames, FileSpecialty } from '../contexts/FileContext';
 
 
-  
+
 //
 export const cleanPrefix = (rotationName: string, year: string, term: string) => {
 
-  //remove any extant country prefix - should not be present in the future
+    //remove any extant country prefix - should not be present in the future
     const rotationNoCountry = rotationName.replace('AUS-', '').replace('NZ-', '');
 
 
     const regex = /[R][1-9]/;
-   
- //Splitting the string at R[1-9]
+
+    //Splitting the string at R[1-9]
     const rotationMatch = rotationNoCountry.match(regex);
     if (rotationMatch) {
         const rotationIndex = rotationMatch.index;
@@ -46,3 +46,16 @@ export const findParentFolder = (rotationName: string, specialty: FileSpecialty)
     return "Unmatched";
 };
 
+
+
+export const createTraineeFileNames = (
+    rotationName: string,
+    formList: string[]
+) => {
+    const result: FileNames = { prefix: rotationName };
+    formList.forEach((form) => {
+        result[form] = `${rotationName}${form}`;
+    });
+
+    return result;
+}

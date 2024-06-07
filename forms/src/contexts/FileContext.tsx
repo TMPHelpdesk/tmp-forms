@@ -15,6 +15,13 @@ export interface FolderStructure {
     rotationFolders: string[];
 }
 
+export interface FileNames {
+    prefix: string;
+    [index: string]: string;
+  };
+  
+
+
 
 interface FileContextProps {
     fileSpecialty: FileSpecialty,
