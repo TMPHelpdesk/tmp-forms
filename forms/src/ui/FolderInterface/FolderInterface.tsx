@@ -1,9 +1,10 @@
 
 import { FileContextProvider } from '../../contexts/FileContext';
 
-import BatchFile from '../../components/Files/BatchFiles/BatchFiles';
+import BatchFiles from '../../components/Files/BatchFiles/BatchFiles';
 
 import '../../components/Forms/SingleForm/FormSelector.css';
+import FileChooser from '../../components/Files/FileChooser/FileChooser';
 
 export default function FolderInterface() {
 
@@ -11,7 +12,8 @@ export default function FolderInterface() {
 
     return (
         <FileContextProvider >
-            <BatchFile />
+            <FileChooser />
+            <BatchFiles />
         </FileContextProvider >
     );
 }

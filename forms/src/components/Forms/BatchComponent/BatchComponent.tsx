@@ -2,7 +2,7 @@ import { Form, Button } from 'react-bootstrap';
 import React, { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 
-import FileCreator  from '../../../utilities/FileCreator';
+import FormCreator  from '../../../utilities/FormCreator';
 import { useFormContext } from '../../../contexts/FormContext';
 
 import '../SingleForm/FormSelector.css';
@@ -72,7 +72,7 @@ function BatchComponent() {
                     <div>
                         <p><strong>Selected Form: </strong> {selectedForm.name}</p>
                     </div>
-                        <FileCreator response={responses[index]} selectedForm={selectedForm} />
+                        <FormCreator response={responses[index]} selectedForm={selectedForm} />
                         <Button variant="danger" onClick={() => handleRemoveRow(index)}>
                             Remove
                         </Button>

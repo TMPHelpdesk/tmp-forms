@@ -2,7 +2,7 @@ import Form from "react-bootstrap/Form";
 
 import { useFormContext } from '../../../contexts/FormContext';
 import './FormSelector.css';
-import FileCreator from "../../../utilities/FileCreator";
+import FormCreator from "../../../utilities/FormCreator";
 
 
 export default function SingleForm() {
@@ -55,7 +55,7 @@ export default function SingleForm() {
                 <Form.Text><strong>Survey Form - {selectedForm.name.replace(/_/g, ' ')}</strong></Form.Text>
                 <br />
                 <hr />
-                <FileCreator response={response} />
+                <FormCreator response={response} />
             </Form>
         </div >
     );

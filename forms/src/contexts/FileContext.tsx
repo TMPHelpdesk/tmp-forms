@@ -10,6 +10,10 @@ export interface FileSpecialty {
     setLevels: string[];
 }
 
+export interface FolderStructure {
+    parentFolder: string;
+    rotationFolders: string[];
+}
 
 
 interface FileContextProps {
@@ -19,12 +23,10 @@ interface FileContextProps {
     setYear: React.Dispatch<React.SetStateAction<string>>,
     term: string,
     setTerm: React.Dispatch<React.SetStateAction<string>>,
-    uniqueRotation: boolean,
-    setUniqueRotation: React.Dispatch<React.SetStateAction<boolean>>,
-    rotation: string,
-    setRotation: React.Dispatch<React.SetStateAction<string>>
-    trainees: string[],
-    setTrainees: React.Dispatch<React.SetStateAction<string[]>>,
+    rotations: string[],
+    setRotations: React.Dispatch<React.SetStateAction<string[]>>
+    folderStructures: FolderStructure[],
+    setFolderStructures: React.Dispatch<React.SetStateAction<FolderStructure[]>>,
     formList: string[],
     setFormList: React.Dispatch<React.SetStateAction<string[]>>
 }
@@ -43,12 +45,10 @@ const FileContext = createContext<FileContextProps>({
     setYear: () => { },
     term: '',
     setTerm: () => { },
-    uniqueRotation: true,
-    setUniqueRotation: () => { },
-    rotation: '',
-    setRotation: () => { },
-    trainees: [''],
-    setTrainees: () => { },
+    rotations: [''],
+    setRotations: () => { },
+    folderStructures: [{parentFolder: "", rotationFolders: ['']}],
+    setFolderStructures: () => { },
     formList: [''],
     setFormList: () => { }
 })
@@ -64,9 +64,8 @@ export const FileContextProvider: React.FC<ContextProviderProps> = ({ children }
         });
     const [year, setYear] = useState('2024');
     const [term, setTerm] = useState('ET');
-    const [uniqueRotation, setUniqueRotation] = useState(true);
-    const [rotation, setRotation] = useState('R1');
-    const [trainees, setTrainees] = useState(['']);
+    const [rotations, setRotations] = useState(['']);
+    const [folderStructures, setFolderStructures] = useState([{parentFolder: "", rotationFolders: ['']}]);
     const [formList, setFormList] = useState(['']);
 
 
@@ -77,12 +76,10 @@ export const FileContextProvider: React.FC<ContextProviderProps> = ({ children }
         setYear,
         term,
         setTerm,
-        uniqueRotation,
-        setUniqueRotation,
-        rotation,
-        setRotation,
-        trainees,
-        setTrainees,
+        rotations,
+        setRotations,
+        folderStructures,
+        setFolderStructures,
         formList,
         setFormList
     };

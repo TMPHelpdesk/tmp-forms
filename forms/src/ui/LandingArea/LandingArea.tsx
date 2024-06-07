@@ -18,7 +18,7 @@ export default function LandingArea() {
             <Tab title='Create Forms' eventKey="createForms">
                 <FormInterface />
             </Tab>
-            <Tab title='Create Files and Folders' eventKey="createFolders" disabled>
+            <Tab title='Create Files and Folders' eventKey="createFolders" >
                 <FolderInterface />
             </Tab>
         </Tabs>

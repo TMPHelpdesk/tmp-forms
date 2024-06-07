@@ -5,7 +5,7 @@ import { useFormContext } from "../contexts/FormContext";
 
 
 
-export default function FileCreator(props: any) {
+export default function FormCreator(props: any) {
   
   const { selectedForm } = useFormContext();
 
